@@ -1,3 +1,3 @@
-# dfs (Daily Fantasy Sports)
+# dfs
 
-A project for attempting to make money on Daily Fantasy Sports.
+A project for attempting to make money on daily fantasy sports.
