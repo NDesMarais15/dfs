@@ -1,3 +1,2 @@
-.idea
 __pycache__
-Results/Week 15/Classic/Slate 2/teams.py
+src/*.csv
