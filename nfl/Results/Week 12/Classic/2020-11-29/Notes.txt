@@ -1,0 +1,12 @@
+- For Slate 5, I had to manually update the projections file because Rotogrinders listed Russell Wilson's
+salary at $7,500, but DraftKings had it at $7,900
+- I had to generate some extra lineups in slates 2 and 3 because the algorithm was selecting the same
+lineups as a result of there being overlap between the slates. I guess most of the best lineups
+according to the algorithm were in the same set of games.
+- For Slates 1-3, I used 2R+1OppR+NoPlayervsDef+NoRB&RB, and for slates 4-5, I used
+2R+1OppR+NoQBvsDef+NoRB&RB. This is because I am under the impression that on smaller slates, having the
+"NoPlayervsDef" constraint may be too restrictive since it forces you to not pick any players from a
+certain team, and when there are a small number of teams, it is likely that there are not enough
+good alternatives to justify this restriction. More testing is needed to come to a definitive conclusion,
+but this is my opinion as of writing, primarily based on the Thanksgiving lineups I entered in which
+the algorithm selected some lineups that seemed weak because of this constraint.

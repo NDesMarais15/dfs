@@ -1,0 +1,71 @@
+WARNING:root:Malformed link: /race/2011_Larry_H_
+WARNING:root:Malformed link: /race/2011_Larry_H_
+WARNING:root:Malformed link: /race/2018_Gran
+WARNING:root:Malformed link: /race/2018_Gran
+WARNING:root:Malformed link: /race/2019_NAPA
+WARNING:root:Malformed link: /race/2019_NAPA
+WARNING:root:Driver Robby Gordon not found in qualifying data
+WARNING:root:Driver Michael McDowell not found in qualifying data
+WARNING:root:Driver Robby Gordon not found in qualifying data
+WARNING:root:Driver Josh Wise not found in qualifying data
+WARNING:root:Driver Sam Hornish, Jr. not found in qualifying data
+WARNING:root:Driver Michael McDowell not found in qualifying data
+WARNING:root:Driver Sam Hornish, Jr. not found in qualifying data
+WARNING:root:Driver Sam Hornish, Jr. not found in qualifying data
+WARNING:root:Driver Brian Vickers not found in qualifying data
+WARNING:root:Driver Jimmie Johnson not found in qualifying data
+WARNING:root:Driver Brian Vickers not found in qualifying data
+WARNING:root:Driver Paul Menard not found in qualifying data
+WARNING:root:Driver Sam Hornish, Jr. not found in qualifying data
+WARNING:root:Driver J.J. Yeley not found in qualifying data
+WARNING:root:Driver Landon Cassill not found in qualifying data
+WARNING:root:Driver Regan Smith not found in qualifying data
+WARNING:root:Driver J.J. Yeley not found in qualifying data
+WARNING:root:Driver Martin Truex, Jr. not found in qualifying data
+WARNING:root:Driver Trevor Bayne not found in qualifying data
+WARNING:root:Driver Regan Smith not found in qualifying data
+WARNING:root:Driver Matt Crafton not found in qualifying data
+WARNING:root:Driver Regan Smith not found in qualifying data
+WARNING:root:Driver Timmy Hill not found in practice data
+WARNING:root:Driver Cole Whitt not found in practice data
+WARNING:root:Driver Elliott Sadler not found in practice data
+WARNING:root:Driver Joey Gase not found in practice data
+WARNING:root:Driver Brendan Gaughan not found in practice data
+WARNING:root:Driver Carl Long not found in practice data
+WARNING:root:Driver Corey LaJoie not found in practice data
+WARNING:root:Driver Brett Moffitt not found in practice data
+WARNING:root:Driver Erik Jones not found in practice data
+WARNING:root:Driver Paul Menard not found in practice data
+WARNING:root:Driver Kyle Weatherman not found in practice data
+WARNING:root:Driver Gray Gaulding not found in practice data
+WARNING:root:Driver Harrison Rhodes not found in practice data
+WARNING:root:Driver Cole Whitt not found in practice data
+WARNING:root:Driver Gray Gaulding not found in practice data
+WARNING:root:Driver Ross Chastain not found in practice data
+WARNING:root:Driver Timmy Hill not found in practice data
+WARNING:root:Driver Landon Cassill not found in practice data
+WARNING:root:Driver Ross Chastain not found in practice data
+WARNING:root:Driver Timmy Hill not found in practice data
+WARNING:root:Driver Ross Chastain not found in practice data
+WARNING:root:Driver Landon Cassill not found in practice data
+WARNING:root:Driver Reed Sorenson not found in practice data
+WARNING:root:Driver Cody Ware not found in practice data
+WARNING:root:Driver Landon Cassill not found in practice data
+WARNING:root:Driver Ross Chastain not found in practice data
+WARNING:root:Driver Justin Haley not found in practice data
+WARNING:root:Driver J.J. Yeley not found in practice data
+WARNING:root:Driver Joey Gase not found in practice data
+WARNING:root:Driver B.J. McLeod not found in practice data
+WARNING:root:Driver Quin Houff not found in practice data
+WARNING:root:Driver Reed Sorenson not found in practice data
+WARNING:root:Driver Kyle Weatherman not found in practice data
+WARNING:root:Driver Joey Gase not found in practice data
+WARNING:root:Driver Michael McDowell not found in practice data
+WARNING:root:Driver J.J. Yeley not found in practice data
+WARNING:root:Driver Timmy Hill not found in practice data
+WARNING:root:Driver Timmy Hill not found in practice data
+WARNING:root:Driver Timmy Hill not found in practice data
+WARNING:root:Driver J.J. Yeley not found in qualifying data
+WARNING:root:Driver Gray Gaulding not found in qualifying data
+WARNING:root:Driver Ross Chastain not found in qualifying data
+INFO:root:Script ran in 377.90430784225464 seconds.

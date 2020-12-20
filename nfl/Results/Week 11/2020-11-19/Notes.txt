@@ -1,0 +1,23 @@
+- I used the strategy 2R+1OppWR+NoQBvsDef+NoQB&RB. I decided on this strategy when I saw
+several lineups had Carlos Hyde and Russell Wilson, which I thought was a dumb idea since passing
+and rushing tend to be negatively correlated. I later learned that this is misguided, as the data
+shows that a team's running back and quarterback are actually positively correlated. Some data on
+this is shown here: https://www.fantasylabs.com/articles/undervalued-nfl-dfs-correlations/
+- However, I used this strategy in a rush after manually inspecting the lineups, and I believe in
+doing so that I failed to update the teams.py file, which I had been using a different version of
+for testing. This led to some of the teams in the slate (BAL, ATL, NEP, NYJ, and TEN specifically) not
+being represented in my lineups. This is a pretty stupid error that could have cost me some money by
+leading to overrepresentation of certain games within the slate. For example, I noticed one of
+the lineups had both DeeJay Dallas and Carlos Hyde, two Seahawks RBs, who are going to be negatively
+correlated.
+- As a result, I realized it would be smart to have a constraint forcing only one running back per team,
+as these players will be negatively correlated. However, not making this mistake in the future would
+have been preferable, as there were probably lineup opportunities I was missing. Also, a couple of
+my lineups did not have any players on the opposing team, which was against my constraints.
+- Also, I noticed that even when I put in the teams for the slate originally, I put in JAX instead of
+JAC, which is the actual value. So, it would be wise to make a team abbreviations sheet and make sure
+I am using the right ones.
+- I forgot to check the lineups the morning of, which caused me to play D'Andre Swift and Kenny Golladay
+in lineups, despite the fact that they were ruled out by injury. Some of these lineups ended up in the
+money, so replacing them with even passable players could have easily improved these lineups
+significantly. I will need to make a point to check in on injuries in the future.
