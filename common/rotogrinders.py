@@ -3,13 +3,17 @@ import urllib.request
 import json
 import re
 import csv
-from teams import *
+from common.teams import *
+import datetime
 
 
 # Slate ID of -1 means grab their default salary, which is for the main slate of the week
-def collect_players(date, path, slate_id):
-    fp = urllib.request.urlopen(
-        'https://rotogrinders.com/projected-stats/nfl?site=draftkings&date=%s' % date)
+def collect_players(league, date, path, slate_id):
+    if date == datetime.date.today():
+        url = 'https://rotogrinders.com/projected-stats/%s?site=draftkings' % league
+    else:
+        url = 'https://rotogrinders.com/projected-stats/%s?site=draftkings&date=%s' % (league, date)
+    fp = urllib.request.urlopen(url)
     my_bytes = fp.read()
 
     my_str = my_bytes.decode('utf8')
@@ -28,7 +32,7 @@ def collect_players(date, path, slate_id):
                 csv_writer = csv.writer(players_csv, delimiter=',', quotechar='"')
 
                 # Write column headers
-                csv_writer.writerow(['Player_Name', 'Salary', 'Team', 'Pos', 'Opp', 'Proj_FP'])
+                csv_writer.writerow(['Player_Name', 'Salary', 'Team', 'Pos', 'Opp', 'Proj_FP', 'pown%'])
 
                 for player in players:
                     if player['team'] in teams:
@@ -57,6 +61,7 @@ def collect_players(date, path, slate_id):
                                 player['team'],
                                 player['position'],
                                 player['opp'],
-                                fpts])
+                                fpts,
+                                player['pown%']])
                         except KeyError:
                             print('Could not get info for %s' % player['player_name'])
