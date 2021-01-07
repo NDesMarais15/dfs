@@ -3,7 +3,7 @@ from common import rotogrinders
 import mip
 
 league = 'nba'
-num_lineups = 3
+num_lineups = 20
 lineup_overlap = 4
 
 
