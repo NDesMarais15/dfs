@@ -4,7 +4,7 @@ import mip
 from common import rotogrinders
 import rotoguru
 
-num_lineups = 2
+num_lineups = 20
 lineup_overlap = 5
 league = 'nfl'
 
@@ -55,6 +55,3 @@ def collect_historical_results():
 def collect_historical_data():
     collect_historical_projections()
     collect_historical_results()
-
-
-run_showdown_date('2020-12-25', '2R+1OppR+NoRB&RB+NoQBvsDef', 41098)
