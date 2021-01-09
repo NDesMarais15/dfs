@@ -152,7 +152,7 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, l
                         break
 
             if '' in row:
-                print('empty player')
+                raise Exception('One of the lineup positions was not filled.')
 
             csv_writer.writerow(row)
 
