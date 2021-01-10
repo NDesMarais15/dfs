@@ -1,0 +1,39 @@
+Date;GID;Pos;Name;Starter;DK Pts;DK Salary;Team;H/A;Oppt;Team Score;Oppt Score;Minutes;Stat line
+20150101;4363;SG;Butler, Jimmy;1;53;$8,800;chi;H;den;106;101;40;26pt 8rb 8as 2st 1bl 3to 1trey 8-14fg 9-9ft
+20150101;4704;SG;Wiggins, Andrew;1;48.25;$5,800;min;H;sac;107;110;40;27pt 9rb 2as 4st 3to 1trey 11-22fg 4-5ft
+20150101;4073;PG;Rose, Derrick;1;40.75;$7,000;chi;H;den;106;101;32;17pt 3rb 8as 2st 2bl 1to 1trey 7-25fg 2-2ft
+20150101;4159;PG;Lawson, Ty;1;40.75;$9,700;den;A;chi;101;106;40;20pt 7rb 7as 1st 2to 1trey 8-16fg 3-4ft
+20150101;4228;PG;Collison, Darren;1;34.5;$6,600;sac;A;min;110;107;39;21pt 4rb 6as 2to 1trey 8-15fg 4-4ft
+20150101;3970;SG;Afflalo, Arron;1;28;$6,000;den;A;chi;101;106;40;19pt 4rb 1as 1st 1bl 4to 1trey 8-14fg 2-2ft
+20150101;3976;PG;Brooks, Aaron;;23.5;$4,900;chi;H;den;106;101;23;12pt 4rb 2st 1bl 1to 2trey 3-9fg 4-4ft
+20150101;3574;PG;Williams, Maurice;;22.5;$4,200;min;H;sac;107;110;27;8pt 8as 1bl 1to 2trey 3-10fg 0-0ft
+20150101;4589;SG;McLemore, Ben;1;21.5;$5,200;sac;A;min;110;107;38;14pt 4rb 2as 2to 1trey 6-9fg 1-2ft
+20150101;4706;PG;LaVine, Zach;1;19.5;$4,500;min;H;sac;107;110;21;6pt 2rb 3as 4st 3to 3-5fg 0-0ft
+20150101;4658;PG;Daniels, Troy;;16.5;$3,000;min;H;sac;107;110;13;11pt 2rb 1as 3trey 3-7fg 2-2ft
+20150101;3538;PG;Hinrich, Kirk;;13.5;$3,100;chi;H;den;106;101;27;10pt 2rb 2trey 4-4fg 0-0ft
+20150101;4678;SG;Harris, Gary;;10.25;$3,000;den;A;chi;101;106;17;7pt 1rb 1as 1trey 2-7fg 2-2ft
+20150101;3793;PG;Robinson, Nate;;7;$3,800;den;A;chi;101;106;14;0pt 2rb 3as 0-7fg 0-1ft
+20150101;4586;PG;McCallum, Ray;;4.75;$3,000;sac;A;min;110;107;10;2pt 1rb 1as 1-3fg 0-0ft
+20150101;4571;SG;Snell, Tony;;1.25;$3,000;chi;H;den;106;101;5;0pt 1rb 0-0fg 0-0ft
+20150101;4703;SG;Stauskas, Nik;;1;$3,000;sac;A;min;110;107;12;0pt 1as 1to 0-4fg 0-0ft
+20150101;4456;PF;Faried, Kenneth;1;57.25;$6,500;den;A;chi;101;106;36;18pt 19rb 3as 2st 3bl 1to 7-14fg 4-4ft
+20150101;3308;PF;Gasol, Pau;1;51.75;$8,900;chi;H;den;106;101;35;17pt 9rb 4as 9bl 1to 7-17fg 3-4ft
+20150101;3857;SF;Gay, Rudy;1;42;$8,600;sac;A;min;110;107;33;21pt 6rb 5as 4st 1bl 8to 7-12fg 7-8ft
+20150101;4416;SF;Williams, Derrick;1;34.25;$3,600;sac;A;min;110;107;31;17pt 5rb 3as 2st 1bl 2to 3trey 6-10fg 2-2ft
+20150101;3978;SF;Chandler, Wilson;1;28.75;$6,300;den;A;chi;101;106;34;22pt 3rb 2as 2to 2trey 8-16fg 4-4ft
+20150101;4037;PF;Young, Thaddeus;1;26.75;$6,200;min;H;sac;107;110;25;9pt 3rb 4as 2st 2bl 4-8fg 1-2ft
+20150101;4003;PF;Landry, Carl;;22.75;$3,300;sac;A;min;110;107;27;8pt 9rb 1as 1bl 1-4fg 6-8ft
+20150101;4594;SF;Muhammad, Shabazz;1;21.75;$6,900;min;H;sac;107;110;36;15pt 5rb 1as 3to 1trey 5-13fg 4-5ft
+20150101;4167;PF;Gibson, Taj;;21.25;$5,600;chi;H;den;106;101;19;9pt 7rb 2bl 1to 3-8fg 3-4ft
+20150101;4124;PF;Thompson, Jason;;18.5;$4,300;sac;A;min;110;107;24;8pt 6rb 2bl 2to 3-3fg 2-2ft
+20150101;4619;PF;Bennett, Anthony;;15.75;$3,300;min;H;sac;107;110;21;4pt 5rb 2st 1bl 1to 2-7fg 0-0ft
+20150101;4341;SF;Adrien, Jeff;;12.5;$3,000;min;H;sac;107;110;18;10pt 2rb 3-5fg 4-4ft
+20150101;3404;SF;Dunleavy, Mike;1;8.25;$4,400;chi;H;den;106;101;17;6pt 1rb 2trey 2-6fg 0-0ft
+20150101;4682;PF;Mirotic, Nikola;;6.5;$4,400;chi;H;den;106;101;11;3pt 1as 1st 1-2fg 1-2ft
+20150101;4030;PF;Hickson, J.J.;;6.25;$4,800;den;A;chi;101;106;14;1pt 5rb 2to 0-5fg 1-2ft
+20150101;4196;SF;Budinger, Chase;;3.5;$3,300;min;H;sac;107;110;8;2pt 1as 1-4fg 0-0ft
+20150101;4274;C;Cousins, DeMarcus;1;38.25;$11,100;sac;A;min;110;107;27;19pt 7rb 4as 1st 2bl 3to 8-14fg 3-3ft
+20150101;4632;C;Dieng, Gorgui;1;34.5;$6,700;min;H;sac;107;110;30;15pt 10rb 2as 2bl 3to 7-10fg 1-4ft
+20150101;4681;C;Nurkic, Jusuf;;31;$4,800;den;A;chi;101;106;21;10pt 10rb 1as 3bl 1to 3-9fg 4-6ft
+20150101;4013;C;Noah, Joakim;1;27.25;$7,400;chi;H;den;106;101;31;6pt 11rb 1as 3bl 3-6fg 0-0ft
+20150101;4299;C;Mozgov, Timofey;1;13;$5,200;den;A;chi;101;106;25;4pt 6rb 1as 1-4fg 2-2ft

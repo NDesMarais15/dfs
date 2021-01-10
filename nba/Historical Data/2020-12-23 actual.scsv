@@ -1,0 +1,397 @@
+Date;GID;Pos;Name;Starter;DK Pts;DK Salary;Team;H/A;Oppt;Team Score;Oppt Score;Minutes;Stat line
+20201223;5841;PG;Morant, Ja;1;66;$8,400;mem;H;sas;119;131;35.17;44pt 2rb 9as 2st 1bl 1to 1trey 18-27fg 7-8ft
+20201223;4079;PG;Westbrook, Russell;1;58.75;$9,300;was;A;phi;107;113;36.30;21pt 11rb 15as 6to 9-22fg 3-5ft
+20201223;4823;PG/SG;Rozier, Terry;1;58.25;$5,900;cha;A;cle;114;121;37.52;42pt 3rb 2as 2st 1bl 3to 10trey 15-23fg 2-4ft
+20201223;5708;PG;Young, Trae;1;55.5;$9,400;atl;A;chi;124;104;25.97;37pt 6rb 7as 4to 5trey 10-12fg 12-14ft
+20201223;5670;PG;Doncic, Luka;1;49;$10,000;dal;A;pho;102;106;35.95;32pt 8rb 5as 1to 11-26fg 10-12ft
+20201223;5013;PG;Brogdon, Malcolm;1;46.25;$6,200;ind;H;nyk;121;107;34.85;21pt 7rb 8as 2st 1to 2trey 8-16fg 3-3ft
+20201223;4925;PG/SF;Simmons, Ben;1;45.75;$8,700;phi;H;was;113;107;32.42;16pt 9rb 7as 2st 3bl 4to 7-12fg 2-6ft
+20201223;4963;PG;Murray, Dejounte;1;45;$5,600;sas;A;mem;131;119;30.65;21pt 6rb 9as 2st 3to 1trey 9-15fg 2-2ft
+20201223;4494;SG;Beal, Bradley;1;44.5;$8,500;was;A;phi;107;113;35.73;31pt 2rb 3as 4st 6to 3trey 11-22fg 6-7ft
+20201223;4363;PG/SF;Butler, Jimmy;1;44.25;$7,700;mia;A;orl;107;113;35.70;19pt 3rb 7as 7st 6to 7-15fg 5-5ft
+20201223;4212;PG;Holiday, Jrue;1;42;$6,900;mil;A;bos;121;122;38.38;25pt 6rb 3as 2st 1bl 3to 1trey 10-16fg 4-4ft
+20201223;5860;PG;Garland, Darius;1;41.5;$4,100;cle;H;cha;121;114;32.55;22pt 6rb 6as 1st 2to 4trey 7-13fg 4-4ft
+20201223;5132;PG;Fox, De'Aaron;1;40;$7,800;sac;A;den;124;122;38.73;21pt 4rb 7as 1st 1bl 2to 1trey 8-20fg 4-5ft
+20201223;4468;SG;Fournier, Evan;1;37.5;$5,800;orl;H;mia;113;107;30.72;25pt 4as 3st 2to 3trey 9-13fg 4-5ft
+20201223;4092;PG;Dragic, Goran;;37.5;$5,100;mia;A;orl;107;113;25.97;20pt 4rb 7as 1st 1to 1trey 8-13fg 3-3ft
+20201223;5721;PG/SG;Sexton, Collin;1;37.5;$6,100;cle;H;cha;121;114;37.08;27pt 2rb 5as 2to 3trey 9-16fg 6-9ft
+20201223;3891;PG;Lowry, Kyle;1;36.75;$7,100;tor;H;nor;99;113;38.57;18pt 1rb 10as 1st 6to 4trey 7-15fg
+20201223;4221;PG;Teague, Jeff;;36.75;$4,000;bos;H;mil;122;121;25.00;19pt 3rb 4as 2st 1bl 4trey 7-15fg 1-2ft
+20201223;4657;PG/SG;McCollum, C.J.;1;36;$7,300;por;H;uta;100;120;34.17;23pt 4rb 3as 1bl 3trey 7-19fg 6-6ft
+20201223;4441;SG;Burks, Alec;;36;$4,800;nyk;A;ind;107;121;31.67;22pt 4rb 3as 1st 1bl 1to 2trey 6-12fg 8-9ft
+20201223;4627;PG/SG;Oladipo, Victor;1;35.5;$6,100;ind;H;nyk;121;107;28.27;22pt 4rb 4as 1st 1to 2trey 9-14fg 2-3ft
+20201223;5136;PG/SG;Mitchell, Donovan;1;34.25;$8,000;uta;A;por;120;100;30.78;20pt 3rb 5as 1st 2to 4trey 6-16fg 4-4ft
+20201223;4885;SG;Booker, Devin;1;33.75;$8,900;pho;H;dal;106;102;34.12;22pt 5rb 3as 2st 8to 2trey 8-15fg 4-6ft
+20201223;4266;PG/SG;Bledsoe, Eric;1;33.5;$5,600;nor;A;tor;113;99;34.45;18pt 2rb 6as 1st 1bl 4to 4trey 6-12fg 2-4ft
+20201223;4799;PG/SG;Russell, D'Angelo;;33.25;$7,200;min;H;det;111;101;33.33;18pt 5rb 4as 1st 2to 4trey 7-16fg
+20201223;5703;PG;Milton, Shake;;31.75;$4,100;phi;H;was;113;107;29.73;19pt 1rb 3as 3st 2trey 6-11fg 5-7ft
+20201223;5756;SG;Walker, Lonnie;1;31.5;$4,200;sas;A;mem;131;119;34.38;16pt 6rb 2as 1st 1bl 1to 3trey 6-9fg 1-1ft
+20201223;4073;PG;Rose, Derrick;;31.25;$5,800;det;A;min;101;111;26.80;15pt 1rb 6as 2st 1bl 1to 1trey 7-13fg 0-2ft
+20201223;5215;PG;Ball, Lonzo;1;30.75;$6,500;nor;A;tor;113;99;28.80;16pt 5rb 2as 1st 2bl 5to 4trey 4-9fg 4-6ft
+20201223;4405;PG;Joseph, Cory;;30.75;$3,600;sac;A;den;124;122;29.37;15pt 3rb 4as 1st 2bl 2to 2trey 6-10fg 1-2ft
+20201223;5740;PG/SG;DiVincenzo, Donte;1;30.75;$4,000;mil;A;bos;121;122;27.22;15pt 5rb 3as 2st 1to 3trey 6-11fg
+20201223;5658;PG;Graham, Devonte';1;30.25;$6,400;cha;A;cle;114;121;37.12;10pt 3rb 10as 2to 2trey 4-13fg
+20201223;5131;PG;Fultz, Markelle;1;29.25;$5,000;orl;H;mia;113;107;28.82;15pt 5rb 4as 1st 1bl 4to 6-15fg 3-3ft
+20201223;5138;SG;Bogdanovic, Bogdan;;29.25;$5,000;atl;A;chi;124;104;24.93;15pt 7rb 2as 1st 2to 3trey 5-12fg 2-3ft
+20201223;4523;PG;Lillard, Damian;1;28.5;$9,000;por;H;uta;100;120;33.68;9pt 4rb 7as 1st 1bl 1to 1trey 4-12fg 0-1ft
+20201223;4668;PG/SG;Clarkson, Jordan;;28.25;$4,200;uta;A;por;120;100;22.15;15pt 7rb 1as 1bl 1to 3trey 6-12fg
+20201223;4706;SG;LaVine, Zach;1;26;$7,900;chi;H;atl;104;124;25.30;22pt 2rb 1as 1st 5to 1trey 9-19fg 3-3ft
+20201223;3979;PG;Conley, Mike;1;25.75;$6,300;uta;A;por;120;100;29.58;18pt 3rb 2as 2to 4trey 6-15fg 2-3ft
+20201223;5914;PG/SG;Herro, Tyler;1;25;$5,500;mia;A;orl;107;113;32.10;13pt 6rb 4as 4to 1trey 6-14fg
+20201223;4934;PG/SG;VanVleet, Fred;1;23.75;$6,700;tor;H;nor;99;113;29.60;9pt 3rb 3as 3st 1to 2trey 3-12fg 1-2ft
+20201223;5990;PG/SG;Haliburton, Tyrese;;23.5;$4,100;sac;A;den;124;122;30.00;12pt 2rb 4as 1bl 2trey 3-7fg 4-4ft
+20201223;4564;SG;Curry, Seth;1;23;$4,900;phi;H;was;113;107;32.27;13pt 4as 2st 1to 1trey 4-8fg 4-4ft
+20201223;3786;PG;Paul, Chris;1;23;$7,000;pho;H;dal;106;102;27.75;8pt 4rb 5as 2st 3to 3-9fg 2-2ft
+20201223;5903;SG;Thomas, Matt;;23;$3,500;tor;H;nor;99;113;20.28;9pt 2rb 4as 2st 3trey 3-6fg
+20201223;5895;PG/SG;White, Coby;1;23;$6,500;chi;H;atl;104;124;30.47;9pt 2rb 7as 1st 3to 1trey 2-11fg 4-4ft
+20201223;5681;SG;Robinson, Duncan;1;22.75;$4,600;mia;A;orl;107;113;30.33;14pt 5rb 1as 1to 3trey 4-8fg 3-3ft
+20201223;5754;SG;Huerter, Kevin;;22.5;$4,900;atl;A;chi;124;104;27.05;11pt 2rb 4as 1st 2trey 4-10fg 1-2ft
+20201223;4882;PG;Payne, Cameron;;21.25;$3,700;pho;H;dal;106;102;20.25;11pt 3rb 3as 1bl 1to 1trey 5-9fg
+20201223;4628;SG;Hardaway Jr., Tim;1;20.5;$6,000;dal;A;pho;102;106;26.80;12pt 4rb 1st 3trey 3-10fg 3-6ft
+20201223;5968;PG/SG;Anthony, Cole;;20;$3,200;orl;H;mia;113;107;19.18;6pt 2rb 6as 2st 3to 3-5fg
+20201223;4245;PG/SG;Mills, Patty;;19.5;$3,400;sas;A;mem;131;119;19.30;13pt 2rb 2as 2trey 5-11fg 1-1ft
+20201223;5677;SG;Allen, Grayson;1;19;$3,700;mem;H;sas;119;131;26.95;6pt 2rb 5as 1bl 2trey 2-7fg
+20201223;5664;PG/SG;Brunson, Jalen;;19;$3,700;dal;A;pho;102;106;18.18;12pt 2rb 4as 3to 5-8fg 2-2ft
+20201223;4831;PG;McConnell, T.J.;;19;$3,800;ind;H;nyk;121;107;20.33;5pt 4rb 5as 1st 1to 2-3fg 1-2ft
+20201223;5157;SG;Korkmaz, Furkan;;18.75;$3,700;phi;H;was;113;107;20.18;11pt 1rb 1st 2bl 2to 3trey 4-9fg
+20201223;4954;PG;Murray, Jamal;1;18.5;$8,100;den;H;sac;122;124;34.45;9pt 4rb 1as 2st 2to 1-9fg 7-7ft
+20201223;4315;PG;Smith, Ishmael;;18.5;$4,200;was;A;phi;107;113;22.88;7pt 4rb 3as 1bl 1to 1trey 2-7fg 2-2ft
+20201223;4677;PG/SG;Smart, Marcus;1;17.75;$6,600;bos;H;mil;122;121;38.45;3pt 1rb 7as 2bl 2to 0-3fg 3-4ft
+20201223;5893;PG;Mokoka, Adam;;15.5;$3,000;chi;H;atl;104;124;16.78;4pt 2rb 2as 2st 1bl 2-6fg
+20201223;4791;PG/SG;Wright, Delon;1;15.5;$4,100;det;A;min;101;111;19.15;5pt 2rb 4as 1st 1to 1trey 2-5fg
+20201223;4735;PG/SG;Galloway, Langston;;14.75;$3,000;pho;H;dal;106;102; 8.57;11pt 1rb 1as 2trey 4-5fg 1-1ft
+20201223;4962;PG;Arcidiacono, Ryan;;14.25;$3,300;chi;H;atl;104;124;19.58;5pt 3rb 2as 1st 1trey 2-6fg
+20201223;4699;PG;Payton, Elfrid;1;14;$5,400;nyk;A;ind;107;121;22.17;7pt 2rb 3as 1st 5to 1trey 3-7fg
+20201223;5747;PG/SG;Holiday, Aaron;;13.25;$4,300;ind;H;nyk;121;107;17.32;7pt 3rb 2as 2to 1trey 3-8fg
+20201223;4414;PG;Rubio, Ricky;1;12.25;$6,600;min;H;det;111;101;25.42;3pt 1rb 3as 2st 1to 1-4fg 1-2ft
+20201223;4575;PG/SG;Carter-Williams, Michael;;11.75;$3,600;orl;H;mia;113;107;17.75;4pt 3rb 1st 1bl 2-5fg
+20201223;6029;PG/SG;Bane, Desmond;;11.5;$3,000;mem;H;sas;119;131;10.55;6pt 4rb 1to 2trey 2-5fg
+20201223;5742;PG/SG;Melton, De'Anthony;;11.5;$3,500;mem;H;sas;119;131;24.53;3pt 2rb 1as 2bl 1trey 1-6fg
+20201223;5969;PG;Hayes, Killian;1;11.25;$3,900;det;A;min;101;111;21.20;7pt 1rb 3as 4to 1trey 3-6fg
+20201223;6065;PG/SG;Maxey, Tyrese;;11;$3,000;phi;H;was;113;107;10.85;6pt 2rb 2as 1to 3-6fg
+20201223;5727;PG;Goodwin, Brandon;;10.25;$3,000;atl;A;chi;124;104;13.23;3pt 1rb 4as 1to 1trey 1-4fg
+20201223;5976;PG/SG;Quickley, Immanuel;;9.75;$3,400;nyk;A;ind;107;121;12.43;5pt 1rb 1as 1st 1-3fg 3-3ft
+20201223;4876;PG;Jones, Tyus;;8.75;$3,200;mem;H;sas;119;131;13.58;7pt 1rb 1as 2to 3-5fg 1-2ft
+20201223;6003;PG;Ball, LaMelo;;8.25;$5,400;cha;A;cle;114;121;15.80;0pt 1rb 3as 2st 3to 0-5fg
+20201223;5692;SG;Mykhailiuk, Sviatoslav;;7.5;$3,200;det;A;min;101;111;16.58;3pt 2rb 1as 1trey 1-8fg
+20201223;4615;PG/SG;Burke, Trey;;7;$3,400;dal;A;pho;102;106;19.58;7pt 1to 1trey 3-6fg
+20201223;6067;PG;Pritchard, Payton;;6.75;$3,000;bos;H;mil;122;121;13.00;3pt 1rb 1st 1trey 1-4fg
+20201223;5836;SG;Oni, Miye;;6.25;$3,000;uta;A;por;120;100; 3.85;3pt 1rb 1as 1trey 1-2fg
+20201223;5989;SG;Elleby, CJ;;6;$3,000;por;H;uta;100;120; 4.45;2pt 2rb 1as 1-2fg
+20201223;5726;PG/SG;Carter, Jevon;;5;$3,500;pho;H;dal;106;102;13.88;0pt 2rb 2as 1to 0-3fg
+20201223;4995;PG/SG;Forbes, Bryn;;4.75;$3,200;mil;A;bos;121;122;13.52;3pt 1rb 1trey 1-5fg
+20201223;5887;PG/SG;Alexander-Walker, Nickeil;;4.25;$3,600;nor;A;tor;113;99; 3.88;3pt 1rb 1to 1trey 1-2fg
+20201223;5191;PG;Morris, Monte;;4;$4,300;den;H;sac;122;124;16.32;2pt 2rb 1to 1-6fg
+20201223;4807;PG;Neto, Raul;;3.5;$3,100;was;A;phi;107;113; 9.70;2pt 1as 0-1fg 2-3ft
+20201223;6040;PG/SG;Campazzo, Facundo;;3.5;$3,000;den;H;sac;122;124; 8.13;3pt 1trey 1-1fg
+20201223;5222;SG;Dotson, Damyean;;3.25;$3,100;cle;H;cha;121;114;13.53;0pt 1rb 1st 0-1fg
+20201223;5219;PG;Ntilikina, Frank;;3;$3,000;nyk;A;ind;107;121; 4.78;1pt 1st 0-2fg 1-2ft
+20201223;5671;PG;Nunn, Kendrick;;2.5;$4,800;mia;A;orl;107;113; 8.03;0pt 2rb 0-1fg
+20201223;5938;SG;Blevins, Keljin;;1;$3,000;por;H;uta;100;120; 4.45;0pt 1as 1to 0-2fg
+20201223;6016;SG;Merrill, Sam;;0;$3,000;mil;A;bos;121;122; 5.47;0pt
+20201223;5964;SG;Mays, Skylar;;0;$3,000;atl;A;chi;124;104; 5.07;0pt 0-1fg
+20201223;5249;PG;Harrison, Shaquille;;0;$3,000;uta;A;por;120;100; 2.82;0pt
+20201223;6008;PG;Flynn, Malachi;;0;$3,000;tor;H;nor;99;113; 1.27;0pt 0-1fg
+20201223;5848;PG/SG;Edwards, Carsen;;0;$3,000;bos;H;mil;122;121;DNP;
+20201223;5842;SG;Green, Javonte;;0;$3,300;bos;H;mil;122;121;DNP;
+20201223;4980;PG;Satoransky, Tomas;;0;$4,200;chi;H;atl;104;124;DNP;
+20201223;6041;PG/SG;Hampton, R.J.;;0;$3,000;den;H;sac;122;124;DNP;
+20201223;6038;PG;Howard, Markus;;0;$3,000;den;H;sac;122;124;DNP;
+20201223;5691;SG;Robinson, Jerome;;0;$3,300;was;A;phi;107;113;DNP;
+20201223;5921;SG;Mathias, Dakota;;0;$3,000;phi;H;was;113;107;DNP;
+20201223;4901;SG;Valentine, Denzel;;0;$3,100;chi;H;atl;104;124;DNP;
+20201223;6062;PG/SG;Lewis Jr., Kira;;0;$3,000;nor;A;tor;113;99;DNP;
+20201223;5991;PG/SG;Ramsey, Jahmi'us;;0;$3,000;sac;A;den;124;122;DNP;
+20201223;5929;PG/SG;Lecque, Jalen;;0;$3,000;ind;H;nyk;121;107;DNP;
+20201223;5923;SG;Harper, Jared;;0;$3,000;nyk;A;ind;107;121;DNP;
+20201223;4185;SG;Ellington, Wayne;;0;$3,000;det;A;min;101;111;DNP;
+20201223;6064;SG;Joe, Isaiah;;0;$3,000;phi;H;was;113;107;DNP;
+20201223;4364;SG;Moore, E'Twaun;;0;$3,000;pho;H;dal;106;102;DNP;
+20201223;6009;PG;Jones, Tre;;0;$3,000;sas;A;mem;131;119;DNP;
+20201223;5133;SG;Monk, Malik;;0;$3,800;cha;A;cle;114;121;DNP;
+20201223;5972;PG;Lee, Saben;;0;$3,000;det;A;min;101;111;DNP;
+20201223;6022;PG/SG;Terry, Tyrell;;0;$3,000;dal;A;pho;102;106;DNP;
+20201223;5864;PG;Bone, Jordan;;0;$3,000;orl;H;mia;113;107;DNP;
+20201223;5805;PG;Guy, Kyle;;0;$3,000;sac;A;den;124;122;DNP;
+20201223;5709;PG;Adams, Jaylen;;0;$3,000;mil;A;bos;121;122;DNP;
+20201223;5966;PG;Mane, Karim;;0;$3,000;orl;H;mia;113;107;DNP;
+20201223;5996;SG;Stanley, Cassius;;0;$3,000;ind;H;nyk;121;107;DNP;
+20201223;6048;PG/SG;Alexander, Ty-Shon;;0;$3,000;pho;H;dal;106;102;DNP;
+20201223;5212;PG;Smith Jr., Dennis;;0;$3,200;nyk;A;ind;107;121;DNP;
+20201223;5849;PG;Waters, Tremont;;0;$3,000;bos;H;mil;122;121;DNP;
+20201223;4078;PG;Augustin, D.J.;;0;$3,800;mil;A;bos;121;122;NA;
+20201223;6043;SG;Forrest, Trent;;0;$3,000;uta;A;por;120;100;NA;
+20201223;5662;PG/SG;Simons, Anfernee;;0;$3,000;por;H;uta;100;120;NA;
+20201223;5148;PG/SG;White, Derrick;;0;$4,600;sas;A;mem;131;119;NA;
+20201223;5947;SG;Sirvydis, Deividas;;0;$3,000;det;A;min;101;111;NA;
+20201223;6007;SG;Harris, Jalen;;0;$3,000;tor;H;nor;99;113;NA;
+20201223;4514;SG;Lamb, Jeremy;;0;$3,600;ind;H;nyk;121;107;NA;
+20201223;6052;PG;Winston, Cassius;;0;$3,000;was;A;phi;107;113;NA;
+20201223;5978;PG;Dotson, Devon;;0;$3,000;chi;H;atl;104;124;NA;
+20201223;3872;PG;Rondo, Rajon;;0;$4,100;atl;A;chi;124;104;NA;
+20201223;5847;SG;Strus, Max;;0;$3,000;mia;A;orl;107;113;NA;
+20201223;4440;PG;Walker, Kemba;;0;$6,700;bos;H;mil;122;121;NA;
+20201223;6025;PG;Hagans, Ashton;;0;$3,000;min;H;det;111;101;NA;
+20201223;5959;PG/SG;Vincent, Gabe;;0;$3,000;mia;A;orl;107;113;NA;
+20201223;5733;PG;McLaughlin, Jordan;;0;$3,100;min;H;det;111;101;NA;
+20201223;5823;SG;Weatherspoon, Quinndary;;0;$3,000;sas;A;mem;131;119;NA;
+20201223;5999;SG;Darling, Nate;;0;$3,000;cha;A;cle;114;121;NA;
+20201223;4945;PG/SF;Dunn, Kris;;0;$3,600;atl;A;chi;124;104;NA;
+20201223;4707;PG/SG;Exum, Dante;;0;$3,000;cle;H;cha;121;114;NA;
+20201223;5933;PG/SG;Nowell, Jaylen;;0;$3,000;min;H;det;111;101;NA;
+20201223;6001;PG;Riller, Grant;;0;$3,000;cha;A;cle;114;121;NA;
+20201223;4610;PG;Dellavedova, Matthew;;0;$3,300;cle;H;cha;121;114;NA;
+20201223;4483;PG/SG;Rivers, Austin;;0;$4,500;nyk;A;ind;107;121;NA;
+20201223;5901;PG/SG;Davis, Terence;;-0.5;$3,800;tor;H;nor;99;113; 2.58;0pt 1to
+20201223;4965;SF/PF;Ingram, Brandon;1;61.25;$8,600;nor;A;tor;113;99;37.33;24pt 9rb 11as 3st 1bl 3to 3trey 10-19fg 1-2ft
+20201223;4490;SG/SF;Middleton, Khris;1;58.5;$7,000;mil;A;bos;121;122;37.55;27pt 14rb 8as 2to 3trey 10-20fg 4-4ft
+20201223;4211;SF;DeRozan, DeMar;1;56.25;$7,300;sas;A;mem;131;119;34.88;28pt 9rb 9as 1st 1bl 1to 7-14fg 14-15ft
+20201223;5017;SG/SF;Brown, Jaylen;1;52.75;$6,700;bos;H;mil;122;121;37.63;33pt 5rb 4as 2st 1bl 3trey 13-24fg 4-4ft
+20201223;5111;SF/PF;Tatum, Jayson;1;49.75;$9,200;bos;H;mil;122;121;32.82;30pt 7rb 2as 2st 1bl 2to 6trey 12-28fg
+20201223;4285;SF/PF;Hayward, Gordon;1;46;$6,600;cha;A;cle;114;121;36.22;28pt 4rb 7as 1st 3to 4trey 11-18fg 2-2ft
+20201223;5878;SG/SF;Barrett, RJ;1;44.5;$5,700;nyk;A;ind;107;121;34.37;26pt 8rb 5as 1to 3trey 11-15fg 1-2ft
+20201223;5698;SF/PF;Porter, Michael;1;43.75;$6,500;den;H;sac;122;124;29.62;24pt 5rb 2as 2st 3bl 2to 3trey 9-15fg 3-3ft
+20201223;4502;SF/PF;Barnes, Harrison;1;43.25;$4,900;sac;A;den;124;122;41.95;21pt 9rb 5as 2st 1to 8-15fg 5-7ft
+20201223;5227;PF;Markkanen, Lauri;1;38.75;$4,800;chi;H;atl;104;124;30.20;21pt 7rb 4as 1st 2to 4trey 6-9fg 5-5ft
+20201223;4705;PF;Gordon, Aaron;1;36.25;$6,100;orl;H;mia;113;107;26.00;20pt 7rb 4st 2to 1trey 8-11fg 3-6ft
+20201223;4929;PF;Siakam, Pascal;1;36;$7,600;tor;H;nor;99;113;38.68;20pt 6rb 6as 4to 3trey 8-17fg 1-2ft
+20201223;4701;SG/SF;Ingles, Joe;;35.75;$4,600;uta;A;por;120;100;26.72;14pt 5rb 7as 1st 1bl 1to 3trey 5-10fg 1-1ft
+20201223;4961;SG/SF;Hield, Buddy;1;34.5;$6,300;sac;A;den;124;122;41.12;22pt 4rb 3as 1st 3to 5trey 7-15fg 3-3ft
+20201223;4999;SG/SF;Beasley, Malik;1;34;$5,100;min;H;det;111;101;26.62;23pt 4rb 2as 1st 1to 3trey 10-18fg
+20201223;5173;SG/SF;Brooks, Dillon;1;33.5;$5,400;mem;H;sas;119;131;33.22;16pt 4rb 6as 2st 2to 1trey 7-14fg 1-1ft
+20201223;5712;SF;Bridges, Mikal;1;32.75;$5,400;pho;H;dal;106;102;35.95;18pt 7rb 2bl 4trey 5-11fg 4-4ft
+20201223;5826;SG/SF;Johnson, Keldon;1;32.25;$3,900;sas;A;mem;131;119;32.02;16pt 5rb 3as 3st 2to 1trey 5-10fg 5-7ft
+20201223;5130;SF;Jackson, Josh;;32;$3,000;det;A;min;101;111;28.85;19pt 6rb 2as 1st 2to 3trey 8-14fg
+20201223;4522;SG/SF;Barton, Will;;31;$6,200;den;H;sac;122;124;33.45;16pt 2rb 4as 2st 1bl 1trey 7-16fg 1-2ft
+20201223;3861;SG/SF;Redick, J.J.;;30.75;$4,400;nor;A;tor;113;99;28.87;23pt 3rb 1as 1to 6trey 8-14fg 1-1ft
+20201223;4932;SF/PF;Finney-Smith, Dorian;1;30;$4,100;dal;A;pho;102;106;35.80;11pt 8rb 3as 2st 1trey 4-11fg 2-2ft
+20201223;5241;SF/PF;Anunoby, OG;1;29;$5,000;tor;H;nor;99;113;36.22;8pt 8rb 2as 3st 2bl 4to 4-10fg
+20201223;5979;SF/PF;Williams, Patrick;1;27;$3,000;chi;H;atl;104;124;33.05;16pt 4rb 1as 1st 1bl 1trey 5-11fg 5-6ft
+20201223;5932;SG/SF;Culver, Jarrett;;27;$4,100;min;H;det;111;101;20.62;10pt 10rb 2as 3-6fg 4-5ft
+20201223;5880;SG/SF;Reddish, Cam;1;26.5;$3,900;atl;A;chi;124;104;23.77;15pt 6rb 2st 1to 1trey 6-11fg 2-2ft
+20201223;4549;SG/SF;Ross, Terrence;;26.25;$4,400;orl;H;mia;113;107;28.55;19pt 3rb 1as 1st 3to 3trey 6-14fg 4-4ft
+20201223;3857;SF/PF;Gay, Rudy;;26.25;$4,900;sas;A;mem;131;119;21.10;10pt 7rb 1as 3bl 1to 1trey 4-9fg 1-2ft
+20201223;4709;SF/PF;Bogdanovic, Bojan;1;26;$5,100;uta;A;por;120;100;33.20;15pt 6rb 2as 3to 4trey 5-14fg 1-1ft
+20201223;6027;SG/SF;Edwards, Anthony;;26;$4,800;min;H;det;111;101;25.15;15pt 4rb 4as 1to 1trey 5-12fg 4-4ft
+20201223;4653;SF/PF;Porter, Otto;;25.25;$5,200;chi;H;atl;104;124;23.37;14pt 5rb 1as 2st 1to 5-10fg 4-4ft
+20201223;5925;SF/PF;Johnson, Cameron;;25.25;$4,600;pho;H;dal;106;102;25.53;15pt 5rb 1as 1st 1trey 5-9fg 4-4ft
+20201223;4669;SF/PF;McDermott, Doug;;25;$3,400;ind;H;nyk;121;107;28.28;13pt 6rb 2as 1st 1to 5-12fg 3-4ft
+20201223;4788;SG/SF;Richardson, Josh;1;24.25;$5,300;dal;A;pho;102;106;36.27;12pt 7rb 1as 1st 2to 2trey 5-11fg
+20201223;5663;SG/SF;Trent Jr., Gary;;23.5;$4,500;por;H;uta;100;120;26.13;11pt 2rb 3as 2st 3trey 4-12fg
+20201223;4989;PF;Bertans, Davis;;23.25;$5,500;was;A;phi;107;113;20.13;14pt 3rb 1as 1bl 4trey 4-7fg 2-2ft
+20201223;4736;SF/PF;Anderson, Kyle;1;22;$4,200;mem;H;sas;119;131;28.83;7pt 10rb 2as 2to 1trey 3-8fg
+20201223;5993;SF/PF;Okoro, Isaac;1;21.75;$3,400;cle;H;cha;121;114;33.53;11pt 3rb 5as 2to 1trey 4-5fg 2-2ft
+20201223;3510;PF;Anthony, Carmelo;;21.5;$5,400;por;H;uta;100;120;24.07;15pt 4rb 1st 1to 5-12fg 5-6ft
+20201223;4082;PF;Gallinari, Danilo;1;21.5;$5,100;atl;A;chi;124;104;24.43;13pt 4rb 3as 3to 1trey 4-6fg 4-4ft
+20201223;4472;SF/PF;Crowder, Jae;1;21.25;$4,900;pho;H;dal;106;102;25.95;4pt 9rb 4as 1to 1trey 1-6fg 1-2ft
+20201223;4412;SF/PF;Harris, Tobias;1;21;$6,200;phi;H;was;113;107;31.13;10pt 8rb 1bl 2to 3-13fg 4-4ft
+20201223;5116;SF/PF;Osman, Cedi;;20;$4,800;cle;H;cha;121;114;17.95;11pt 4rb 2as 1to 3trey 4-9fg
+20201223;5177;SG/SF;Dozier, PJ;;19.75;$4,100;den;H;sac;122;124;14.65;7pt 5rb 2as 2bl 1to 3-5fg 1-1ft
+20201223;5977;SF/PF;Toppin, Obi;;19.75;$3,700;nyk;A;ind;107;121;23.55;9pt 3rb 1as 2bl 3trey 3-12fg
+20201223;5674;SF;Okogie, Josh;1;19.5;$3,600;min;H;det;111;101;32.55;12pt 4rb 2as 2to 1trey 4-9fg 3-3ft
+20201223;4654;SF;Bullock, Reggie;1;18.75;$3,000;nyk;A;ind;107;121;25.63;11pt 1rb 2as 1st 3trey 4-10fg
+20201223;5866;SF/PF;Doumbouya, Sekou;;18.75;$3,000;det;A;min;101;111;13.50;6pt 9rb 1as 3-8fg 0-1ft
+20201223;4678;SG/SF;Harris, Gary;1;17.5;$4,700;den;H;sac;122;124;41.55;10pt 2rb 2as 1bl 4-9fg 2-2ft
+20201223;4765;SF/PF;Grant, Jerami;1;17.25;$4,700;det;A;min;101;111;31.42;9pt 1rb 3as 1st 1trey 4-11fg
+20201223;4792;SG/SF;Powell, Norman;;17.25;$5,000;tor;H;nor;99;113;23.15;12pt 1rb 1as 1st 1trey 2-11fg 7-8ft
+20201223;5238;SF;Hart, Josh;;17.25;$4,800;nor;A;tor;113;99;26.68;6pt 5rb 1as 2st 2to 1trey 2-5fg 1-3ft
+20201223;5852;SG/SF;Martin, Cody;;17.25;$3,300;cha;A;cle;114;121;21.02;5pt 5rb 4as 2-3fg 1-1ft
+20201223;5857;PF;Wade, Dean;;17;$3,000;cle;H;cha;121;114;15.87;7pt 3as 3st 2to 1trey 3-4fg
+20201223;5657;SF/PF;Bridges, Miles;;17;$5,300;cha;A;cle;114;121;22.08;6pt 6rb 1as 1st 3-10fg
+20201223;6055;SF/PF;Avdija, Deni;1;16;$4,000;was;A;phi;107;113;28.10;7pt 4rb 1as 1st 1to 2trey 2-2fg 1-2ft
+20201223;5879;SF/PF;Hunter, De'Andre;1;15.75;$4,400;atl;A;chi;124;104;25.90;11pt 3rb 1as 2to 1trey 5-6fg
+20201223;5693;SF;Bonga, Isaac;1;15.75;$3,500;was;A;phi;107;113;16.72;5pt 3rb 2as 2st 1to 1trey 2-3fg 0-1ft
+20201223;4941;SF;Jones, Derrick;1;15;$4,200;por;H;uta;100;120;25.58;9pt 4rb 1to 3trey 3-9fg
+20201223;4558;SF;Holiday, Justin;;13;$4,000;ind;H;nyk;121;107;22.38;6pt 4rb 1bl 1to 1trey 2-6fg 1-2ft
+20201223;5705;SF/PF;Knox, Kevin;;12.75;$3,900;nyk;A;ind;107;121;18.48;4pt 3rb 2st 1bl 2to 2-5fg 0-1ft
+20201223;4570;PF;Covington, Robert;1;12.5;$6,100;por;H;uta;100;120;21.42;1pt 4rb 3as 1st 0-3fg 1-2ft
+20201223;5115;PF;Ojeleye, Semi;;12;$3,000;bos;H;mil;122;121;18.98;5pt 4rb 1as 1trey 2-2fg 0-1ft
+20201223;5182;SF/PF;O'Neale, Royce;1;10.75;$3,600;uta;A;por;120;100;28.08;0pt 7rb 1bl 0-5fg
+20201223;5686;SF;Hutchison, Chandler;;9.75;$3,000;chi;H;atl;104;124;18.58;2pt 5rb 1st 1to 1-6fg
+20201223;4811;SF;Connaughton, Pat;;9.25;$3,400;mil;A;bos;121;122;23.13;6pt 1rb 1as 1to 2trey 2-3fg
+20201223;6010;SF/PF;Vassell, Devin;;9.25;$3,000;sas;A;mem;131;119;19.67;3pt 3rb 1bl 1trey 1-4fg
+20201223;5699;SG/SF;Brown Jr., Troy;;8.75;$4,700;was;A;phi;107;113;22.43;3pt 3rb 1as 1trey 1-3fg
+20201223;4193;SG/SF;Green, Danny;1;8.5;$4,200;phi;H;was;113;107;18.27;2pt 2as 2st 1to 1-6fg
+20201223;5179;SF;Bacon, Dwayne;1;8.25;$3,000;orl;H;mia;113;107;18.98;0pt 3rb 3as 0-5fg
+20201223;4488;PF;Scott, Mike;;8;$3,700;phi;H;was;113;107;16.87;3pt 2rb 1st 1trey 1-3fg
+20201223;4724;SF/PF;Warren, T.J.;1;7.75;$5,800;ind;H;nyk;121;107;22.97;5pt 1rb 1as 2-8fg 1-1ft
+20201223;5846;PF;Williams, Grant;;7.75;$3,000;bos;H;mil;122;121;14.58;3pt 1rb 1as 1st 1to 1trey 1-5fg
+20201223;4530;SF/PF;Harkless, Maurice;1;7.5;$3,600;mia;A;orl;107;113;22.72;3pt 2rb 1as 1trey 1-4fg
+20201223;3641;SF;Iguodala, Andre;;7.5;$4,000;mia;A;orl;107;113;16.83;0pt 4rb 1st 1bl 3to 0-2fg
+20201223;5859;SG/SF;Windler, Dylan;;7;$3,000;cle;H;cha;121;114; 9.48;3pt 2st 1to 1trey 1-5fg
+20201223;5889;PF;Melli, Nicolo;;7;$3,000;nor;A;tor;113;99;13.52;0pt 2rb 2as 1st 1to 0-4fg
+20201223;4744;SG/SF;Hood, Rodney;;6.75;$3,000;por;H;uta;100;120;13.83;0pt 3rb 2as 0-3fg
+20201223;4168;SF/PF;Johnson, James;;6.75;$3,700;dal;A;pho;102;106;13.70;0pt 3rb 1as 1st 1to
+20201223;4990;PF;Hernangomez, Juan;;5.75;$4,300;min;H;det;111;101;11.77;0pt 3rb 1st 0-5fg
+20201223;6045;SF;Hughes, Elijah;;5.75;$3,000;uta;A;por;120;100; 3.15;3pt 1rb 1as 0-1fg 3-4ft
+20201223;5945;PF;McDaniels, Jalen;;4.75;$3,300;cha;A;cle;114;121; 5.57;2pt 1rb 1st 1to 1-2fg
+20201223;4566;PF;Hill, Solomon;;4.25;$3,000;atl;A;chi;124;104;28.40;0pt 3rb 1bl 3to 0-3fg
+20201223;6023;SF;Green, Josh;;2;$3,000;dal;A;pho;102;106; 3.27;2pt 1-1fg
+20201223;5001;SF;Bembry, DeAndre;;1.5;$3,000;tor;H;nor;99;113; 5.50;0pt 1bl 1to
+20201223;4997;PF;Layman, Jake;1;1.25;$3,000;min;H;det;111;101;16.55;0pt 1rb 0-3fg
+20201223;5835;PF;Morgan, Juwan;;1.25;$3,000;uta;A;por;120;100; 3.15;0pt 1rb 0-1fg
+20201223;4838;SF/PF;Johnson, Stanley;;0;$3,000;tor;H;nor;99;113; 1.27;0pt
+20201223;5906;SF;Thybulle, Matisse;;0;$3,600;phi;H;was;113;107; 0.28;0pt
+20201223;5732;SF;Pinson, Theo;;0;$3,000;nyk;A;ind;107;121; 0.92;0pt
+20201223;5015;SF/PF;Niang, Georges;;0;$3,200;uta;A;por;120;100; 8.52;0pt 0-2fg
+20201223;4869;PF;Antetokounmpo, Thanasis;;0;$3,000;mil;A;bos;121;122;DNP;
+20201223;4199;SG/SF;Temple, Garrett;;0;$3,700;chi;H;atl;104;124;DNP;
+20201223;5778;PF;Vanderbilt, Jarred;;0;$3,000;min;H;det;111;101;DNP;
+20201223;5994;SF;Stevens, Lamar;;0;$3,000;cle;H;cha;121;114;DNP;
+20201223;5808;SG/SF;James, Justin;;0;$3,000;sac;A;den;124;122;DNP;
+20201223;5204;SG/SF;Craig, Torrey;;0;$3,600;mil;A;bos;121;122;DNP;
+20201223;4269;SG/SF;Bradley, Avery;;0;$4,300;mia;A;orl;107;113;DNP;
+20201223;6015;SF/PF;Nwora, Jordan;;0;$3,000;mil;A;bos;121;122;DNP;
+20201223;5825;PF;Samanic, Luka;;0;$3,000;sas;A;mem;131;119;DNP;
+20201223;5144;SG/SF;Sumner, Edmond;;0;$3,000;ind;H;nyk;121;107;DNP;
+20201223;5234;SG/SF;Thornwell, Sindarius;;0;$3,000;nor;A;tor;113;99;DNP;
+20201223;5839;SG/SF;Konchar, John;;0;$3,000;mem;H;sas;119;131;DNP;
+20201223;5934;SF/PF;Martin, Kelan;;0;$3,000;ind;H;nyk;121;107;DNP;
+20201223;5941;SF;Cancar, Vlatko;;0;$3,000;den;H;sac;122;124;DNP;
+20201223;5992;SG/SF;Woodard II, Robert;;0;$3,000;sac;A;den;124;122;DNP;
+20201223;5855;SG/SF;Martin, Caleb;;0;$4,200;cha;A;cle;114;121;DNP;
+20201223;5753;SF;Watanabe, Yuta;;0;$3,000;tor;H;nor;99;113;DNP;
+20201223;6060;SF/PF;Marshall, Naji;;0;$3,000;nor;A;tor;113;99;DNP;
+20201223;5971;SF/PF;Bey, Saddiq;;0;$3,000;det;A;min;101;111;DNP;
+20201223;6032;SF;McDermott, Sean;;0;$3,000;mem;H;sas;119;131;DNP;
+20201223;5675;SF;Bates-Diop, Keita;;0;$3,000;sas;A;mem;131;119;DNP;
+20201223;4702;SF;Robinson III, Glenn;;0;$4,000;sac;A;den;124;122;DNP;
+20201223;4904;PF;Saric, Dario;;0;$4,300;pho;H;dal;106;102;DNP;
+20201223;5152;PF;Iwundu, Wes;;0;$3,000;dal;A;pho;102;106;DNP;
+20201223;6026;PF;McDaniels, Jaden;;0;$3,000;min;H;det;111;101;DNP;
+20201223;6066;SG/SF;Nesmith, Aaron;;0;$3,000;bos;H;mil;122;121;DNP;
+20201223;6017;PF;Diakite, Mamadi;;0;$3,000;mil;A;bos;121;122;DNP;
+20201223;4650;SG/SF;McGruder, Rodney;;0;$3,000;det;A;min;101;111;DNP;
+20201223;5958;SF;Watson, Paul;;0;$3,000;tor;H;nor;99;113;DNP;
+20201223;5876;PF;Brazdeikis, Ignas;;0;$3,000;nyk;A;ind;107;121;DNP;
+20201223;5910;SF/PF;Okpala, KZ;;0;$3,000;mia;A;orl;107;113;DNP;
+20201223;6051;PF;Gill, Anthony;;0;$3,000;was;A;phi;107;113;DNP;
+20201223;5225;SF;Ferguson, Terrance;;0;$3,000;phi;H;was;113;107;DNP;
+20201223;5810;SF;Bowen II, Brian;;0;$3,000;ind;H;nyk;121;107;NA;
+20201223;4697;SF;Ennis, James;;0;$4,000;orl;H;mia;113;107;NA;
+20201223;5715;SF/PF;Gabriel, Wenyen;;0;$3,000;nor;A;tor;113;99;NA;
+20201223;6020;PF;Bey, Tyler;;0;$3,000;dal;A;pho;102;106;NA;
+20201223;4902;SG/SF;McCaw, Patrick;;0;$3,000;tor;H;nor;99;113;NA;
+20201223;4261;PF;Aminu, Al-Farouq;;0;$3,000;orl;H;mia;113;107;NA;
+20201223;5868;PF;Hachimura, Rui;;0;$4,900;was;A;phi;107;113;NA;
+20201223;5861;SG/SF;Porter, Kevin;;0;$3,500;cle;H;cha;121;114;NA;
+20201223;5937;SF/PF;Little, Nassir;;0;$3,000;por;H;uta;100;120;NA;
+20201223;5834;PF;Brantley, Jarrell;;0;$3,000;uta;A;por;120;100;NA;
+20201223;4787;SF;Winslow, Justise;;0;$3,000;mem;H;sas;119;131;NA;
+20201223;4037;PF;Young, Thaddeus;;0;$3,900;chi;H;atl;104;124;NA;
+20201223;4571;SG/SF;Snell, Tony;;0;$3,300;atl;A;chi;124;104;NA;
+20201223;5137;PF;Isaac, Jonathan;;0;$3,000;orl;H;mia;113;107;NA;
+20201223;5828;SF;Jeffries, DaQuan;;0;$3,000;sac;A;den;124;122;NA;
+20201223;4581;PF;Green, JaMychal;;0;$3,200;den;H;sac;122;124;NA;
+20201223;4786;PF;Whittington, Greg;;0;$3,000;den;H;sac;122;124;NA;
+20201223;5844;SG/SF;Langford, Romeo;;0;$3,000;bos;H;mil;122;121;NA;
+20201223;5127;SF;Nader, Abdel;;0;$3,000;pho;H;dal;106;102;NA;
+20201223;6063;PF;Reed, Paul;;0;$3,000;phi;H;was;113;107;NA;
+20201223;6019;SF;Hinton, Nate;;0;$3,000;dal;A;pho;102;106;NA;
+20201223;4728;PF;Parker, Jabari;;0;$3,000;sac;A;den;124;122;NA;
+20201223;5872;SG/SF;Mathews, Garrison;;0;$3,000;was;A;phi;107;113;NA;
+20201223;4772;C;Jokic, Nikola;1;76.75;$9,600;den;H;sac;122;124;41.85;29pt 15rb 14as 3bl 6to 1trey 11-18fg 6-9ft
+20201223;4921;PF/C;Sabonis, Domantas;1;58.25;$7,400;ind;H;nyk;121;107;36.80;32pt 13rb 5as 1st 4to 2trey 11-18fg 8-12ft
+20201223;4621;PF/C;Antetokounmpo, Giannis;1;57.75;$10,200;mil;A;bos;121;122;36.40;35pt 13rb 2as 2bl 7to 3trey 13-26fg 6-8ft
+20201223;4879;C;Towns, Karl-Anthony;1;52.75;$9,700;min;H;det;111;101;30.43;22pt 11rb 7as 1st 2bl 4to 2trey 6-10fg 8-8ft
+20201223;4798;PF/C;Nance, Larry;1;52.25;$5,900;cle;H;cha;121;114;33.57;13pt 13rb 8as 3st 2bl 2to 1trey 5-9fg 2-2ft
+20201223;4762;C;Embiid, Joel;1;52;$9,800;phi;H;was;113;107;34.83;29pt 14rb 2as 1bl 3to 1trey 10-17fg 8-9ft
+20201223;4620;C;Gobert, Rudy;1;46.75;$6,800;uta;A;por;120;100;28.13;20pt 17rb 2as 1st 2to 8-10fg 4-6ft
+20201223;5159;C;Adebayo, Bam;1;44.75;$7,300;mia;A;orl;107;113;34.68;25pt 11rb 4as 1bl 7to 11-16fg 3-4ft
+20201223;4497;C;Valanciunas, Jonas;1;39.75;$7,100;mem;H;sas;119;131;29.55;15pt 13rb 2as 1st 1bl 1to 1trey 6-11fg 2-6ft
+20201223;4680;PF/C;Randle, Julius;1;39.25;$6,900;nyk;A;ind;107;121;35.47;17pt 9rb 9as 5to 7-15fg 3-4ft
+20201223;4373;C;Vucevic, Nikola;1;39.25;$8,200;orl;H;mia;113;107;33.55;15pt 11rb 3as 1st 1bl 2to 3trey 5-13fg 2-8ft
+20201223;4489;C;Drummond, Andre;1;38.5;$8,000;cle;H;cha;121;114;27.22;14pt 14rb 4as 1st 5to 7-18fg
+20201223;4781;C;Turner, Myles;1;36.5;$5,700;ind;H;nyk;121;107;28.80;10pt 8rb 1as 8bl 2to 4-9fg 2-2ft
+20201223;5888;PF/C;Williamson, Zion;1;34.5;$7,500;nor;A;tor;113;99;29.57;15pt 10rb 3as 1st 1bl 6to 7-9fg 1-4ft
+20201223;4574;C;Adams, Steven;1;34.5;$6,100;nor;A;tor;113;99;30.62;8pt 8rb 3as 4st 2bl 4-6fg
+20201223;4607;C;Plumlee, Mason;1;33;$3,700;det;A;min;101;111;32.20;14pt 8rb 6as 7-8fg
+20201223;3904;PF/C;Millsap, Paul;1;29.75;$5,000;den;H;sac;122;124;36.10;16pt 7rb 3as 1to 2trey 7-13fg
+20201223;5713;C;Ayton, Deandre;1;29.5;$7,300;pho;H;dal;106;102;24.17;13pt 8rb 1as 1st 2bl 2to 5-9fg 3-6ft
+20201223;4172;PF/C;Griffin, Blake;1;27.75;$7,200;det;A;min;101;111;35.00;15pt 7rb 2as 1bl 2to 6-13fg 3-5ft
+20201223;3860;PF/C;Aldridge, LaMarcus;1;26.75;$6,500;sas;A;mem;131;119;28.77;20pt 3rb 1as 1bl 2to 1trey 9-17fg 1-1ft
+20201223;4114;C;McGee, JaVale;;26.75;$3,000;cle;H;cha;121;114;19.20;13pt 7rb 1as 1st 1bl 1to 6-7fg 1-1ft
+20201223;5134;PF/C;Collins, John;1;26;$7,600;atl;A;chi;124;104;18.05;14pt 4rb 2as 2bl 6-10fg 2-2ft
+20201223;5714;PF/C;Bagley, Marvin;1;25.25;$4,900;sac;A;den;124;122;27.35;13pt 9rb 1bl 2to 5-14fg 3-4ft
+20201223;4442;C;Kanter, Enes;;24;$3,900;por;H;uta;100;120;25.90;14pt 8rb 7-7fg
+20201223;4380;C;Thompson, Tristan;1;23.5;$4,700;bos;H;mil;122;121;22.40;12pt 8rb 1as 6-10fg
+20201223;4280;C;Favors, Derrick;;23.25;$4,400;uta;A;por;120;100;16.28;10pt 7rb 3as 5-5fg
+20201223;4681;C;Nurkic, Jusuf;1;22.75;$7,000;por;H;uta;100;120;21.87;13pt 3rb 3as 1st 2to 1trey 5-9fg 2-2ft
+20201223;4556;C;Baynes, Aron;1;22.25;$4,300;tor;H;nor;99;113;28.10;11pt 9rb 1to 1trey 5-9fg
+20201223;5931;PF/C;Reid, Naz;;21.75;$4,000;min;H;det;111;101;17.57;8pt 5rb 1as 3bl 2-5fg 4-6ft
+20201223;5117;PF/C;Boucher, Chris;;21.25;$4,600;tor;H;nor;99;113;14.78;12pt 5rb 2bl 2to 6-8fg
+20201223;3639;C;Howard, Dwight;;20.5;$3,200;phi;H;was;113;107;13.17;4pt 10rb 2as 1bl 2to 2-2fg
+20201223;4835;C;Holmes, Richaun;1;20.25;$4,200;sac;A;den;124;122;22.98;6pt 9rb 1as 1bl 1to 3-6fg
+20201223;5114;PF/C;Theis, Daniel;1;19.25;$5,300;bos;H;mil;122;121;24.67;10pt 3rb 3as 2trey 4-8fg
+20201223;5004;C;Poeltl, Jakob;;18.25;$4,500;sas;A;mem;131;119;19.23;4pt 7rb 1as 1st 1bl 2-6fg
+20201223;5881;C;Fernando, Bruno;;17.75;$3,000;atl;A;chi;124;104;18.13;5pt 7rb 1as 2st 3to 2-3fg 1-2ft
+20201223;4324;C;Whiteside, Hassan;;17.75;$3,800;sac;A;den;124;122;17.57;4pt 9rb 1as 1bl 2to 2-6fg 0-2ft
+20201223;4875;PF/C;Bjelica, Nemanja;;17.5;$4,400;sac;A;den;124;122;15.93;10pt 4rb 2as 1to 3-8fg 4-4ft
+20201223;4614;C;Zeller, Cody;1;17.25;$4,400;cha;A;cle;114;121;18.95;6pt 3rb 3st 1bl 1to 3-6fg 0-1ft
+20201223;4836;C;Okafor, Jahlil;;17.25;$3,400;det;A;min;101;111;15.30;8pt 7rb 1as 2to 4-7fg
+20201223;5217;C;Bryant, Thomas;1;17.25;$7,200;was;A;phi;107;113;25.55;10pt 5rb 1bl 2to 5-13fg 0-1ft
+20201223;4458;C;Biyombo, Bismack;;17;$3,000;cha;A;cle;114;121;24.35;11pt 4rb 1bl 2to 5-5fg 1-5ft
+20201223;5700;C;Robinson, Mitchell;1;16.5;$5,200;nyk;A;ind;107;121;21.17;3pt 6rb 3bl 1-2fg 1-2ft
+20201223;5162;PF/C;Kleber, Maxi;;15.75;$3,900;dal;A;pho;102;106;26.88;10pt 3rb 1as 1to 2trey 2-8fg 4-4ft
+20201223;5837;PF/C;Clarke, Brandon;;15.25;$5,600;mem;H;sas;119;131;25.85;10pt 3rb 1bl 1to 5-9fg 0-1ft
+20201223;4075;C;Lopez, Brook;1;15.25;$5,600;mil;A;bos;121;122;29.08;7pt 3rb 2bl 1trey 3-4fg
+20201223;5685;C;Carter Jr., Wendell;1;15;$4,400;chi;H;atl;104;124;25.77;6pt 6rb 2as 3to 2-5fg 2-2ft
+20201223;4583;PF/C;Olynyk, Kelly;;14.75;$4,100;mia;A;orl;107;113;19.98;5pt 3rb 1as 2st 1trey 2-6fg
+20201223;5965;PF/C;Okeke, Chuma;;13.75;$3,000;orl;H;mia;113;107;22.00;3pt 5rb 2as 1st 1to 1-3fg 1-2ft
+20201223;4632;C;Dieng, Gorgui;;13.75;$3,300;mem;H;sas;119;131;11.77;5pt 1rb 1as 1st 2bl 1to 1trey 2-3fg
+20201223;5746;C;Hartenstein, Isaiah;;12.75;$3,000;den;H;sac;122;124; 8.88;6pt 3rb 2bl 2to 3-6fg
+20201223;6058;PF/C;Achiuwa, Precious;;11.75;$3,000;mia;A;orl;107;113;13.65;8pt 3rb 3-4fg 2-4ft
+20201223;5854;PF/C;Washington, P.J.;1;11.5;$4,200;cha;A;cle;114;121;21.38;4pt 2rb 2as 1bl 1-5fg 2-2ft
+20201223;6047;PF/C;Smith, Jalen;;10.75;$3,000;pho;H;dal;106;102;16.22;4pt 3rb 1as 1bl 1to 2-3fg 0-2ft
+20201223;4696;C;Birch, Khem;;10.5;$3,100;orl;H;mia;113;107;14.45;6pt 2rb 1st 2-4fg 2-2ft
+20201223;5660;C;Williams, Robert;;10.5;$3,000;bos;H;mil;122;121;12.47;4pt 4rb 1bl 1to 2-2fg
+20201223;4652;C;Noel, Nerlens;;10.25;$3,600;nyk;A;ind;107;121; 9.37;2pt 3rb 1as 1st 1bl 2to 1-2fg
+20201223;5146;PF/C;Wilson, D.J.;;9.25;$3,000;mil;A;bos;121;122;12.88;0pt 5rb 1as 1bl 1to 0-2fg
+20201223;4841;PF/C;Portis, Bobby;;9;$3,500;mil;A;bos;121;122;16.37;3pt 4rb 1as 1to 1-3fg 1-2ft
+20201223;4112;C;Lopez, Robin;;8.25;$3,000;was;A;phi;107;113;16.53;3pt 3rb 1bl 2to 1trey 1-3fg
+20201223;5894;C;Gafford, Daniel;;8.25;$3,000;chi;H;atl;104;124;16.90;5pt 1rb 1bl 2-4fg 1-4ft
+20201223;5167;C;Giles, Harry;;8;$3,200;por;H;uta;100;120; 4.45;3pt 2rb 1bl 1trey 1-2fg
+20201223;5780;PF/C;Wagner, Moritz;;8;$3,800;was;A;phi;107;113; 5.92;4pt 2rb 1as 2-2fg
+20201223;4674;C;Powell, Dwight;1;7;$4,300;dal;A;pho;102;106;17.53;2pt 2rb 1as 1st 2to 1-3fg
+20201223;4817;C;Cauley-Stein, Willie;;6;$3,000;dal;A;pho;102;106; 6.03;2pt 2rb 1as 1-1fg
+20201223;4933;C;Jones, Damian;;4.75;$3,000;pho;H;dal;106;102; 7.62;0pt 1rb 1st 1bl 1to
+20201223;6044;C;Azubuike, Udoka;;3.25;$3,000;uta;A;por;120;100; 3.58;2pt 1rb 1-1fg
+20201223;5963;C;Knight, Nathan;;2.75;$3,000;atl;A;chi;124;104; 5.07;0pt 3rb 2to 0-2fg
+20201223;5891;C;Hayes, Jaxson;;1;$3,400;nor;A;tor;113;99; 6.28;0pt 1as 1to
+20201223;5858;C;Bolden, Marques;;0;$3,000;cle;H;cha;121;114; 0.02;0pt 0-2ft
+20201223;5679;C;Eubanks, Drew;;0;$3,200;sas;A;mem;131;119;DNP;
+20201223;5974;C;Stewart, Isaiah;;0;$3,000;det;A;min;101;111;DNP;
+20201223;4845;C;Felicio, Cristiano;;0;$3,000;chi;H;atl;104;124;DNP;
+20201223;4893;C;Marjanovic, Boban;;0;$4,800;dal;A;pho;102;106;DNP;
+20201223;4591;C;Len, Alex;;0;$3,000;tor;H;nor;99;113;DNP;
+20201223;5166;C;Bradley, Tony;;0;$3,000;phi;H;was;113;107;DNP;
+20201223;6039;PF/C;Nnaji, Zeke;;0;$3,000;den;H;sac;122;124;DNP;
+20201223;4806;PF/C;Lyles, Trey;;0;$3,000;sas;A;mem;131;119;DNP;
+20201223;6000;C;Carey Jr., Vernon;;0;$3,000;cha;A;cle;114;121;DNP;
+20201223;4676;PF/C;Sampson, JaKarr;;0;$3,000;ind;H;nyk;121;107;DNP;
+20201223;4276;C;Davis, Ed;;0;$3,000;min;H;det;111;101;DNP;
+20201223;5724;PF/C;Clark, Gary;;0;$3,300;orl;H;mia;113;107;DNP;
+20201223;4949;C;Hernangomez, Guillermo;;0;$3,000;nor;A;tor;113;99;DNP;
+20201223;5240;C;Kornet, Luke;;0;$3,200;chi;H;atl;104;124;DNP;
+20201223;5913;C;Silva, Chris;;0;$3,000;mia;A;orl;107;113;DNP;
+20201223;5942;PF/C;Bol, Bol;;0;$3,100;den;H;sac;122;124;DNP;
+20201223;4935;PF/C;Maker, Thon;;0;$3,700;cle;H;cha;121;114;DNP;
+20201223;5957;C;Pasecniks, Anzejs;;0;$3,000;was;A;phi;107;113;DNP;
+20201223;3535;C;Haslem, Udonis;;0;$3,000;mia;A;orl;107;113;DNP;
+20201223;4521;PF/C;Leonard, Meyers;;0;$3,400;mia;A;orl;107;113;DNP;
+20201223;5706;C;Bamba, Mohamed;;0;$3,000;orl;H;mia;113;107;DNP;
+20201223;6005;C;Richards, Nick;;0;$3,000;cha;A;cle;114;121;DNP;
+20201223;6033;PF/C;Tillman, Xavier;;0;$3,000;mem;H;sas;119;131;NA;
+20201223;4766;C;Capela, Clint;;0;$5,800;atl;A;chi;124;104;NA;
+20201223;5845;C;Fall, Tacko;;0;$3,000;bos;H;mil;122;121;NA;
+20201223;6031;C;Tillie, Killian;;0;$3,000;mem;H;sas;119;131;NA;
+20201223;5961;PF/C;Porter, Jontay;;0;$3,000;mem;H;sas;119;131;NA;
+20201223;5962;C;Okongwu, Onyeka;;0;$3,000;atl;A;chi;124;104;NA;
+20201223;5843;C;Poirier, Vincent;;0;$3,000;phi;H;was;113;107;NA;
+20201223;5731;PF/C;Jackson, Jaren;;0;$6,200;mem;H;sas;119;131;NA;
+20201223;5155;PF/C;Collins, Zach;;0;$3,600;por;H;uta;100;120;NA;
+20201223;6061;C;Magnay, Will;;0;$3,000;nor;A;tor;113;99;NA;
+20201223;4871;PF/C;Porzingis, Kristaps;;0;$8,000;dal;A;pho;102;106;NA;
+20201223;4074;PF/C;Love, Kevin;;0;$6,400;cle;H;cha;121;114;NA;
+20201223;5809;C;Bitadze, Goga;;0;$3,000;ind;H;nyk;121;107;NA;
+20201223;5755;PF/C;Spellman, Omari;;0;$3,000;nyk;A;ind;107;121;NA;

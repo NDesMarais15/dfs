@@ -6,13 +6,14 @@ import numpy as np
 strategy = '2R+1OppR+NoQBvsDef+NoRB&RB'
 entry_date = '2020-11-19'
 date = '2020-11-19'
+week = 11
 contest_ids = {'2020-11-13': '96410219', '2020-11-19': '96813915'}
 
 
 def calculate_places(lineup_file_name, standings_file_name):
     places = []
     points_list = []
-    with open('Helper Data/Player Translations.csv') as translations_file:
+    with open('../Helper Data/Player Translations.csv') as translations_file:
         translations = pd.read_csv(translations_file, quotechar='"')
         with open(lineup_file_name) as lineup_file:
             with open(standings_file_name) as standings_file:
@@ -48,19 +49,20 @@ def calculate_places(lineup_file_name, standings_file_name):
 
 def calculate_payout(places):
     payoff = 0
-    payout_df = pd.read_csv('Results/%s/Payout.csv' % entry_date)
+    payout_df = pd.read_csv('../Results/Week %d/%s/Payout.csv' % (week, entry_date))
     for place in places:
         index = payout_df['Minimum Place'].to_numpy().searchsorted(place, 'right')
         payoff += payout_df.iloc[index - 1]['Payout']
     return round(payoff, 2)
 
 
-with open('Strategies/%s/%s/Payouts.csv' % (strategy, date), 'w+', newline='') as payouts_file:
+with open('../Strategies/%s/%s/Payouts.csv' % (strategy, date), 'w+', newline='') as payouts_file:
     csv_writer = csv.writer(payouts_file)
     csv_writer.writerow(['Overlap', 'Payout'])
     for i in range(2, 8):
         payout = calculate_payout(
-            calculate_places('Strategies/%s/%s/%s lineups overlap %d.csv'
+            calculate_places('../Strategies/%s/%s/%s lineups overlap %d.csv'
                              % (strategy, date, date, i),
-                             'Results/%s/contest-standings-%s.csv' % (entry_date, contest_ids[entry_date])))
+                             '../Results/Week %d/%s/contest-standings-%s.csv' % (week, entry_date,
+                                                                                 contest_ids[entry_date])))
         csv_writer.writerow([i, payout])

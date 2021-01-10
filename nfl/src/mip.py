@@ -69,7 +69,7 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, l
         players.loc[players['Pos'] == 'DST', 'DST'] = 1
 
         # We need a list to keep track of past lineups in order to enforce creation of unique lineups
-        past_selections = [0] * num_players
+        past_lineup_constraints = []
 
         # This is just a list of all ones in order to ensure that the number of players is 9
         ones = [1] * num_players
@@ -146,19 +146,17 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, l
 
         # Generate lineups
         for lineup_count in range(0, num_lineups):
-            # Constraint to limit overlap with previously generated lineups
-            past_lineups_constraint = past_selections @ selection <= lineup_overlap
-
             # Add rule constraints
             constraints = [salary_constraint, qb_constraint, rb_constraint_1, rb_constraint_2, wr_constraint_1,
-                           wr_constraint_2, te_constraint_1, te_constraint_2, dst_constraint, players_constraint,
-                           past_lineups_constraint]
+                           wr_constraint_2, te_constraint_1, te_constraint_2, dst_constraint, players_constraint]
 
             # Add stacking constraints
             constraints.extend(team_stack_constraints)
+            constraints.extend(past_lineup_constraints)
 
             # Formulate problem and solve
             problem = cvxpy.Problem(cvxpy.Maximize(total_pts), constraints)
+
             problem.solve(solver=cvxpy.GLPK_MI)
             if problem.solution.status == 'infeasible':
                 print('Problem formulation is infeasible.')
@@ -198,7 +196,7 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, l
             csv_writer.writerow(row)
 
             # Add lineup to past selections in order to create unique lineups
-            past_selections = np.logical_or(solution_array, past_selections)
+            past_lineup_constraints.append(solution_array @ selection <= lineup_overlap)
 
 
 def generate_showdown_lineups(date, projections_path, lineup_path, num_lineups, lineup_overlap, strategy):

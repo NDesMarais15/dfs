@@ -1,0 +1,61 @@
+Date;GID;Pos;Name;Starter;DK Pts;DK Salary;Team;H/A;Oppt;Team Score;Oppt Score;Minutes;Stat line
+20170502;4321;PG;Wall, John;1;76.25;$10,300;was;A;bos;119;129;47.10;40pt 3rb 13as 3st 3bl 4to 3trey 16-32fg 5-7ft
+20170502;4420;PG;Thomas, Isaiah;1;71.5;$8,900;bos;H;was;129;119;44.55;53pt 4rb 4as 3st 2to 5trey 18-33fg 12-13ft
+20170502;4173;PG;Curry, Stephen;1;38.75;$9,200;gsw;H;uta;106;94;29.98;22pt 7rb 5as 1st 4to 1trey 7-11fg 7-7ft
+20170502;4823;PG;Rozier, Terry;;28.5;$2,800;bos;H;was;129;119;25.12;12pt 6rb 4as 1st 2trey 3-8fg 4-4ft
+20170502;4269;SG;Bradley, Avery;1;28;$6,400;bos;H;was;129;119;35.13;14pt 4rb 1as 3st 1bl 3to 2trey 6-16fg
+20170502;4494;SG;Beal, Bradley;1;25.75;$7,700;was;A;bos;119;129;47.25;14pt 5rb 4as 1st 6to 1trey 4-15fg 5-6ft
+20170502;4377;PG;Mack, Shelvin;;22.25;$2,000;uta;A;gsw;94;106;20.97;6pt 7rb 4as 1st 1to 2-7fg 2-2ft
+20170502;4367;SG;Thompson, Klay;1;22;$6,200;gsw;H;uta;106;94;30.58;15pt 2rb 2as 3trey 6-13fg
+20170502;3651;PG;Livingston, Shaun;;20.25;$2,700;gsw;H;uta;106;94;20.27;9pt 5rb 1as 1st 1bl 1to 4-5fg 1-1ft
+20170502;4744;SG;Hood, Rodney;;19.25;$3,700;uta;A;gsw;94;106;22.68;12pt 5rb 1as 1to 6-12fg
+20170502;4102;PG;Hill, George;1;16.5;$5,600;uta;A;gsw;94;106;27.75;7pt 4rb 3as 1to 1trey 3-9fg
+20170502;4707;PG;Exum, Dante;;12.5;$2,000;uta;A;gsw;94;106;11.90;7pt 2as 1st 1trey 3-3fg
+20170502;5017;SG;Brown, Jaylen;;9.5;$2,000;bos;H;was;129;119;11.68;4pt 2rb 2as 2-3fg
+20170502;4611;PG/SG;Clark, Ian;;8.5;$2,600;gsw;H;uta;106;94;18.02;6pt 2rb 3-6fg
+20170502;4807;PG;Neto, Raul;;2;$2,000;uta;A;gsw;94;106; 2.87;2pt 1-1fg
+20170502;4182;PG;Jennings, Brandon;;1.25;$2,500;was;A;bos;119;129;11.65;0pt 1rb 0-2fg
+20170502;4902;SG;McCaw, Patrick;;0;$3,000;gsw;H;uta;106;94; 3.37;0pt 0-1fg
+20170502;4980;PG;Satoransky, Tomas;;0;$2,000;was;A;bos;119;129;DNP;
+20170502;4615;PG;Burke, Trey;;0;$2,100;was;A;bos;119;129;DNP;
+20170502;4679;SG;Young, James;;0;$2,000;bos;H;was;129;119;DNP;
+20170502;4984;SG;McClellan, Sheldon;;0;$2,000;was;A;bos;119;129;DNP;
+20170502;4923;PG;Jackson, Demetrius;;0;$2,000;bos;H;was;129;119;NA;
+20170502;4441;SG;Burks, Alec;;0;$2,000;uta;A;gsw;94;106;NA;
+20170502;4472;SF/PF;Crowder, Jae;1;34.25;$6,000;bos;H;was;129;119;41.02;14pt 7rb 4as 1st 2bl 1to 4-9fg 6-9ft
+20170502;4653;SF/PF;Porter, Otto;1;33.75;$5,800;was;A;bos;119;129;38.08;13pt 9rb 4as 2bl 2to 1trey 5-12fg 2-2ft
+20170502;4453;PF;Morris, Markieff;1;33.5;$5,400;was;A;bos;119;129;26.82;16pt 6rb 3as 2st 1bl 2to 1trey 6-11fg 3-3ft
+20170502;3986;SF/PF;Durant, Kevin;1;32.75;$9,000;gsw;H;uta;106;94;30.97;17pt 5rb 5as 1st 1to 1trey 7-17fg 2-2ft
+20170502;4285;SF/PF;Hayward, Gordon;1;29.5;$8,200;uta;A;gsw;94;106;34.53;12pt 4rb 4as 2st 1bl 1to 2trey 4-15fg 2-2ft
+20170502;4677;SG/SF;Smart, Marcus;;26.5;$5,500;bos;H;was;129;119;39.33;9pt 4rb 5as 2st 1bl 3to 1trey 3-7fg 2-6ft
+20170502;3573;PF;West, David;;25.5;$2,900;gsw;H;uta;106;94;17.62;4pt 4rb 7as 1st 2bl 2-3fg
+20170502;4828;SG/SF;Oubre, Kelly;;21.75;$3,300;was;A;bos;119;129;27.75;12pt 7rb 2trey 5-11fg
+20170502;3304;SG/SF;Johnson, Joe;1;20.75;$5,100;uta;A;gsw;94;106;22.38;11pt 5rb 2as 2to 3trey 4-10fg
+20170502;3641;SG/SF;Iguodala, Andre;;19.25;$4,800;gsw;H;uta;106;94;23.60;4pt 3rb 5as 1st 1bl 2-8fg
+20170502;4701;SG/SF;Ingles, Joe;1;13;$4,500;uta;A;gsw;94;106;23.30;5pt 2rb 4as 2to 1trey 2-5fg
+20170502;4806;PF;Lyles, Trey;;11.75;$2,000;uta;A;gsw;94;106; 5.62;7pt 1rb 1as 1st 1to 1trey 3-4fg
+20170502;4978;PF;Bolomboy, Joel;;5.25;$2,000;uta;A;gsw;94;106; 5.27;4pt 1rb 2-2fg
+20170502;4709;SG/SF;Bogdanovic, Bojan;;2.5;$3,900;was;A;bos;119;129; 8.37;0pt 2rb 0-2fg
+20170502;3474;SF;Barnes, Matt;;1.5;$3,200;gsw;H;uta;106;94; 4.00;0pt 1as 0-1fg
+20170502;3768;PF;Johnson, Amir;1;1.5;$2,300;bos;H;was;129;119; 4.52;0pt 1bl 1to
+20170502;4700;PF;McAdoo, James Michael;;0;$2,100;gsw;H;uta;106;94; 3.40;0pt 0-1fg
+20170502;4187;PF;Jerebko, Jonas;;0;$2,200;bos;H;was;129;119;DNP;
+20170502;3760;SG/SF;Green, Gerald;;0;$3,500;bos;H;was;129;119;DNP;
+20170502;4824;PF;Mickey, Jordan;;0;$2,000;bos;H;was;129;119;NA;
+20170502;4809;PF;McCullough, Chris;;0;$2,000;was;A;bos;119;129;NA;
+20170502;4820;PF;Looney, Kevon;;0;$2,000;gsw;H;uta;106;94;NA;
+20170502;4504;PF/C;Green, Draymond;1;45;$7,900;gsw;H;uta;106;94;34.23;17pt 8rb 6as 2st 2bl 2trey 5-10fg 5-7ft
+20170502;3998;C;Horford, Al;1;41;$7,800;bos;H;was;129;119;42.53;15pt 12rb 3as 1st 2bl 3to 1trey 6-9fg 2-2ft
+20170502;3756;C;Gortat, Marcin;1;37.5;$5,900;was;A;bos;119;129;41.55;14pt 10rb 3as 1st 2bl 2to 6-8fg 2-4ft
+20170502;4620;C;Gobert, Rudy;1;32.5;$7,300;uta;A;gsw;94;106;30.60;13pt 8rb 3as 1st 2bl 2to 5-7fg 3-6ft
+20170502;4023;PF/C;Smith, Jason;;17.25;$2,700;was;A;bos;119;129;16.43;10pt 1rb 1as 2bl 1to 2trey 4-6fg
+20170502;4583;PF/C;Olynyk, Kelly;;14.5;$4,200;bos;H;was;129;119;21.13;8pt 2rb 3as 3to 2trey 3-3fg
+20170502;3553;C;Pachulia, Zaza;1;12.75;$2,600;gsw;H;uta;106;94;14.02;10pt 1rb 1bl 1to 3-4fg 4-4ft
+20170502;3527;PF/C;Diaw, Boris;;11;$2,900;uta;A;gsw;94;106;20.00;4pt 2rb 1as 1st 1bl 2to 1-2fg 2-2ft
+20170502;4280;PF/C;Favors, Derrick;;10.25;$4,700;uta;A;gsw;94;106;12.13;4pt 5rb 2-5fg
+20170502;4114;C;McGee, JaVale;;4;$3,400;gsw;H;uta;106;94; 9.95;2pt 1bl 1-2fg
+20170502;4973;C;Ochefu, Daniel;;0;$2,000;was;A;bos;119;129;DNP;
+20170502;4516;C;Zeller, Tyler;;0;$2,000;bos;H;was;129;119;DNP;
+20170502;3777;C;Mahinmi, Ian;;0;$2,400;was;A;bos;119;129;NA;
+20170502;4565;C;Withey, Jeff;;0;$2,000;uta;A;gsw;94;106;NA;
+20170502;4933;C;Jones, Damian;;0;$2,000;gsw;H;uta;106;94;NA;

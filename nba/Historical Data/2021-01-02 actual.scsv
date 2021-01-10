@@ -1,0 +1,186 @@
+Date;GID;Pos;Name;Starter;DK Pts;DK Salary;Team;H/A;Oppt;Team Score;Oppt Score;Minutes;Stat line
+20210102;5013;PG;Brogdon, Malcolm;1;54.25;$7,400;ind;H;nyk;102;106;41.28;33pt 3rb 7as 2st 1to 7trey 12-18fg 2-2ft
+20210102;4925;PG/SF;Simmons, Ben;1;53;$9,000;phi;H;cha;127;112;36.53;15pt 12rb 11as 1st 1bl 4to 6-9fg 3-5ft
+20210102;4934;PG/SG;VanVleet, Fred;1;50.5;$7,700;tor;A;nor;116;120;39.65;27pt 8rb 5as 1st 1bl 4trey 9-23fg 5-5ft
+20210102;4266;PG/SG;Bledsoe, Eric;1;47.75;$5,700;nor;H;tor;120;116;31.27;19pt 5rb 10as 1st 1bl 4trey 5-12fg 5-6ft
+20210102;4823;PG/SG;Rozier, Terry;1;46.5;$7,000;cha;A;phi;112;127;33.90;35pt 2rb 3as 1st 2to 7trey 12-18fg 4-4ft
+20210102;5721;PG/SG;Sexton, Collin;1;41;$7,100;cle;A;atl;96;91;35.90;27pt 2rb 3as 3st 2trey 10-18fg 5-5ft
+20210102;5708;PG;Young, Trae;1;37.5;$10,200;atl;H;cle;91;96;34.10;16pt 4rb 10as 1st 6to 2trey 6-16fg 2-4ft
+20210102;6003;PG;Ball, LaMelo;;37;$5,500;cha;A;phi;112;127;30.68;13pt 4rb 5as 4st 2bl 2to 1trey 4-12fg 4-6ft
+20210102;3891;PG;Lowry, Kyle;1;36;$8,000;tor;A;nor;116;120;39.25;16pt 6rb 8as 2to 3trey 4-14fg 5-5ft
+20210102;5690;PG;Gilgeous-Alexander, Shai;1;35.25;$7,900;okc;A;orl;108;99;34.77;16pt 5rb 7as 1bl 1to 2trey 5-17fg 4-5ft
+20210102;4699;PG;Payton, Elfrid;1;35;$6,100;nyk;A;ind;106;102;33.70;19pt 8rb 5as 3to 8-17fg 3-4ft
+20210102;4564;SG;Curry, Seth;1;34.5;$5,600;phi;H;cha;127;112;34.25;21pt 6as 1st 1bl 2to 3trey 8-11fg 2-2ft
+20210102;4102;PG/SG;Hill, George;1;31.75;$4,800;okc;A;orl;108;99;27.55;18pt 1rb 5as 2st 1to 3trey 7-12fg 1-1ft
+20210102;5215;PG;Ball, Lonzo;1;29.5;$6,600;nor;H;tor;120;116;35.33;13pt 4rb 4as 2bl 3trey 5-14fg
+20210102;5131;PG;Fultz, Markelle;1;28.75;$6,200;orl;H;okc;99;108;34.97;12pt 3rb 8as 1st 3to 1trey 5-16fg 1-2ft
+20210102;5703;PG/SG;Milton, Shake;;27.5;$4,900;phi;H;cha;127;112;25.23;18pt 4rb 1as 1st 1to 3trey 7-13fg 1-2ft
+20210102;5658;PG;Graham, Devonte';1;24.75;$6,300;cha;A;phi;112;127;29.57;5pt 3rb 9as 1st 1trey 1-10fg 2-2ft
+20210102;6011;PG/SG;Maledon, Theo;;23.75;$3,200;okc;A;orl;108;99;19.35;12pt 3rb 4as 1st 1to 1trey 5-7fg 1-1ft
+20210102;4483;PG/SG;Rivers, Austin;;20.5;$3,700;nyk;A;ind;106;102;17.37;15pt 2rb 2as 3to 3trey 6-9fg
+20210102;5138;PG/SG;Bogdanovic, Bogdan;;19.5;$5,800;atl;H;cle;91;96;23.18;11pt 2rb 2as 1st 1to 3trey 4-12fg
+20210102;6065;PG;Maxey, Tyrese;;16.5;$3,200;phi;H;cha;127;112;17.92;9pt 2rb 2as 1st 1to 1trey 4-8fg
+20210102;4575;PG/SF;Carter-Williams, Michael;1;16.25;$4,100;orl;H;okc;99;108;31.15;4pt 9rb 1as 1to 2-11fg
+20210102;5860;PG;Garland, Darius;1;15;$6,000;cle;A;atl;96;91;34.33;8pt 2rb 2as 1st 1bl 5to 3-14fg 2-3ft
+20210102;4707;PG;Exum, Dante;1;14.75;$3,600;cle;A;atl;96;91;34.62;6pt 5rb 1as 1st 2to 3-8fg
+20210102;5976;PG;Quickley, Immanuel;;12.25;$3,000;nyk;A;ind;106;102;14.73;9pt 1rb 2as 3to 1trey 3-4fg 2-2ft
+20210102;5968;PG/SG;Anthony, Cole;;9.75;$4,600;orl;H;okc;99;108;17.12;2pt 5rb 1as 1-7fg
+20210102;4831;PG;McConnell, T.J.;;9.5;$3,500;ind;H;nyk;102;106;11.97;2pt 5as 1-2fg
+20210102;5222;SG;Dotson, Damyean;;8.75;$3,100;cle;A;atl;96;91;13.38;7pt 1rb 1trey 3-6fg
+20210102;5887;PG/SG;Alexander-Walker, Nickeil;;8.5;$3,400;nor;H;tor;120;116; 6.60;3pt 1as 1st 1bl 1to 1trey 1-5fg
+20210102;5727;PG;Goodwin, Brandon;;7.5;$3,000;atl;H;cle;91;96;13.90;6pt 1as 3-4fg
+20210102;5747;PG/SG;Holiday, Aaron;1;6;$3,800;ind;H;nyk;102;106;25.53;0pt 2rb 1as 1bl 0-6fg
+20210102;5901;PG/SG;Davis, Terence;;2.75;$3,100;tor;A;nor;116;120; 5.12;0pt 1rb 1as
+20210102;5133;SG;Monk, Malik;;0;$3,200;cha;A;phi;112;127;DNP;
+20210102;5864;PG;Bone, Jordan;;0;$3,000;orl;H;okc;99;108;DNP;
+20210102;5921;SG;Mathias, Dakota;;0;$3,000;phi;H;cha;127;112;DNP;
+20210102;5732;SG;Pinson, Theo;;0;$3,000;nyk;A;ind;106;102;DNP;
+20210102;6008;PG;Flynn, Malachi;;0;$3,000;tor;A;nor;116;120;DNP;
+20210102;6062;PG/SG;Lewis Jr., Kira;;0;$3,000;nor;H;tor;120;116;DNP;
+20210102;5903;SG;Thomas, Matt;;0;$3,300;tor;A;nor;116;120;DNP;
+20210102;5966;PG;Mane, Karim;;0;$3,100;orl;H;okc;99;108;DNP;
+20210102;5929;PG/SG;Lecque, Jalen;;0;$3,000;ind;H;nyk;102;106;DNP;
+20210102;5964;PG/SG;Mays, Skylar;;0;$3,000;atl;H;cle;91;96;DNP;
+20210102;5923;SG;Harper, Jared;;0;$3,000;nyk;A;ind;106;102;DNP;
+20210102;6064;SG;Joe, Isaiah;;0;$3,000;phi;H;cha;127;112;DNP;
+20210102;5219;PG/SF;Ntilikina, Frank;;0;$3,100;nyk;A;ind;106;102;NA;
+20210102;4441;SG;Burks, Alec;;0;$5,400;nyk;A;ind;106;102;NA;
+20210102;6007;SG;Harris, Jalen;;0;$3,000;tor;A;nor;116;120;NA;
+20210102;4514;SG;Lamb, Jeremy;;0;$4,300;ind;H;nyk;102;106;NA;
+20210102;4468;SG;Fournier, Evan;;0;$5,300;orl;H;okc;99;108;NA;
+20210102;5928;PG;Jerome, Ty;;0;$3,000;okc;A;orl;108;99;NA;
+20210102;5999;SG;Darling, Nate;;0;$3,000;cha;A;phi;112;127;NA;
+20210102;4945;SG;Dunn, Kris;;0;$4,100;atl;H;cle;91;96;NA;
+20210102;3872;PG;Rondo, Rajon;;0;$3,300;atl;H;cle;91;96;NA;
+20210102;6001;PG;Riller, Grant;;0;$3,000;cha;A;phi;112;127;NA;
+20210102;4610;PG;Dellavedova, Matthew;;0;$3,300;cle;A;atl;96;91;NA;
+20210102;5212;PG;Smith Jr., Dennis;;0;$3,000;nyk;A;ind;106;102;NA;
+20210102;4412;SF/PF;Harris, Tobias;1;57.75;$7,300;phi;H;cha;127;112;36.87;24pt 9rb 6as 4st 3bl 5to 4trey 9-14fg 2-2ft
+20210102;4965;SF/PF;Ingram, Brandon;1;47;$8,100;nor;H;tor;120;116;35.33;31pt 6rb 4as 1bl 3to 4trey 8-17fg 11-14ft
+20210102;4285;SF/PF;Hayward, Gordon;1;47;$7,200;cha;A;phi;112;127;38.50;20pt 6rb 6as 4st 1bl 1to 2trey 7-15fg 4-4ft
+20210102;5915;SF/PF;Bazley, Darius;1;41.5;$5,400;okc;A;orl;108;99;32.40;19pt 12rb 2as 1bl 2trey 7-10fg 3-3ft
+20210102;4549;SG/SF;Ross, Terrence;;40.5;$5,200;orl;H;okc;99;108;30.82;26pt 6rb 2as 1st 4trey 9-21fg 4-5ft
+20210102;5878;SG/SF;Barrett, RJ;1;37.25;$6,500;nyk;A;ind;106;102;42.27;25pt 5rb 3as 1to 4trey 8-15fg 5-6ft
+20210102;4627;SG/SF;Oladipo, Victor;1;33.75;$6,700;ind;H;nyk;102;106;37.37;16pt 7rb 3as 1st 1bl 1to 2trey 3-16fg 8-11ft
+20210102;4705;PF;Gordon, Aaron;1;33;$5,600;orl;H;okc;99;108;27.73;15pt 8rb 5as 1trey 6-15fg 2-3ft
+20210102;5754;SG/SF;Huerter, Kevin;;32.5;$4,500;atl;H;cle;91;96;27.95;13pt 10rb 1as 1st 1bl 3to 3trey 5-11fg
+20210102;5879;SF/PF;Hunter, De'Andre;1;31.75;$5,300;atl;H;cle;91;96;30.92;17pt 5rb 2as 2st 1bl 3to 2trey 5-11fg 5-6ft
+20210102;5241;SF/PF;Anunoby, OG;1;30.25;$5,800;tor;A;nor;116;120;36.43;17pt 7rb 3as 2to 2trey 5-11fg 5-6ft
+20210102;5238;SF;Hart, Josh;;24;$4,800;nor;H;tor;120;116;25.83;9pt 8rb 2as 1bl 2to 2trey 3-8fg 1-2ft
+20210102;4193;SG/SF;Green, Danny;1;22.5;$3,600;phi;H;cha;127;112;25.78;13pt 2rb 4as 1to 3trey 4-7fg 2-3ft
+20210102;4558;SF;Holiday, Justin;;22.25;$4,400;ind;H;nyk;102;106;28.47;12pt 1rb 2as 1st 1bl 4trey 4-5fg
+20210102;5737;SG/SF;Diallo, Hamidou;;22;$3,900;okc;A;orl;108;99;18.92;12pt 8rb 1to 1trey 5-9fg 1-2ft
+20210102;5855;SG/SF;Martin, Caleb;;20.75;$3,400;cha;A;phi;112;127;19.10;9pt 5rb 2as 1st 1trey 3-7fg 2-2ft
+20210102;5116;SF/PF;Osman, Cedi;;20.5;$4,600;cle;A;atl;96;91;25.83;11pt 4rb 2as 3trey 4-12fg
+20210102;5657;SF/PF;Bridges, Miles;;20.5;$6,200;cha;A;phi;112;127;24.13;8pt 4rb 2as 1st 2bl 3to 4-11fg
+20210102;4654;SG/SF;Bullock, Reggie;1;18.75;$4,400;nyk;A;ind;106;102;33.33;6pt 7rb 1as 1st 1to 2trey 2-6fg 0-1ft
+20210102;5916;SG/SF;Dort, Luguentz;1;18;$5,100;okc;A;orl;108;99;30.18;9pt 4rb 1st 1bl 1to 1trey 2-7fg 4-4ft
+20210102;4929;PF;Siakam, Pascal;1;17;$8,300;tor;A;nor;116;120;24.73;10pt 4rb 1as 1st 3to 4-10fg 2-2ft
+20210102;4792;SG/SF;Powell, Norman;;15.25;$4,000;tor;A;nor;116;120;24.03;12pt 1rb 4trey 4-10fg
+20210102;5179;SF;Bacon, Dwayne;1;13.5;$3,400;orl;H;okc;99;108;29.95;5pt 4rb 1as 1st 2-11fg 1-1ft
+20210102;3861;SG/SF;Redick, J.J.;;12;$3,500;nor;H;tor;120;116;21.23;5pt 2rb 3as 1-4fg 3-3ft
+20210102;5906;SF;Thybulle, Matisse;;10.25;$3,200;phi;H;cha;127;112;15.42;3pt 1rb 1as 1st 1bl 1trey 1-4fg
+20210102;4669;SF/PF;McDermott, Doug;;10;$4,900;ind;H;nyk;102;106;20.28;9pt 2trey 3-13fg 1-1ft
+20210102;5688;SF;Williams, Kenrich;;8.25;$3,000;okc;A;orl;108;99;14.58;2pt 5rb 0-5fg 2-2ft
+20210102;5880;SG/SF;Reddish, Cam;1;7;$5,000;atl;H;cle;91;96;23.95;2pt 2rb 1as 1st 2to 1-4fg
+20210102;5945;PF;McDaniels, Jalen;;6;$3,300;cha;A;phi;112;127;12.02;4pt 2rb 1to 2-4fg
+20210102;5705;SF/PF;Knox, Kevin;;6;$3,700;nyk;A;ind;106;102;15.35;0pt 2rb 1as 1bl 0-4fg
+20210102;4838;SF/PF;Johnson, Stanley;;4.75;$3,100;tor;A;nor;116;120;11.98;0pt 1rb 1as 1st 0-1fg
+20210102;6013;PF;Pokusevski, Aleksej;;3.5;$3,400;okc;A;orl;108;99;14.25;0pt 2rb 1st 2to 0-1fg
+20210102;5934;PF;Martin, Kelan;;2.5;$3,000;ind;H;nyk;102;106; 4.27;0pt 2rb 0-1fg
+20210102;4566;PF;Hill, Solomon;;1.25;$3,200;atl;H;cle;91;96;10.52;0pt 1rb 0-2fg
+20210102;5857;PF;Wade, Dean;;1.25;$3,000;cle;A;atl;96;91; 9.13;0pt 1rb 0-2fg
+20210102;5889;PF;Melli, Nicolo;;1.25;$3,100;nor;H;tor;120;116; 3.63;0pt 1rb 0-1fg
+20210102;5753;SF;Watanabe, Yuta;;0;$3,000;tor;A;nor;116;120;DNP;
+20210102;6060;SF/PF;Marshall, Naji;;0;$3,000;nor;H;tor;120;116;DNP;
+20210102;5135;PF;Jackson, Justin;;0;$3,000;okc;A;orl;108;99;DNP;
+20210102;5994;SF;Stevens, Lamar;;0;$3,000;cle;A;atl;96;91;DNP;
+20210102;6012;SF;Hall, Josh;;0;$3,000;okc;A;orl;108;99;DNP;
+20210102;5144;SG/SF;Sumner, Edmond;;0;$3,000;ind;H;nyk;102;106;DNP;
+20210102;4484;PF;Miller, Darius;;0;$3,000;okc;A;orl;108;99;DNP;
+20210102;5958;SF;Watson, Paul;;0;$3,000;tor;A;nor;116;120;DNP;
+20210102;5996;SF;Stanley, Cassius;;0;$3,000;ind;H;nyk;102;106;DNP;
+20210102;6063;PF;Reed, Paul;;0;$3,000;phi;H;cha;127;112;DNP;
+20210102;5876;PF;Brazdeikis, Ignas;;0;$3,000;nyk;A;ind;106;102;DNP;
+20210102;5852;SG/SF;Martin, Cody;;0;$3,100;cha;A;phi;112;127;DNP;
+20210102;5225;SF;Ferguson, Terrance;;0;$3,000;phi;H;cha;127;112;DNP;
+20210102;5001;SF;Bembry, DeAndre;;0;$3,000;tor;A;nor;116;120;DNP;
+20210102;5157;SG/SF;Korkmaz, Furkan;;0;$3,300;phi;H;cha;127;112;NA;
+20210102;5810;SF;Bowen II, Brian;;0;$3,000;ind;H;nyk;102;106;NA;
+20210102;3621;SF;Ariza, Trevor;;0;$4,300;okc;A;orl;108;99;NA;
+20210102;5977;PF;Toppin, Obi;;0;$4,000;nyk;A;ind;106;102;NA;
+20210102;4697;SF;Ennis, James;;0;$3,200;orl;H;okc;99;108;NA;
+20210102;5715;SF/PF;Gabriel, Wenyen;;0;$3,000;nor;H;tor;120;116;NA;
+20210102;4724;PF;Warren, T.J.;;0;$5,700;ind;H;nyk;102;106;NA;
+20210102;5993;SF/PF;Okoro, Isaac;;0;$4,200;cle;A;atl;96;91;NA;
+20210102;4571;SG/SF;Snell, Tony;;0;$3,000;atl;H;cle;91;96;NA;
+20210102;4902;SG/SF;McCaw, Patrick;;0;$3,000;tor;A;nor;116;120;NA;
+20210102;4261;PF;Aminu, Al-Farouq;;0;$3,000;orl;H;okc;99;108;NA;
+20210102;5859;SG/SF;Windler, Dylan;;0;$3,000;cle;A;atl;96;91;NA;
+20210102;5137;PF;Isaac, Jonathan;;0;$3,000;orl;H;okc;99;108;NA;
+20210102;4082;PF;Gallinari, Danilo;;0;$4,300;atl;H;cle;91;96;NA;
+20210102;5234;SG/SF;Thornwell, Sindarius;;0;$3,000;nor;H;tor;120;116;NA;
+20210102;5861;SG/SF;Porter, Kevin;;0;$4,700;cle;A;atl;96;91;NA;
+20210102;4488;PF;Scott, Mike;;0;$3,000;phi;H;cha;127;112;NA;
+20210102;4373;C;Vucevic, Nikola;1;52.25;$8,700;orl;H;okc;99;108;34.97;30pt 13rb 2as 1to 4trey 13-21fg
+20210102;4766;C;Capela, Clint;1;46;$5,200;atl;H;cle;91;96;30.92;16pt 16rb 3st 2bl 3to 8-12fg 0-5ft
+20210102;4762;C;Embiid, Joel;1;46;$10,000;phi;H;cha;127;112;36.73;19pt 14rb 4as 1st 1bl 5to 1trey 7-11fg 4-6ft
+20210102;4680;PF/C;Randle, Julius;1;42.25;$9,100;nyk;A;ind;106;102;37.03;12pt 11rb 8as 2st 4to 2trey 5-16fg
+20210102;4921;PF/C;Sabonis, Domantas;1;39.25;$9,400;ind;H;nyk;102;106;39.18;13pt 13rb 4as 2st 4to 1trey 4-8fg 4-4ft
+20210102;5117;PF/C;Boucher, Chris;;38.25;$4,700;tor;A;nor;116;120;28.55;24pt 5rb 1as 2st 1bl 1trey 7-13fg 9-9ft
+20210102;4798;PF/C;Nance, Larry;1;37.75;$6,900;cle;A;atl;96;91;36.62;9pt 11rb 6as 3st 1to 1trey 3-10fg 2-2ft
+20210102;4114;C;McGee, JaVale;;36.25;$4,100;cle;A;atl;96;91;24.93;14pt 9rb 4as 2st 1bl 2to 6-11fg 2-5ft
+20210102;5700;C;Robinson, Mitchell;1;32.75;$5,400;nyk;A;ind;106;102;29.15;16pt 9rb 1as 2bl 8-10fg
+20210102;5888;PF/C;Williamson, Zion;1;31.75;$7,800;nor;H;tor;120;116;32.77;21pt 7rb 1as 1bl 3to 7-12fg 7-10ft
+20210102;4574;C;Adams, Steven;1;31;$6,000;nor;H;tor;120;116;31.40;13pt 10rb 1as 2st 3to 4-7fg 5-8ft
+20210102;4458;C;Biyombo, Bismack;1;28.75;$4,900;cha;A;phi;112;127;30.58;9pt 9rb 5as 1st 2to 3-7fg 3-4ft
+20210102;3998;PF/C;Horford, Al;1;28;$6,100;okc;A;orl;108;99;27.77;12pt 6rb 4as 1bl 1to 2trey 5-12fg
+20210102;4489;C;Drummond, Andre;1;25.25;$9,200;cle;A;atl;96;91;20.35;12pt 11rb 4to 6-10fg
+20210102;4781;C;Turner, Myles;1;24.5;$6,400;ind;H;nyk;102;106;31.65;17pt 4rb 1bl 2to 3trey 7-15fg
+20210102;5134;PF/C;Collins, John;1;24;$7,500;atl;H;cle;91;96;34.13;10pt 4rb 5as 1bl 2to 1trey 3-10fg 3-4ft
+20210102;5854;PF/C;Washington, P.J.;1;22.25;$5,500;cha;A;phi;112;127;21.52;9pt 5rb 2as 2st 1to 1trey 2-8fg 4-4ft
+20210102;5891;C;Hayes, Jaxson;;18;$3,200;nor;H;tor;120;116;16.60;6pt 8rb 1st 1-3fg 4-4ft
+20210102;4556;C;Baynes, Aron;1;17.75;$4,200;tor;A;nor;116;120;23.03;8pt 5rb 1as 1st 4-7fg
+20210102;5724;PF/C;Clark, Gary;;16.5;$3,000;orl;H;okc;99;108;18.07;0pt 6rb 1as 3st 1bl 1to 0-2fg
+20210102;4659;C;Muscala, Mike;;15;$3,700;okc;A;orl;108;99;20.23;8pt 6rb 2to 1trey 2-6fg 3-3ft
+20210102;4652;C;Noel, Nerlens;;13.5;$3,300;nyk;A;ind;106;102;17.07;4pt 6rb 1st 2-2fg
+20210102;4696;C;Birch, Khem;;10.25;$3,500;orl;H;okc;99;108;15.23;5pt 1rb 1st 1bl 2-4fg 1-1ft
+20210102;4591;C;Len, Alex;;6.75;$3,400;tor;A;nor;116;120; 7.22;2pt 1rb 2bl 1to 1-2fg
+20210102;3639;C;Howard, Dwight;;5.25;$3,900;phi;H;cha;127;112;11.27;5pt 1rb 2to 1-2fg 3-4ft
+20210102;5881;C;Fernando, Bruno;;5;$3,100;atl;H;cle;91;96;10.43;0pt 4rb 0-3fg
+20210102;4935;PF/C;Maker, Thon;;3;$3,000;cle;A;atl;96;91; 4.90;2pt 1as 1to 2-2ft
+20210102;5936;C;Brown, Moses;;0;$3,000;okc;A;orl;108;99;DNP;
+20210102;5963;C;Knight, Nathan;;0;$3,000;atl;H;cle;91;96;DNP;
+20210102;4949;C;Hernangomez, Guillermo;;0;$3,000;nor;H;tor;120;116;DNP;
+20210102;6061;C;Magnay, Will;;0;$3,000;nor;H;tor;120;116;DNP;
+20210102;5858;C;Bolden, Marques;;0;$3,000;cle;A;atl;96;91;DNP;
+20210102;5166;C;Bradley, Tony;;0;$3,000;phi;H;cha;127;112;DNP;
+20210102;5919;C;Roby, Isaiah;;0;$3,800;okc;A;orl;108;99;DNP;
+20210102;5706;C;Bamba, Mohamed;;0;$3,000;orl;H;okc;99;108;DNP;
+20210102;6000;C;Carey Jr., Vernon;;0;$3,000;cha;A;phi;112;127;DNP;
+20210102;4676;PF/C;Sampson, JaKarr;;0;$3,000;ind;H;nyk;102;106;DNP;
+20210102;5843;C;Poirier, Vincent;;0;$3,000;phi;H;cha;127;112;DNP;
+20210102;6005;C;Richards, Nick;;0;$3,000;cha;A;phi;112;127;DNP;
+20210102;4614;C;Zeller, Cody;;0;$4,000;cha;A;phi;112;127;NA;
+20210102;5965;PF/C;Okeke, Chuma;;0;$3,100;orl;H;okc;99;108;NA;
+20210102;4074;PF/C;Love, Kevin;;0;$5,900;cle;A;atl;96;91;NA;
+20210102;5962;C;Okongwu, Onyeka;;0;$3,000;atl;H;cle;91;96;NA;
+20210102;5809;C;Bitadze, Goga;;0;$3,000;ind;H;nyk;102;106;NA;
+20210102;5755;PF/C;Spellman, Omari;;0;$3,000;nyk;A;ind;106;102;NA;
+20210102;4834;NA;Wood, Christian;1;52.25;N/A;hou;H;sac;102;94;33.38;20pt 15rb 1as 1st 4bl 1to 2trey 7-14fg 4-7ft
+20210102;4321;NA;Wall, John;1;50.5;N/A;hou;H;sac;102;94;37.23;28pt 4rb 6as 3st 2bl 5to 2trey 11-21fg 4-6ft
+20210102;4077;NA;Gordon, Eric;1;36.75;N/A;hou;H;sac;102;94;32.85;21pt 3rb 4as 2st 1bl 3to 3trey 7-18fg 4-4ft
+20210102;5132;NA;Fox, De'Aaron;1;36;N/A;sac;A;hou;94;102;35.77;23pt 2rb 4as 2st 1bl 3to 8-19fg 7-10ft
+20210102;4502;NA;Barnes, Harrison;1;30.75;N/A;sac;A;hou;94;102;38.38;19pt 7rb 1st 2trey 7-13fg 3-5ft
+20210102;4961;NA;Hield, Buddy;1;28;N/A;sac;A;hou;94;102;37.52;17pt 4rb 2as 1st 3to 5trey 6-17fg
+20210102;4835;NA;Holmes, Richaun;1;26.25;N/A;sac;A;hou;94;102;33.03;11pt 9rb 2bl 4-8fg 3-3ft
+20210102;5714;NA;Bagley, Marvin;1;25.75;N/A;sac;A;hou;94;102;25.18;12pt 9rb 2as 2to 1trey 5-13fg 1-2ft
+20210102;5184;NA;Brown, Sterling;;23.5;N/A;hou;H;sac;102;94;26.38;11pt 6rb 1as 1st 3trey 4-6fg
+20210102;4916;NA;House, Danuel;1;16.5;N/A;hou;H;sac;102;94;35.53;5pt 6rb 1as 1bl 1trey 1-4fg 2-2ft
+20210102;4405;NA;Joseph, Cory;;14;N/A;sac;A;hou;94;102;28.20;6pt 6rb 1st 3to 3-8fg
+20210102;4274;NA;Cousins, DeMarcus;;13;N/A;hou;H;sac;102;94;11.07;2pt 6rb 2bl 1to 1-6fg
+20210102;5983;NA;Tate, Jae'Sean;;13;N/A;hou;H;sac;102;94;20.47;5pt 2rb 1as 2st 1-3fg 3-4ft
+20210102;4702;NA;Robinson III, Glenn;;12.25;N/A;sac;A;hou;94;102;20.63;5pt 3rb 2as 1trey 2-7fg
+20210102;4875;NA;Bjelica, Nemanja;;11.75;N/A;sac;A;hou;94;102;14.95;1pt 7rb 1as 1bl 3to 0-2fg 1-1ft
+20210102;3871;NA;Tucker, P.J.;1;10.5;N/A;hou;H;sac;102;94;33.18;5pt 4rb 1as 3to 1trey 2-3fg
+20210102;5109;NA;Nwaba, David;;10;N/A;hou;H;sac;102;94; 9.90;5pt 2rb 1st 1trey 2-5fg

@@ -1,0 +1,31 @@
+Date;GID;Pos;Name;Starter;DK Pts;DK Salary;Team;H/A;Oppt;Team Score;Oppt Score;Minutes;Stat line
+20160428;4420;PG;Thomas, Isaiah;1;48.25;$8,100;bos;H;atl;92;104;43.17;25pt 3rb 10as 1st 1bl 3to 1trey 9-24fg 6-7ft
+20160428;3547;SG;Korver, Kyle;1;36.25;$4,500;atl;A;bos;104;92;35.57;14pt 9rb 3as 1st 2bl 1to 2trey 4-4fg 4-4ft
+20160428;4677;PG;Smart, Marcus;;29.75;$5,300;bos;H;atl;92;104;34.60;13pt 7rb 1as 4st 3to 4-11fg 5-5ft
+20160428;4595;PG;Schroder, Dennis;;27.25;$2,900;atl;A;bos;104;92;22.93;12pt 3rb 8as 2to 1trey 5-10fg 1-2ft
+20160428;4318;SG;Turner, Evan;1;22.25;$6,900;bos;H;atl;92;104;36.88;8pt 7rb 4as 1to 4-17fg
+20160428;4221;PG;Teague, Jeff;1;17.75;$6,800;atl;A;bos;104;92;24.75;11pt 1rb 5as 4to 4-11fg 3-4ft
+20160428;4628;SG;Hardaway Jr., Tim;;14.25;$2,000;atl;A;bos;104;92;16.60;7pt 3rb 2as 1trey 3-6fg
+20160428;4823;PG;Rozier, Terry;;12.5;$2,100;bos;H;atl;92;104;17.55;5pt 4rb 1bl 1trey 1-2fg 2-2ft
+20160428;4825;SG;Hunter, R.J.;;2.75;$2,000;bos;H;atl;92;104; 4.83;0pt 1rb 1as 0-2fg
+20160428;3538;PG;Hinrich, Kirk;;0;$2,000;atl;A;bos;104;92; 0.32;0pt
+20160428;4679;SG;Young, James;;0;$2,000;bos;H;atl;92;104; 0.23;0pt
+20160428;4865;SG;Patterson, Lamar;;0;$2,000;atl;A;bos;104;92;DNP;0pt
+20160428;4269;SG;Bradley, Avery;;0;$4,800;bos;H;atl;92;104;NA;0pt
+20160428;4900;SG;Holland, John;;0;$2,000;bos;H;atl;92;104;NA;0pt
+20160428;3904;PF;Millsap, Paul;1;38.5;$8,700;atl;A;bos;104;92;36.72;17pt 8rb 2as 1st 4bl 3to 4-10fg 9-11ft
+20160428;4507;SF;Bazemore, Kent;1;29;$6,000;atl;A;bos;104;92;31.58;15pt 4rb 3as 2bl 1to 2trey 6-13fg 1-4ft
+20160428;4472;SF;Crowder, Jae;1;24;$5,800;bos;H;atl;92;104;28.00;15pt 6rb 3trey 5-15fg 2-2ft
+20160428;4187;PF;Jerebko, Jonas;1;18.75;$4,400;bos;H;atl;92;104;32.87;13pt 1rb 2bl 1to 2trey 5-9fg 1-1ft
+20160428;4488;PF;Scott, Mike;;13.75;$2,400;atl;A;bos;104;92;19.95;7pt 3rb 1st 1bl 3to 1trey 2-4fg 2-2ft
+20160428;3931;SF;Sefolosha, Thabo;;9.75;$2,800;atl;A;bos;104;92;12.25;2pt 5rb 1st 1to 1-4fg
+20160428;3768;PF;Johnson, Amir;1;7;$5,100;bos;H;atl;92;104;18.03;3pt 4rb 2to 1-1fg 1-1ft
+20160428;3640;PF;Humphries, Kris;;0;$2,000;atl;A;bos;104;92;DNP;0pt
+20160428;4824;PF;Mickey, Jordan;;0;$2,000;bos;H;atl;92;104;DNP;0pt
+20160428;3998;C;Horford, Al;1;32;$7,700;atl;A;bos;104;92;30.28;15pt 4rb 2as 2st 3bl 3to 1trey 7-10fg
+20160428;4516;C;Zeller, Tyler;;14.25;$2,000;bos;H;atl;92;104;11.57;8pt 5rb 4-6fg
+20160428;4659;C;Muscala, Mike;;8;$2,000;atl;A;bos;104;92; 9.05;4pt 2rb 1as 2-2fg
+20160428;4475;C;Sullinger, Jared;;6.5;$3,800;bos;H;atl;92;104; 6.78;2pt 4rb 1to 1-5fg
+20160428;4583;C;Olynyk, Kelly;;0.75;$2,000;bos;H;atl;92;104; 5.48;0pt 1rb 1to 0-2fg
+20160428;4024;C;Splitter, Tiago;;0;$2,000;atl;A;bos;104;92;NA;0pt
+20160428;4867;C;Tavares, Walter;;0;$2,000;atl;A;bos;104;92;NA;0pt

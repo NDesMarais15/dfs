@@ -1,0 +1,87 @@
+Date;GID;Pos;Name;Starter;DK Pts;DK Salary;Team;H/A;Oppt;Team Score;Oppt Score;Minutes;Stat line
+20201215;4173;NA;Curry, Stephen;1;48.5;N/A;gsw;A;sac;113;114;28.20;29pt 4rb 4as 3st 1bl 4to 5trey 11-21fg 2-3ft
+20201215;4412;NA;Harris, Tobias;1;34.25;N/A;phi;H;bos;108;99;25.70;16pt 9rb 3as 1st 1bl 4to 1trey 7-11fg 1-2ft
+20201215;4952;NA;Chriss, Marquese;;33.75;N/A;gsw;A;sac;113;114;18.63;17pt 9rb 2as 1st 2to 3trey 7-11fg
+20201215;4274;NA;Cousins, DeMarcus;1;32.75;N/A;hou;H;sas;112;98;21.40;7pt 11rb 2as 4st 1bl 3to 1trey 3-8fg
+20201215;4961;NA;Hield, Buddy;1;31.25;N/A;sac;H;gsw;114;113;23.70;18pt 3rb 2as 1st 1bl 5trey 6-14fg 1-1ft
+20201215;4324;NA;Whiteside, Hassan;;30.75;N/A;sac;H;gsw;114;113;14.73;11pt 9rb 1st 4bl 3to 5-6fg 1-5ft
+20201215;4963;NA;Murray, Dejounte;1;29.75;N/A;sas;A;hou;98;112;25.18;13pt 5rb 7as 1st 5to 1trey 5-10fg 2-2ft
+20201215;5805;NA;Guy, Kyle;;29.75;N/A;sac;H;gsw;114;113;20.57;20pt 3rb 3as 3to 6trey 7-11fg 0-2ft
+20201215;5703;NA;Milton, Shake;;29.5;N/A;phi;H;bos;108;99;23.23;19pt 4rb 3as 1to 3trey 8-14fg
+20201215;4704;NA;Wiggins, Andrew;1;29.25;N/A;gsw;A;sac;113;114;25.97;12pt 1rb 4as 2st 3bl 1to 1trey 4-12fg 3-4ft
+20201215;5132;NA;Fox, De'Aaron;1;29.25;N/A;sac;H;gsw;114;113;24.02;17pt 1rb 5as 2st 2to 1trey 6-13fg 4-6ft
+20201215;4321;NA;Wall, John;1;28.5;N/A;hou;H;sas;112;98;25.48;15pt 2rb 3as 3st 1bl 4to 1trey 6-13fg 2-6ft
+20201215;4762;NA;Embiid, Joel;1;28.25;N/A;phi;H;bos;108;99;16.80;18pt 3rb 2as 2st 1to 6-14fg 6-6ft
+20201215;3857;NA;Gay, Rudy;1;27.5;N/A;sas;A;hou;98;112;20.60;11pt 8rb 2as 1st 1bl 1to 5-7fg 1-3ft
+20201215;4835;NA;Holmes, Richaun;1;26.25;N/A;sac;H;gsw;114;113;21.27;8pt 7rb 3as 2st 2bl 6to 4-5fg 0-2ft
+20201215;6010;NA;Vassell, Devin;;26;N/A;sas;A;hou;98;112;31.80;11pt 4rb 1as 4st 1trey 4-8fg 2-4ft
+20201215;4224;NA;Harden, James;1;25.25;N/A;hou;H;sas;112;98;21.37;12pt 3rb 4as 2st 3to 2trey 3-10fg 4-5ft
+20201215;4806;NA;Lyles, Trey;;24.25;N/A;sas;A;hou;98;112;28.00;7pt 9rb 2as 1st 1bl 3to 1trey 3-12fg
+20201215;4925;NA;Simmons, Ben;1;24;N/A;phi;H;bos;108;99;26.02;10pt 2rb 6as 2st 3to 3-5fg 4-5ft
+20201215;5756;NA;Walker, Lonnie;1;23.75;N/A;sas;A;hou;98;112;26.43;17pt 1rb 1as 2st 3to 3trey 6-11fg 2-2ft
+20201215;5983;NA;Tate, Jae'Sean;;23.25;N/A;hou;H;sas;112;98;17.60;11pt 7rb 1as 1st 5-7fg 1-4ft
+20201215;4708;NA;Caboclo, Bruno;;22.5;N/A;hou;H;sas;112;98;14.40;7pt 4rb 2as 4bl 3to 2trey 2-4fg 1-2ft
+20201215;5659;NA;Wanamaker, Brad;;22.25;N/A;gsw;A;sac;113;114;18.33;10pt 5rb 3as 1bl 2to 1trey 2-4fg 5-6ft
+20201215;5111;NA;Tatum, Jayson;1;20.5;N/A;bos;A;phi;99;108;22.38;10pt 4rb 2as 1st 1bl 3to 4-13fg 2-5ft
+20201215;5017;NA;Brown, Jaylen;1;20.5;N/A;bos;A;phi;99;108;22.12;5pt 8rb 2as 2st 4to 1trey 1-11fg 2-2ft
+20201215;4221;NA;Teague, Jeff;;20.5;N/A;bos;A;phi;99;108;18.67;18pt 1as 2to 4trey 7-9fg
+20201215;4828;NA;Oubre, Kelly;1;20.25;N/A;gsw;A;sac;113;114;23.75;12pt 5rb 1as 1trey 3-9fg 5-9ft
+20201215;4875;NA;Bjelica, Nemanja;;19;N/A;sac;H;gsw;114;113;20.22;5pt 6rb 3as 1bl 1to 1trey 1-4fg 2-2ft
+20201215;5846;NA;Williams, Grant;;19;N/A;bos;A;phi;99;108;23.95;5pt 6rb 3as 1bl 1to 1trey 2-4fg
+20201215;5660;NA;Williams, Robert;1;18.5;N/A;bos;A;phi;99;108;18.68;8pt 6rb 1as 1bl 1to 4-5fg 0-2ft
+20201215;4589;NA;McLemore, Ben;;18.25;N/A;hou;H;sas;112;98;24.12;15pt 1rb 1as 1to 2trey 6-10fg 1-1ft
+20201215;4245;NA;Mills, Patty;;18;N/A;sas;A;hou;98;112;19.45;9pt 2rb 2as 2st 3to 2trey 3-8fg 1-2ft
+20201215;4077;NA;Gordon, Eric;1;17.75;N/A;hou;H;sas;112;98;21.78;11pt 1rb 3as 1to 3trey 3-10fg 2-2ft
+20201215;3860;NA;Aldridge, LaMarcus;1;17.75;N/A;sas;A;hou;98;112;23.88;12pt 3rb 1bl 1to 1trey 3-10fg 5-6ft
+20201215;5184;NA;Brown, Sterling;;17;N/A;hou;H;sas;112;98;24.35;2pt 6rb 1as 2st 1bl 1-5fg
+20201215;4820;NA;Looney, Kevon;1;16.75;N/A;gsw;A;sac;113;114;19.88;4pt 5rb 2as 2st 1to 2-5fg 0-2ft
+20201215;4916;NA;House, Danuel;;15.5;N/A;hou;H;sas;112;98;17.65;6pt 8rb 1to 3-9fg
+20201215;6037;NA;Mannion, Nico;;15.25;N/A;gsw;A;sac;113;114;13.93;2pt 3rb 4as 2st 1to 1-5fg
+20201215;4193;NA;Green, Danny;1;14.25;N/A;phi;H;bos;108;99;12.77;3pt 1rb 1as 4st 1trey 1-2fg
+20201215;3639;NA;Howard, Dwight;;14.25;N/A;phi;H;bos;108;99;16.57;5pt 5rb 1as 1st 1to 2-4fg 1-2ft
+20201215;4507;NA;Bazemore, Kent;;14.25;N/A;gsw;A;sac;113;114;14.03;7pt 5rb 1as 2to 1trey 3-8fg
+20201215;4211;NA;DeRozan, DeMar;1;14;N/A;sas;A;hou;98;112;18.87;7pt 2rb 3as 1to 1trey 3-6fg
+20201215;4564;NA;Curry, Seth;1;13.75;N/A;phi;H;bos;108;99;24.27;7pt 3rb 1as 1bl 2to 1trey 3-8fg
+20201215;5714;NA;Bagley, Marvin;1;13.5;N/A;sac;H;gsw;114;113;15.78;9pt 4rb 1to 4-7fg 1-2ft
+20201215;5818;NA;Toscano-Anderson, Juan;1;13.25;N/A;gsw;A;sac;113;114;17.72;0pt 3rb 4as 2bl 1to 0-2fg
+20201215;4873;NA;Grant, Jerian;;13;N/A;hou;H;sas;112;98; 9.97;7pt 2rb 2as 1trey 2-2fg 2-2ft
+20201215;5842;NA;Green, Javonte;1;12.75;N/A;bos;A;phi;99;108;14.43;7pt 1rb 1st 1bl 1trey 3-4fg
+20201215;5115;NA;Ojeleye, Semi;;12.75;N/A;bos;A;phi;99;108;17.30;5pt 3rb 1as 1st 1trey 1-3fg 2-2ft
+20201215;4911;NA;Lee, Damion;;12.5;N/A;gsw;A;sac;113;114;13.37;7pt 2rb 2as 3-6fg 1-2ft
+20201215;3871;NA;Tucker, P.J.;1;11.75;N/A;hou;H;sas;112;98;21.15;8pt 1rb 1as 2trey 2-4fg 2-2ft
+20201215;5109;NA;Nwaba, David;;11.75;N/A;hou;H;sas;112;98;13.12;6pt 3rb 1bl 3-7fg
+20201215;5845;NA;Fall, Tacko;;11.75;N/A;bos;A;phi;99;108; 9.90;5pt 3rb 1st 1bl 2to 2-3fg 1-2ft
+20201215;5004;NA;Poeltl, Jakob;;11.5;N/A;sas;A;hou;98;112;16.43;4pt 4rb 1as 1st 2to 2-4fg 0-1ft
+20201215;4702;NA;Robinson III, Glenn;;11.5;N/A;sac;H;gsw;114;113;15.70;5pt 2rb 1as 1st 1trey 1-4fg 2-2ft
+20201215;4502;NA;Barnes, Harrison;1;11.5;N/A;sac;H;gsw;114;113;25.58;4pt 6rb 1-6fg 2-2ft
+20201215;5849;NA;Waters, Tremont;;11.25;N/A;bos;A;phi;99;108;12.00;6pt 1rb 3as 1to 1-4fg 4-4ft
+20201215;5157;NA;Korkmaz, Furkan;;10.75;N/A;phi;H;bos;108;99;18.83;8pt 3rb 2to 2-6fg 4-7ft
+20201215;5166;NA;Bradley, Tony;;10.5;N/A;phi;H;bos;108;99; 9.57;3pt 2rb 2as 1bl 1-1fg 1-2ft
+20201215;5990;NA;Haliburton, Tyrese;;10.25;N/A;sac;H;gsw;114;113;15.72;2pt 1rb 3as 2st 3to 1-4fg
+20201215;4488;NA;Scott, Mike;;10;N/A;phi;H;bos;108;99;13.98;5pt 2rb 1st 1trey 2-4fg
+20201215;5679;NA;Eubanks, Drew;;9.25;N/A;sas;A;hou;98;112; 7.68;4pt 3rb 1as 1-2fg 2-4ft
+20201215;5816;NA;Poole, Jordan;;9;N/A;gsw;A;sac;113;114;17.02;5pt 2rb 1as 2-6fg 1-1ft
+20201215;4778;NA;Kaminsky, Frank;;9;N/A;sac;H;gsw;114;113; 5.58;5pt 2rb 1as 2-5fg 1-1ft
+20201215;5797;NA;Clemons, Chris;;9;N/A;hou;H;sas;112;98; 4.75;3pt 2rb 2as 1trey 1-2fg
+20201215;5992;NA;Woodard II, Robert;;9;N/A;sac;H;gsw;114;113;12.00;2pt 4rb 1bl 1-1fg
+20201215;6009;NA;Jones, Tre;;8.75;N/A;sas;A;hou;98;112;12.00;3pt 1rb 3as 1-3fg 1-3ft
+20201215;6035;NA;Wesson, Kaleb;;7.5;N/A;gsw;A;sac;113;114; 9.48;3pt 2rb 1st 1-2fg 1-2ft
+20201215;4677;NA;Smart, Marcus;1;7.5;N/A;bos;A;phi;99;108;22.12;4pt 2as 1st 3to 1-4fg 2-2ft
+20201215;5808;NA;James, Justin;;7.5;N/A;sac;H;gsw;114;113;12.00;4pt 2as 1trey 1-4fg 1-1ft
+20201215;5843;NA;Poirier, Vincent;;7;N/A;phi;H;bos;108;99; 5.07;2pt 4rb 2-2ft
+20201215;4795;NA;Toupane, Axel;;6.75;N/A;gsw;A;sac;113;114; 5.03;0pt 3rb 1st 1bl 2to
+20201215;6036;NA;Sutton, Dwayne;;6.5;N/A;gsw;A;sac;113;114; 5.03;2pt 2rb 1st 1-1fg
+20201215;5680;NA;Metu, Chimezie;;6.25;N/A;sac;H;gsw;114;113; 6.42;2pt 1rb 2bl 2to 1-3fg
+20201215;5911;NA;Mulder, Mychal;;6;N/A;gsw;A;sac;113;114; 9.62;3pt 2rb 1trey 1-4fg
+20201215;5848;NA;Edwards, Carsen;;4.75;N/A;bos;A;phi;99;108;17.75;2pt 1rb 1as 1-5fg
+20201215;5984;NA;Jones, Mason;;3.5;N/A;hou;H;sas;112;98; 2.87;2pt 1as 2-2ft
+20201215;4860;NA;Anderson, Justin;;3.25;N/A;phi;H;bos;108;99; 8.32;2pt 1rb 1-4fg
+20201215;5991;NA;Ramsey, Jahmi'us;;1.5;N/A;sac;H;gsw;114;113; 6.72;2pt 1to 1-3fg
+20201215;5921;NA;Mathias, Dakota;;1.5;N/A;phi;H;bos;108;99;10.63;0pt 1as 0-3fg
+20201215;6065;NA;Maxey, Tyrese;1;1;N/A;bos;H;v H;99;; 1.00;
+20201215;6067;NA;Pritchard, Payton;1;1;N/A;phi;H;v A;108;; 1.00;
+20201215;6066;NA;Nesmith, Aaron;1;1;N/A;phi;H;v A;108;; 1.00;
+20201215;6064;NA;Joe, Isaiah;1;1;N/A;bos;H;v H;99;; 1.00;
+20201215;6063;NA;Reed, Paul;;1;N/A;bos;H;v H;99;;NA;
+20201215;5748;NA;Reynolds, Cameron;;0.75;N/A;sas;A;hou;98;112; 9.67;0pt 1rb 1to 0-3fg
+20201215;5906;NA;Thybulle, Matisse;;0.75;N/A;phi;H;bos;108;99;10.07;0pt 1rb 1to 0-1fg

@@ -1,5 +1,5 @@
 import datetime
-from common import rotogrinders
+from common import rotogrinders, rotoguru
 import mip
 
 league = 'nba'
@@ -21,4 +21,21 @@ def run_date(date):
     mip.generate_classic_lineups(date, '', '', num_lineups, lineup_overlap)
 
 
-classic_today()
+def collect_historical_results():
+    # This is the first date of data on rotoguru for NBA
+    date = datetime.date(2014, 10, 28)
+
+    while date <= datetime.date.today():
+        rotoguru.collect_nba_players(date.year, date.month, date.day)
+        date += datetime.timedelta(days=1)
+
+
+def collect_historical_projections():
+    date = datetime.date(2017, 1, 16)
+
+    while date <= datetime.date.today():
+        rotogrinders.collect_players(league, date, '../Historical Data/', -1)
+        date += datetime.timedelta(days=1)
+
+
+collect_historical_projections()

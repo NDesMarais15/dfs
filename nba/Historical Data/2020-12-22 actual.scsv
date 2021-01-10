@@ -1,0 +1,67 @@
+Date;GID;Pos;Name;Starter;DK Pts;DK Salary;Team;H/A;Oppt;Team Score;Oppt Score;Minutes;Stat line
+20201222;4283;SG;George, Paul;1;47;$7,800;lac;A;lal;116;109;35.77;33pt 6rb 3as 1st 5to 5trey 13-18fg 2-2ft
+20201222;4173;PG;Curry, Stephen;1;45;$9,300;gsw;A;bkn;99;125;30.32;20pt 4rb 10as 2st 3to 2trey 7-21fg 4-4ft
+20201222;4595;PG/SG;Schroder, Dennis;1;43;$5,800;lal;H;lac;109;116;27.80;14pt 12rb 8as 1to 2trey 5-15fg 2-4ft
+20201222;4379;PG;Irving, Kyrie;1;38.5;$8,500;bkn;H;gsw;125;99;25.30;26pt 4rb 4as 1to 4trey 10-16fg 2-2ft
+20201222;3541;PG/SF;James, LeBron;1;35.25;$9,600;lal;H;lac;109;116;28.35;22pt 5rb 5as 4to 3trey 7-17fg 5-7ft
+20201222;4234;PG;Beverley, Patrick;1;22;$4,400;lac;A;lal;116;109;22.12;10pt 6rb 3as 2to 2trey 4-9fg
+20201222;4760;PG;Dinwiddie, Spencer;1;20.25;$6,000;bkn;H;gsw;125;99;19.95;9pt 5rb 4as 3to 1trey 2-6fg 4-4ft
+20201222;3816;PG/SG;Williams, Louis;;18.5;$5,400;lac;A;lal;116;109;25.97;11pt 2rb 3as 1to 2trey 4-9fg 1-3ft
+20201222;4911;SG;Lee, Damion;;15.25;$3,700;gsw;A;bkn;99;125;12.23;3pt 7rb 2as 1trey 1-2fg
+20201222;5911;SG;Mulder, Mychal;;10.25;$3,500;gsw;A;bkn;99;125; 6.60;8pt 1rb 2trey 3-3fg
+20201222;5659;PG;Wanamaker, Brad;;8.25;$3,300;gsw;A;bkn;99;125;21.67;3pt 1rb 3as 1to 0-2fg 3-4ft
+20201222;5816;PG/SG;Poole, Jordan;;8;$4,100;gsw;A;bkn;99;125;17.92;2pt 2rb 3as 2to 1-4fg
+20201222;5218;PG/SG;Caruso, Alex;;6;$4,000;lal;H;lac;109;116;16.67;3pt 2rb 1as 3to 1trey 1-5fg
+20201222;5738;PG/SG;Brown, Bruce;;3.75;$3,700;bkn;H;gsw;125;99; 7.52;2pt 1rb 1as 2to 1-3fg
+20201222;4756;PG;Johnson, Tyler;;3.25;$3,500;bkn;H;gsw;125;99; 5.98;0pt 1rb 1st 0-1fg
+20201222;4369;PG;Jackson, Reggie;;1.25;$4,600;lac;A;lal;116;109; 3.35;0pt 1rb 0-3fg
+20201222;4863;PG;Cook, Quinn;;0;$3,200;lal;H;lac;109;116; 1.38;0pt
+20201222;5856;PG;Mann, Terance;;0;$3,300;lac;A;lal;116;109; 1.02;0pt 0-1fg
+20201222;6037;PG;Mannion, Nico;;0;$3,300;gsw;A;bkn;99;125;NA;
+20201222;4504;PG/SF;Green, Draymond;;0;$6,300;gsw;A;bkn;99;125;NA;
+20201222;4367;SG;Thompson, Klay;;0;$3,000;gsw;A;bkn;99;125;NA;
+20201222;5773;PG;Chiozza, Chris;;0;$3,400;bkn;H;gsw;125;99;NA;
+20201222;4992;SG/SF;LeVert, Caris;;45.25;$6,500;bkn;H;gsw;125;99;24.82;20pt 9rb 5as 2st 1bl 2to 3trey 6-17fg 5-6ft
+20201222;3986;PF;Durant, Kevin;1;40.75;$9,800;bkn;H;gsw;125;99;24.93;22pt 5rb 3as 3st 1bl 1to 1trey 7-16fg 7-7ft
+20201222;4404;SG/SF;Leonard, Kawhi;1;36;$9,100;lac;A;lal;116;109;34.02;26pt 2rb 3as 2st 3to 1trey 10-26fg 5-5ft
+20201222;4733;SG/SF;Harris, Joe;1;23.75;$4,800;bkn;H;gsw;125;99;20.77;10pt 7rb 2as 1bl 2to 2trey 4-8fg
+20201222;4086;SF/PF;Batum, Nicolas;1;23.5;$4,100;lac;A;lal;116;109;28.18;3pt 6rb 6as 2st 1to 1trey 1-4fg
+20201222;4828;SF/PF;Oubre, Kelly;1;22.25;$6,700;gsw;A;bkn;99;125;25.65;6pt 7rb 2as 1st 2bl 3to 3-14fg
+20201222;4616;SG/SF;Caldwell-Pope, Kentavious;1;18.5;$4,200;lal;H;lac;109;116;23.05;9pt 2rb 1as 2st 1bl 2to 1trey 2-4fg 4-4ft
+20201222;4704;SG/SF;Wiggins, Andrew;1;18;$7,000;gsw;A;bkn;99;125;31.23;13pt 2rb 1as 1bl 4to 2trey 4-16fg 3-4ft
+20201222;5818;SF/PF;Toscano-Anderson, Juan;;16;$3,400;gsw;A;bkn;99;125;13.25;4pt 4rb 2as 2bl 2-2fg
+20201222;5216;SF/PF;Kuzma, Kyle;;15.75;$5,500;lal;H;lac;109;116;26.63;15pt 1rb 2to 1trey 6-11fg 2-2ft
+20201222;5180;SG/SF;Kennard, Luke;;15;$3,600;lac;A;lal;116;109;21.05;4pt 2rb 2as 2st 1bl 1to 2-6fg
+20201222;5815;PF;Paschall, Eric;1;9.75;$3,800;gsw;A;bkn;99;125;21.55;6pt 1rb 1bl 1trey 2-6fg 1-2ft
+20201222;5820;SG/SF;Horton-Tucker, Talen;;8.75;$3,500;lal;H;lac;109;116;10.85;6pt 1rb 1st 1to 2-2fg 2-2ft
+20201222;5704;SG/SF;Shamet, Landry;;8.75;$4,500;bkn;H;gsw;125;99;19.72;6pt 1rb 1st 2to 1trey 1-4fg 3-4ft
+20201222;4507;SF;Bazemore, Kent;;8.5;$4,300;gsw;A;bkn;99;125;11.58;2pt 2rb 2as 1st 2to 1-2fg
+20201222;4918;SF;Luwawu, Timothe;;7.5;$3,600;bkn;H;gsw;125;99; 6.60;5pt 2rb 1to 1trey 2-6fg
+20201222;4938;PF;Prince, Taurean;;6.25;$3,900;bkn;H;gsw;125;99;16.10;1pt 1rb 1st 1bl 0-1fg 1-2ft
+20201222;4164;SG/SF;Matthews, Wes;;2;$3,800;lal;H;lac;109;116;11.10;0pt 1st 0-2fg
+20201222;5800;SF;Coffey, Amir;;0;$3,100;lac;A;lal;116;109; 0.93;0pt
+20201222;3985;SF;Dudley, Jared;;0;$3,100;lal;H;lac;109;116;DNP;
+20201222;5230;SF/PF;McKinnie, Alfonzo;;0;$3,200;lal;H;lac;109;116;DNP;
+20201222;5669;PF;Antetokounmpo, Kostas;;0;$3,000;lal;H;lac;109;116;NA;
+20201222;4407;SF/PF;Morris, Marcus;;0;$5,100;lac;A;lal;116;109;NA;
+20201222;5819;PF;Cacok, Devontae;;0;$3,000;lal;H;lac;109;116;NA;
+20201222;5986;SF;Scrubb, Jay;;0;$3,000;lac;A;lal;116;109;NA;
+20201222;4857;PF/C;Harrell, Montrezl;;37;$5,300;lal;H;lac;109;116;32.25;17pt 10rb 3as 1bl 1to 6-7fg 5-7ft
+20201222;6034;C;Wiseman, James;1;30.5;$4,900;gsw;A;bkn;99;125;24.28;19pt 6rb 2st 1to 1trey 7-13fg 4-8ft
+20201222;4482;PF/C;Davis, Anthony;1;27.75;$10,000;lal;H;lac;109;116;30.88;18pt 7rb 2as 4to 8-15fg 2-2ft
+20201222;4104;C;Ibaka, Serge;1;25;$5,200;lac;A;lal;116;109;20.55;15pt 6rb 1bl 1to 2trey 5-7fg 3-5ft
+20201222;5139;C;Allen, Jarrett;;24.75;$6,200;bkn;H;gsw;125;99;19.62;8pt 7rb 2as 1st 2bl 2to 2-3fg 4-5ft
+20201222;4924;C;Zubac, Ivica;;23.5;$5,000;lac;A;lal;116;109;26.52;11pt 6rb 1as 1st 1bl 1to 4-5fg 3-4ft
+20201222;4107;C;Jordan, DeAndre;1;21.75;$5,600;bkn;H;gsw;125;99;17.05;4pt 11rb 1as 1st 1bl 3to 2-3fg 0-2ft
+20201222;4952;C;Chriss, Marquese;;21;$4,000;gsw;A;bkn;99;125;12.43;9pt 8rb 1as 1trey 4-10fg
+20201222;4302;PF/C;Patterson, Patrick;;12.25;$4,200;lac;A;lal;116;109;19.60;3pt 3rb 1as 2st 1to 1trey 1-5fg
+20201222;4453;PF/C;Morris, Markieff;;12;$4,300;lal;H;lac;109;116;19.00;5pt 4rb 1as 1trey 1-3fg 2-3ft
+20201222;3992;PF/C;Green, Jeff;;10.5;$3,900;bkn;H;gsw;125;99;17.28;7pt 1as 1st 1to 1trey 3-4fg
+20201222;6049;PF/C;Perry, Reggie;;6;$3,000;bkn;H;gsw;125;99; 7.77;2pt 2rb 1as 1-3fg
+20201222;4820;C;Looney, Kevon;;5.5;$5,200;gsw;A;bkn;99;125;11.28;4pt 2rb 2to 2-4fg 0-1ft
+20201222;5735;PF/C;Kurucs, Rodions;;4.75;$3,400;bkn;H;gsw;125;99; 6.60;3pt 1rb 1trey 1-1fg
+20201222;3990;C;Gasol, Marc;1;2.25;$4,700;lal;H;lac;109;116;12.03;0pt 1rb 1as 1to
+20201222;5803;PF/C;Kabengele, Mfiondu;;0;$3,000;lac;A;lal;116;109; 0.93;0pt
+20201222;5985;C;Oturu, Daniel;;0;$3,000;lac;A;lal;116;109;DNP;
+20201222;5814;PF/C;Smailagic, Alen;;0;$3,000;gsw;A;bkn;99;125;NA;
+20201222;5813;C;Claxton, Nicolas;;0;$3,000;bkn;H;gsw;125;99;NA;

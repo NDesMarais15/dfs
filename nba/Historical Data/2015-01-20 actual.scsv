@@ -1,0 +1,44 @@
+Date;GID;Pos;Name;Starter;DK Pts;DK Salary;Team;H/A;Oppt;Team Score;Oppt Score;Minutes;Stat line
+20150120;4079;PG;Westbrook, Russell;1;48.5;$10,200;okc;A;mia;94;86;35;19pt 10rb 6as 4st 3to 8-17fg 3-4ft
+20150120;3970;SG;Afflalo, Arron;1;35;$6,000;den;H;sas;99;109;33;21pt 4rb 2as 3st 3to 3trey 6-11fg 6-8ft
+20150120;3313;PG;Parker, Tony;1;33.5;$5,800;sas;A;den;109;99;32;18pt 4rb 7as 1to 1trey 8-16fg 1-2ft
+20150120;3021;SG;Ginobili, Manu;;30;$5,200;sas;A;den;109;99;24;11pt 4rb 8as 1st 1to 1trey 4-12fg 2-6ft
+20150120;3571;SG;Wade, Dwyane;1;29.5;$8,300;mia;H;okc;86;94;34;18pt 2rb 6as 1st 4to 8-18fg 2-4ft
+20150120;4159;PG;Lawson, Ty;1;22;$8,900;den;H;sas;99;109;34;4pt 2rb 8as 2st 1to 2-6fg 0-0ft
+20150120;4369;PG;Jackson, Reggie;;20;$4,500;okc;A;mia;94;86;26;16pt 2rb 1as 2to 2trey 7-9fg 0-0ft
+20150120;4115;SG;Morrow, Anthony;;20;$3,000;okc;A;mia;94;86;18;12pt 4rb 1st 2trey 5-9fg 0-0ft
+20150120;3656;PG;Nelson, Jameer;;18.75;$3,400;den;H;sas;99;109;24;8pt 3rb 6as 4to 4-11fg 0-0ft
+20150120;4193;SG;Green, Danny;1;16;$5,500;sas;A;den;109;99;31;6pt 2rb 2as 1st 1bl 1to 2trey 2-12fg 0-0ft
+20150120;4370;PG;Cole, Norris;;14.5;$3,000;mia;H;okc;86;94;18;4pt 4rb 4as 1to 2-5fg 0-0ft
+20150120;4694;PG;Napier, Shabazz;;14.25;$3,800;mia;H;okc;86;94;16;5pt 3rb 4as 2to 1trey 1-3fg 2-2ft
+20150120;4559;SG;Roberson, Andre;1;14;$3,000;okc;A;mia;94;86;14;5pt 4rb 2st 1to 1trey 2-4fg 0-0ft
+20150120;4088;PG;Chalmers, Mario;1;10.25;$4,600;mia;H;okc;86;94;28;6pt 1rb 3as 4to 1trey 2-4fg 1-1ft
+20150120;4245;PG;Mills, Patty;;9.75;$3,500;sas;A;den;109;99;15;6pt 1rb 1as 2trey 2-3fg 0-0ft
+20150120;3858;SG;Foye, Randy;;6.5;$3,000;den;H;sas;99;109;14;5pt 1as 1to 1trey 1-3fg 2-2ft
+20150120;4405;PG;Joseph, Cory;;5.75;$4,000;sas;A;den;109;99;12;2pt 1rb 1as 1st 2to 1-2fg 0-0ft
+20150120;4515;SG;Waiters, Dion;;3;$5,000;okc;A;mia;94;86;26;3pt 1-9fg 1-2ft
+20150120;3986;SF;Durant, Kevin;1;51;$10,700;okc;A;mia;94;86;39;19pt 8rb 8as 4st 1bl 9-24fg 1-1ft
+20150120;4404;SF;Leonard, Kawhi;1;48.25;$7,400;sas;A;den;109;99;31;17pt 15rb 3as 2st 1bl 2to 3trey 6-13fg 2-2ft
+20150120;4456;PF;Faried, Kenneth;1;46;$7,400;den;H;sas;99;109;37;26pt 14rb 1as 1to 9-17fg 8-12ft
+20150120;2223;PF;Duncan, Tim;1;29.75;$8,500;sas;A;den;109;99;29;16pt 5rb 2as 2st 1bl 3to 6-10fg 4-4ft
+20150120;3527;PF;Diaw, Boris;;20.75;$3,900;sas;A;den;109;99;27;10pt 3rb 2as 1st 1bl 2to 2trey 4-8fg 0-0ft
+20150120;3978;SF;Chandler, Wilson;1;19.25;$5,600;den;H;sas;99;109;38;11pt 5rb 2as 2to 5-11fg 1-3ft
+20150120;4030;PF;Hickson, J.J.;;19.25;$5,300;den;H;sas;99;109;19;9pt 3rb 3as 1st 3-8fg 3-4ft
+20150120;4104;PF;Ibaka, Serge;1;14.5;$6,900;okc;A;mia;94;86;30;9pt 4rb 1bl 4to 1trey 4-10fg 0-0ft
+20150120;3629;SF;Deng, Luol;1;14;$6,000;mia;H;okc;86;94;29;8pt 4rb 1as 2to 1trey 2-6fg 3-4ft
+20150120;3759;SF;Granger, Danny;;13.25;$3,000;mia;H;okc;86;94;25;9pt 3rb 1to 2trey 3-5fg 1-2ft
+20150120;4080;PF;Arthur, Darrell;;11;$3,000;den;H;sas;99;109;16;5pt 2rb 1as 1st 1to 1trey 2-3fg 0-0ft
+20150120;3923;SF;Williams, Shawne;;8;$3,000;mia;H;okc;86;94;7;3pt 2rb 1st 1trey 1-4fg 0-0ft
+20150120;3535;PF;Haslem, Udonis;;6;$3,000;mia;H;okc;86;94;6;0pt 2rb 1as 1st 0-0fg 0-0ft
+20150120;3520;PF;Bonner, Matt;;2.75;$3,000;sas;A;den;109;99;6;2pt 1rb 1to 0-1fg 2-2ft
+20150120;4581;PF;Green, JaMychal;;1.25;$3,000;sas;A;den;109;99;1;0pt 1rb 0-0fg 0-0ft
+20150120;4248;PF;Ayres, Jeff;;0;$3,000;sas;A;den;109;99;0;0pt 0-0fg 0-0ft
+20150120;3521;C;Bosh, Chris;1;26.75;$8,400;mia;H;okc;86;94;37;16pt 7rb 1as 1st 4to 1trey 5-12fg 5-6ft
+20150120;4681;C;Nurkic, Jusuf;1;22.75;$5,000;den;H;sas;99;109;26;10pt 9rb 2as 3to 5-9fg 0-0ft
+20150120;4556;C;Baynes, Aron;;20.5;$3,000;sas;A;den;109;99;15;15pt 4rb 1bl 3to 3-3fg 9-9ft
+20150120;4024;C;Splitter, Tiago;1;17.25;$3,900;sas;A;den;109;99;18;6pt 3rb 1as 2st 1bl 2-4fg 2-2ft
+20150120;3397;C;Andersen, Chris;;17;$3,000;mia;H;okc;86;94;29;7pt 6rb 1bl 1trey 3-6fg 0-0ft
+20150120;4574;C;Adams, Steven;1;15.25;$4,100;okc;A;mia;94;86;19;10pt 3rb 1bl 1to 5-7fg 0-1ft
+20150120;4324;C;Whiteside, Hassan;1;14;$5,500;mia;H;okc;86;94;11;10pt 2rb 1bl 1to 5-5fg 0-0ft
+20150120;3523;C;Collison, Nick;;6;$3,000;okc;A;mia;94;86;9;1pt 4rb 0-0fg 1-2ft
+20150120;3556;C;Perkins, Kendrick;;3.75;$3,000;okc;A;mia;94;86;23;0pt 3rb 0-3fg 0-0ft

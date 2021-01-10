@@ -1,3 +1,5 @@
+from urllib.error import HTTPError
+
 from bs4 import BeautifulSoup
 import urllib.request
 import json
@@ -13,7 +15,12 @@ def collect_players(league, date, path, slate_id):
         url = 'https://rotogrinders.com/projected-stats/%s?site=draftkings' % league
     else:
         url = 'https://rotogrinders.com/projected-stats/%s?site=draftkings&date=%s' % (league, date)
-    fp = urllib.request.urlopen(url)
+    try:
+        fp = urllib.request.urlopen(url)
+    except HTTPError as e:
+        print(date + ' failed because of ' + e)
+        return
+
     my_bytes = fp.read()
 
     my_str = my_bytes.decode('utf8')

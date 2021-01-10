@@ -1,0 +1,44 @@
+Date;GID;Pos;Name;Starter;DK Pts;DK Salary;Team;H/A;Oppt;Team Score;Oppt Score;Minutes;Stat line
+20150513;4173;PG;Curry, Stephen;1;46.75;$10,400;gsw;H;mem;98;78;33;18pt 7rb 5as 6st 5to 6trey 6-16fg 0-0ft
+20150513;4494;SG;Beal, Bradley;1;43.75;$8,200;was;A;atl;81;82;42;23pt 7rb 4as 1st 3bl 5to 1trey 9-21fg 4-5ft
+20150513;4321;PG;Wall, John;1;39.5;$8,900;was;A;atl;81;82;37;15pt 4rb 7as 4st 2bl 6to 7-16fg 1-2ft
+20150513;4367;SG;Thompson, Klay;1;34;$7,400;gsw;H;mem;98;78;39;21pt 4rb 5as 2to 3trey 7-16fg 4-4ft
+20150513;3547;SG;Korver, Kyle;1;25.75;$6,000;atl;H;was;82;81;38;3pt 5rb 1as 6st 2bl 3to 1trey 1-5fg 0-0ft
+20150513;3979;PG;Conley, Mike;1;25.5;$6,000;mem;A;gsw;78;98;33;13pt 5as 3st 2to 5-10fg 3-3ft
+20150513;4595;PG;Schroder, Dennis;;22.75;$4,300;atl;H;was;82;81;25;6pt 5rb 7as 1st 4to 3-12fg 0-0ft
+20150513;4221;PG;Teague, Jeff;1;20.25;$7,300;atl;H;was;82;81;31;14pt 1rb 5as 7to 2trey 6-13fg 0-0ft
+20150513;2448;SG;Carter, Vince;;18.5;$2,800;mem;A;gsw;78;98;20;8pt 6rb 1as 1st 2to 1trey 3-10fg 1-1ft
+20150513;3651;PG;Livingston, Shaun;;15.75;$2,300;gsw;H;mem;98;78;22;6pt 3rb 3as 1st 1to 3-4fg 0-0ft
+20150513;4110;SG;Lee, Courtney;1;15.75;$4,800;mem;A;gsw;78;98;31;7pt 3rb 4as 3to 1trey 3-3fg 0-0ft
+20150513;4507;SG;Bazemore, Kent;;13.25;$2,400;atl;H;was;82;81;14;0pt 5rb 2st 2bl 2to 0-3fg 0-0ft
+20150513;4597;PG;Calathes, Nick;;9;$3,000;mem;A;gsw;78;98;19;0pt 2rb 2as 2st 1to 0-2fg 0-0ft
+20150513;4020;PG;Sessions, Ramon;;6;$5,300;was;A;atl;81;82;17;0pt 2rb 1as 1st 0-4fg 0-0ft
+20150513;4727;SG;Adams, Jordan;;4.25;$2,000;mem;A;gsw;78;98;6;3pt 1rb 1-1fg 1-2ft
+20150513;3678;PG;Udrih, Beno;;3.5;$3,300;mem;A;gsw;78;98;12;3pt 1trey 1-2fg 0-0ft
+20150513;3514;PG;Barbosa, Leandro;;1.5;$2,100;gsw;H;mem;98;78;3;0pt 1as 0-1fg 0-0ft
+20150513;4672;PG;Smith, Russ;;1.5;$2,000;mem;A;gsw;78;98;3;0pt 1as 0-0fg 0-0ft
+20150513;4083;SG;Rush, Brandon;;1.25;$2,000;gsw;H;mem;98;78;2;0pt 1rb 0-0fg 0-0ft
+20150513;4558;SG;Holiday, Justin;;0;$2,000;gsw;H;mem;98;78;3;0pt 0-1fg 0-0ft
+20150513;4203;SF;Carroll, DeMarre;1;38.5;$6,700;atl;H;was;82;81;36;10pt 10rb 4as 2st 2bl 1trey 4-11fg 1-2ft
+20150513;3314;PF;Randolph, Zach;1;29;$7,600;mem;A;gsw;78;98;34;13pt 10rb 1as 1st 4to 1trey 6-12fg 0-0ft
+20150513;4504;PF;Green, Draymond;1;28.25;$8,000;gsw;H;mem;98;78;31;7pt 5rb 9as 1st 1to 3-9fg 1-1ft
+20150513;3904;PF;Millsap, Paul;1;24.75;$8,500;atl;H;was;82;81;37;14pt 7rb 2as 1bl 6to 6-14fg 2-3ft
+20150513;3641;SF;Iguodala, Andre;;24.75;$4,000;gsw;H;mem;98;78;25;16pt 3rb 3as 1to 2trey 7-10fg 0-0ft
+20150513;2428;SF;Pierce, Paul;1;24;$5,500;was;A;atl;81;82;35;11pt 4rb 2as 2st 1to 3trey 3-9fg 2-2ft
+20150513;3408;PF;Hilario, Nene;1;23.5;$4,500;was;A;atl;81;82;29;9pt 6rb 1as 3st 1to 4-11fg 1-1ft
+20150513;4653;SF;Porter, Otto;;22;$5,800;was;A;atl;81;82;33;9pt 10rb 1st 3to 3-13fg 3-5ft
+20150513;4502;SF;Barnes, Harrison;1;20.25;$4,700;gsw;H;mem;98;78;33;14pt 3rb 1as 1bl 5to 3trey 4-8fg 3-5ft
+20150513;3772;PF;Lee, David;;18.25;$2,500;gsw;H;mem;98;78;17;6pt 7rb 1as 1st 3-7fg 0-0ft
+20150513;3992;SF;Green, Jeff;1;16;$4,100;mem;A;gsw;78;98;28;10pt 4rb 1as 1to 5-13fg 0-0ft
+20150513;3406;PF;Gooden, Drew;;9.25;$3,600;was;A;atl;81;82;12;0pt 5rb 1as 1st 1to 0-4fg 0-0ft
+20150513;4700;PF;McAdoo, James Michael;;5.25;$2,000;gsw;H;mem;98;78;3;4pt 1rb 2-2fg 0-0ft
+20150513;4411;PF;Leuer, Jon;;4.5;$2,000;mem;A;gsw;78;98;3;2pt 2rb 1-2fg 0-0ft
+20150513;4581;PF;Green, JaMychal;;1.25;$2,100;mem;A;gsw;78;98;3;0pt 1rb 0-2fg 0-0ft
+20150513;3998;C;Horford, Al;1;51.75;$8,000;atl;H;was;82;81;37;23pt 11rb 2as 5bl 1trey 10-18fg 2-2ft
+20150513;3990;C;Gasol, Marc;1;46.5;$8,300;mem;A;gsw;78;98;36;18pt 12rb 6as 1st 1bl 2to 8-22fg 2-2ft
+20150513;3756;C;Gortat, Marcin;1;33;$6,800;was;A;atl;81;82;35;14pt 8rb 4as 2st 2to 7-10fg 0-1ft
+20150513;3736;C;Bogut, Andrew;1;24.75;$5,300;gsw;H;mem;98;78;24;6pt 9rb 4bl 1to 3-7fg 0-0ft
+20150513;4659;C;Muscala, Mike;;13.25;$2,200;atl;H;was;82;81;15;8pt 3rb 1bl 1to 4-5fg 0-0ft
+20150513;4590;C;Antic, Pero;;7.75;$2,500;atl;H;was;82;81;7;4pt 3rb 0-2fg 4-4ft
+20150513;4503;C;Ezeli, Festus;;3.25;$2,200;gsw;H;mem;98;78;6;0pt 1rb 1bl 0-0fg 0-0ft
+20150513;4109;C;Koufos, Kosta;;3;$2,300;mem;A;gsw;78;98;14;1pt 2rb 1to 0-4fg 1-2ft

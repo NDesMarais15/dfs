@@ -1,0 +1,44 @@
+Date;GID;Pos;Name;Starter;DK Pts;DK Salary;Team;H/A;Oppt;Team Score;Oppt Score;Minutes;Stat line
+20150508;4073;PG;Rose, Derrick;1;52.25;$7,700;chi;H;cle;99;96;39;30pt 7rb 7as 1st 1bl 3to 1trey 10-26fg 9-10ft
+20150508;4224;SG;Harden, James;1;48.25;$10,100;hou;A;lac;99;124;36;25pt 3rb 11as 1bl 5to 4trey 8-16fg 5-5ft
+20150508;4363;SG;Butler, Jimmy;1;45.5;$8,400;chi;H;cle;99;96;44;20pt 8rb 2as 5st 1bl 1trey 7-17fg 5-6ft
+20150508;4483;PG;Rivers, Austin;;40;$4,300;lac;H;hou;124;99;23;25pt 6rb 2as 1st 1bl 2to 3trey 10-13fg 2-2ft
+20150508;3861;SG;Redick, J.J.;1;38.25;$5,000;lac;H;hou;124;99;37;31pt 1rb 1as 1st 5trey 11-14fg 4-4ft
+20150508;3116;SG;Crawford, Jamal;;31.75;$4,900;lac;H;hou;124;99;27;12pt 3rb 3as 6st 2to 1trey 4-9fg 3-3ft
+20150508;3786;PG;Paul, Chris;1;30.75;$9,600;lac;H;hou;124;99;23;12pt 3rb 7as 2st 1to 2trey 5-12fg 0-0ft
+20150508;4379;PG;Irving, Kyrie;1;22.5;$8,700;cle;A;chi;96;99;38;11pt 4rb 2st 1bl 2to 3trey 3-13fg 2-2ft
+20150508;3054;SG;Terry, Jason;1;22.25;$3,500;hou;A;lac;99;124;32;13pt 1rb 3as 2st 4to 3trey 5-9fg 0-0ft
+20150508;3975;SG;Brewer, Corey;;22;$4,100;hou;A;lac;99;124;26;11pt 4rb 2st 1bl 1to 1trey 5-9fg 0-2ft
+20150508;3669;SG;Smith, J.R.;;20;$4,600;cle;A;chi;96;99;27;14pt 2rb 1as 4trey 5-9fg 0-0ft
+20150508;4610;SG;Dellavedova, Matthew;;19;$2,100;cle;A;chi;96;99;16;10pt 2rb 4as 1to 2trey 3-4fg 2-2ft
+20150508;4397;SG;Shumpert, Iman;1;15.25;$4,800;cle;A;chi;96;99;37;8pt 1rb 1as 1st 1bl 1to 2trey 3-9fg 0-0ft
+20150508;3544;SG;Jones, James;;13.5;$2,000;cle;A;chi;96;99;15;8pt 2rb 1st 2trey 2-5fg 2-2ft
+20150508;4546;PG;Prigioni, Pablo;;12;$3,100;hou;A;lac;99;124;20;6pt 2rb 2as 1to 2trey 2-8fg 0-0ft
+20150508;3538;PG;Hinrich, Kirk;;4.25;$2,800;chi;H;cle;99;96;20;0pt 1rb 2as 0-0fg 0-0ft
+20150508;4216;PG;Hudson, Lester;;3;$2,000;lac;H;hou;124;99;6;0pt 2as 0-2fg 0-0ft
+20150508;4698;SG;Johnson, Nick;;1.5;$2,000;hou;A;lac;99;124;3;0pt 1as 0-1fg 0-0ft
+20150508;3976;PG;Brooks, Aaron;;1.5;$4,100;chi;H;cle;99;96;9;2pt 1to 1-7fg 0-0ft
+20150508;3543;SG;Jones, Dahntay;;0;$2,000;lac;H;hou;124;99;3;0pt 0-0fg 0-0ft
+20150508;3541;SF;James, LeBron;1;60.5;$11,200;cle;A;chi;96;99;44;27pt 8rb 14as 1st 1bl 7to 1trey 8-25fg 10-11ft
+20150508;4172;PF;Griffin, Blake;1;43.5;$10,500;lac;H;hou;124;99;31;22pt 14rb 4as 7to 10-20fg 2-4ft
+20150508;4380;PF;Thompson, Tristan;1;35.25;$4,700;cle;A;chi;96;99;41;10pt 13rb 1as 3bl 4-8fg 2-2ft
+20150508;3404;SF;Dunleavy, Mike;1;32;$4,900;chi;H;cle;99;96;39;16pt 6rb 2as 1st 1bl 3trey 6-12fg 1-1ft
+20150508;4682;PF;Mirotic, Nikola;;26;$3,000;chi;H;cle;99;96;22;12pt 8rb 2st 1to 1trey 3-8fg 5-6ft
+20150508;3308;PF;Gasol, Pau;1;23;$8,500;chi;H;cle;99;96;22;6pt 4rb 4as 3bl 3-7fg 0-0ft
+20150508;4167;PF;Gibson, Taj;;22.25;$3,900;chi;H;cle;99;96;23;9pt 9rb 1bl 3-4fg 3-4ft
+20150508;3670;SF;Smith, Josh;;19.25;$6,100;hou;A;lac;99;124;13;7pt 9rb 1st 2to 3-10fg 1-1ft
+20150508;3474;SF;Barnes, Matt;1;17.25;$5,300;lac;H;hou;124;99;30;7pt 3rb 2as 2bl 2to 1trey 1-3fg 4-4ft
+20150508;4511;PF;Jones, Terrence;1;16;$4,400;hou;A;lac;99;124;25;12pt 2rb 1as 4-10fg 4-6ft
+20150508;3621;SF;Ariza, Trevor;1;16;$5,700;hou;A;lac;99;124;35;10pt 2rb 1as 1st 1to 1trey 3-9fg 3-4ft
+20150508;3164;SF;Turkoglu, Hedo;;8.25;$2,000;lac;H;hou;124;99;3;3pt 1rb 1st 1bl 1to 1trey 1-2fg 0-0ft
+20150508;3984;PF;Davis, Glen;;4;$2,300;lac;H;hou;124;99;8;4pt 1-3fg 2-2ft
+20150508;4710;SF;Papanikolaou, Kostas;;0;$2,000;hou;A;lac;99;124;3;0pt 0-1fg 0-0ft
+20150508;4571;SF;Snell, Tony;;0;$2,000;chi;H;cle;99;96;0;0pt 0-1fg 0-0ft
+20150508;3639;C;Howard, Dwight;1;44;$8,300;hou;A;lac;99;124;38;14pt 14rb 2as 2st 2bl 5-11fg 4-11ft
+20150508;4107;C;Jordan, DeAndre;1;29.75;$7,800;lac;H;hou;124;99;36;6pt 15rb 3as 1st 3to 2-4fg 2-4ft
+20150508;4299;C;Mozgov, Timofey;1;27.75;$5,500;cle;A;chi;96;99;22;8pt 7rb 2as 1st 3bl 4-9fg 0-0ft
+20150508;4013;C;Noah, Joakim;1;22.75;$5,900;chi;H;cle;99;96;22;4pt 11rb 3bl 2to 1-8fg 2-2ft
+20150508;3996;C;Hawes, Spencer;;12.75;$2,000;lac;H;hou;124;99;11;2pt 3rb 2as 2bl 1-1fg 0-0ft
+20150508;4766;C;Capela, Clint;;8;$2,300;hou;A;lac;99;124;5;1pt 4rb 1bl 0-3fg 1-2ft
+20150508;4090;C;Dorsey, Joey;;2;$2,000;hou;A;lac;99;124;3;0pt 2rb 1to 0-1fg 0-0ft
+20150508;4354;C;Udoh, Ekpe;;1.25;$2,000;lac;H;hou;124;99;2;0pt 1rb 0-0fg 0-0ft
