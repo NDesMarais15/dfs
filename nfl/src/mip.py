@@ -320,7 +320,7 @@ def generate_showdown_lineups(date, projections_path, lineup_path, num_lineups, 
             team_stack_constraints.append((rb_team_matrix[i] @ selection) <= 1)
 
     # We need a list to keep track of past lineups in order to enforce creation of unique lineups
-    past_selections = [0] * (num_players * 2)
+    past_lineup_constraints = []
 
     with open(lineup_path + '%s lineups overlap %s.csv' % (date, lineup_overlap), 'w+', newline='') as lineups_csv:
         # Initialize CSV writer and write first row. This will contain the final lineups in DK format
@@ -329,14 +329,11 @@ def generate_showdown_lineups(date, projections_path, lineup_path, num_lineups, 
 
         # Generate lineups
         for lineup_count in range(0, num_lineups):
-            # Constraint to limit overlap with previously generated lineups
-            past_lineups_constraint = past_selections @ selection <= lineup_overlap
-
             # Add rule constraints
-            constraints = [players_constraint, salary_constraint, flex_constraint, captain_constraint,
-                           past_lineups_constraint]
+            constraints = [players_constraint, salary_constraint, flex_constraint, captain_constraint]
             constraints.extend(captain_constraint_list)
             constraints.extend(team_stack_constraints)
+            constraints.extend(past_lineup_constraints)
 
             # Formulate problem and solve
             problem = cvxpy.Problem(cvxpy.Maximize(total_pts), constraints)
@@ -361,4 +358,4 @@ def generate_showdown_lineups(date, projections_path, lineup_path, num_lineups, 
             csv_writer.writerow(row)
 
             # Add lineup to past selections in order to create unique lineups
-            past_selections = np.logical_or(solution_array, past_selections)
+            past_lineup_constraints.append(solution_array @ selection <= lineup_overlap)

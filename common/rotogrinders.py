@@ -1,4 +1,4 @@
-from urllib.error import HTTPError
+from urllib.error import HTTPError, URLError
 
 from bs4 import BeautifulSoup
 import urllib.request
@@ -18,6 +18,9 @@ def collect_players(league, date, path, slate_id):
     try:
         fp = urllib.request.urlopen(url)
     except HTTPError as e:
+        print(date + ' failed because of ' + e)
+        return
+    except URLError as e:
         print(date + ' failed because of ' + e)
         return
 
