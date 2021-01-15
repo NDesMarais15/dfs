@@ -49,7 +49,7 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, l
         players.loc[(players['G'] == 1) | (players['C'] == 1), 'G/C'] = 1
 
         # We need a list to keep track of past lineups in order to enforce creation of unique lineups
-        past_selections = [0] * num_players
+        past_lineup_constraints = []
 
         # This is just a list of all ones in order to ensure that the number of players is 8
         ones = [1] * num_players
@@ -95,13 +95,13 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, l
 
         # Generate lineups
         for lineup_count in range(0, num_lineups):
-            # Constraint to limit overlap with previously generated lineups
-            past_lineups_constraint = past_selections @ selection <= lineup_overlap
-
             # Add rule constraints
             constraints = [salary_constraint, pg_constraint, sg_constraint, g_constraint,
                            sf_constraint, pf_constraint, f_constraint, c_constraint, gf_constraint,
-                           fc_constraint, gc_constraint, players_constraint, past_lineups_constraint]
+                           fc_constraint, gc_constraint, players_constraint]
+
+            # Add past lineup constraints
+            constraints.extend(past_lineup_constraints)
 
             # Formulate problem and solve
             problem = cvxpy.Problem(cvxpy.Maximize(total_pts), constraints)
@@ -157,4 +157,4 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, l
             csv_writer.writerow(row)
 
             # Add lineup to past selections in order to create unique lineups
-            past_selections = np.logical_or(solution_array, past_selections)
+            past_lineup_constraints.append(solution_array @ selection <= lineup_overlap)

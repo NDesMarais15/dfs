@@ -152,6 +152,8 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, l
 
             # Add stacking constraints
             constraints.extend(team_stack_constraints)
+
+            # Add past lineup constraints
             constraints.extend(past_lineup_constraints)
 
             # Formulate problem and solve

@@ -1,0 +1,7 @@
+- If you take the data from Daily Fantasy Fuel, which is my current plan, you need to clear out
+the defender's line values. Otherwise, the algorithm will include defensive players in the line,
+which would defeat the purpose of the stacking.
+- In the paper, they use projections from Rotogrinders and Daily Fantasy Nerd. These are both paid
+services. Instead, I am using Daily Fantasy Fuel because their projections are free. However, it would
+be better to check in the future whether these projections are actually good. I'm just assuming they
+are decent enough for now.

@@ -39,7 +39,7 @@ num_overlap = 5
 path_players = "DFF_NHL_cheatsheet_$(TimeZones.today(tz"America/Chicago")).csv"
 
 # path_to_output is a string that gives the path to the csv file that will give the outputted results
-path_to_output = "output.csv"
+path_to_output = "$(TimeZones.today(tz"America/Chicago")) lineup overlap $(num_overlap).csv"
 
 # This is a function that creates one lineup using the No Stacking formulation from the paper
 function one_lineup_no_stacking(skaters, goalies, lineups, num_overlap, num_skaters, num_goalies, centers, wingers, defenders, num_teams, skaters_teams, goalie_opponents, team_lines, num_lines, P1_info)

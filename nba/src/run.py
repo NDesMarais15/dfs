@@ -38,4 +38,4 @@ def collect_historical_projections():
         date += datetime.timedelta(days=1)
 
 
-collect_historical_projections()
+classic_today()
