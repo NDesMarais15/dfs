@@ -65,6 +65,8 @@ def collect_players(league, date, path, slate_id):
                                         salary = slate['salary']
                                         fpts = slate['fpts']
 
+                            ownership_pct = player['pown%'][0:-1]
+
                             csv_writer.writerow([
                                 player['player_name'],
                                 salary,
@@ -72,6 +74,6 @@ def collect_players(league, date, path, slate_id):
                                 player['position'],
                                 player['opp'],
                                 fpts,
-                                player['pown%']])
+                                ownership_pct])
                         except KeyError:
                             print('Could not get info for %s' % player['player_name'])
