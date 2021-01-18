@@ -65,7 +65,10 @@ def collect_players(league, date, path, slate_id):
                                         salary = slate['salary']
                                         fpts = slate['fpts']
 
-                            ownership_pct = player['pown%'][0:-1]
+                            if player['pown%'] is not None:
+                                ownership_pct = player['pown%'][0:-1]
+                            else:
+                                ownership_pct = player['pown%']
 
                             csv_writer.writerow([
                                 player['player_name'],
