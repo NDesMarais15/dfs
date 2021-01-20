@@ -170,7 +170,7 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, n
         for team_index in range(0, num_teams):
             team_constraints.append(team_matrix[team_index] @ selection <= max_players_from_team)
 
-        ownership_dict = {}
+        ownership_tuple_list = []
         rows = []
         # Generate lineups
         for candidate_count in range(0, num_candidates):
@@ -197,46 +197,70 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, n
                 return
             solution_array = problem.solution.primal_vars[selection.id]
 
-            # The solution array is a matrix of players in the order we collected them from
-            # rotogrinders, so we have to do some work to actually write the lineups in a
-            # way that will be readable by humans and eventually DraftKings
-            row = [''] * 8
-
+            # We can leave UTIL blank because every player can play in that position
+            legal_position_dict = {0: set(), 1: set(), 2: set(), 3: set(), 4: set(), 5: set(), 6: set()}
             player_obj_list = []
             ownership_list = []
             for i in range(0, len(solution_array)):
                 if solution_array[i] == 1:
-                    if candidate_count == 28:
-                        print('hello')
                     player = Player(players.iloc[i]['Player_Name'])
                     if 'PG' in players.iloc[i]['Pos']:
                         player.legal_positions.append(0)
+                        legal_position_dict[0].add(players.iloc[i]['Player_Name'])
 
                     if 'SG' in players.iloc[i]['Pos']:
                         player.legal_positions.append(1)
+                        legal_position_dict[1].add(players.iloc[i]['Player_Name'])
 
                     if 'SF' in players.iloc[i]['Pos']:
                         player.legal_positions.append(2)
+                        legal_position_dict[2].add(players.iloc[i]['Player_Name'])
 
                     if 'PF' in players.iloc[i]['Pos']:
                         player.legal_positions.append(3)
+                        legal_position_dict[3].add(players.iloc[i]['Player_Name'])
 
                     if 'C' in players.iloc[i]['Pos']:
                         player.legal_positions.append(4)
+                        legal_position_dict[4].add(players.iloc[i]['Player_Name'])
 
                     if 'G' in players.iloc[i]['Pos']:
                         player.legal_positions.append(5)
+                        legal_position_dict[5].add(players.iloc[i]['Player_Name'])
 
                     if 'F' in players.iloc[i]['Pos']:
                         player.legal_positions.append(6)
+                        legal_position_dict[6].add(players.iloc[i]['Player_Name'])
 
                     player.legal_positions.append(7)
                     player_obj_list.append(player)
                     ownership_list.append(players.iloc[i]['pown%'])
 
-            ownership_stdev = statistics.stdev(ownership_list)
+            # The solution array is a matrix of players in the order we collected them from
+            # rotogrinders, so we have to do some work to actually write the lineups in a
+            # way that will be readable by humans and eventually DraftKings
+            row = [''] * 8
+
+            required_positions_left = True
+            names_to_remove = []
+            while required_positions_left:
+                required_positions_left = False
+                for name_to_remove in names_to_remove:
+                    for legal_position_v in legal_position_dict.values():
+                        if name_to_remove in legal_position_v:
+                            legal_position_v.remove(name_to_remove)
+
+                for legal_position_k, legal_position_v in legal_position_dict.items():
+                    if len(legal_position_v) == 1:
+                        name = list(legal_position_v)[0]
+                        row[legal_position_k] = name
+                        names_to_remove.append(name)
+                        required_positions_left = True
+
             player_obj_list.sort(key=lambda p: len(p.legal_positions))
             for player_obj in player_obj_list:
+                if player_obj.name in row:
+                    continue
                 for legal_position in player_obj.legal_positions:
                     if row[legal_position] == '':
                         row[legal_position] = player_obj.name
@@ -245,13 +269,12 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, n
             if '' in row:
                 raise Exception('One of the lineup positions was not filled.')
 
-            ownership_dict[candidate_count] = ownership_stdev
             rows.append(row)
+            ownership_tuple_list.append((candidate_count, statistics.mean(ownership_list)))
 
             # Add lineup to past selections in order to create unique lineups
             past_lineup_constraints.append(solution_array @ selection <= lineup_overlap)
 
-        ordered_ownership_dict = collections.OrderedDict(sorted(ownership_dict.items()))
-
+        ownership_tuple_list.sort(key=lambda x: x[1])
         for lineup_count in range(0, num_lineups):
-            csv_writer.writerow(rows[ordered_ownership_dict[0]])
+            csv_writer.writerow(rows[ownership_tuple_list[lineup_count][0]])
