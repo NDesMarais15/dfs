@@ -8,10 +8,6 @@ num_candidates = 100
 lineup_overlap = 6
 
 
-def showdown_today(slate_id):
-    rotogrinders.collect_players(league, datetime.date.today(), '', slate_id)
-
-
 def classic_today():
     rotogrinders.collect_players(league, datetime.date.today(), '', -1)
     mip.generate_classic_lineups(datetime.date.today(), '', '', num_lineups, num_candidates,
@@ -38,6 +34,3 @@ def collect_historical_projections():
     while date <= datetime.date.today():
         rotogrinders.collect_players(league, date, '../Historical Data/', -1)
         date += datetime.timedelta(days=1)
-
-
-classic_today()

@@ -5,7 +5,6 @@ import pandas as pd
 from player import Player
 import math
 import statistics
-import collections
 
 
 def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, num_candidates,
@@ -13,7 +12,7 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, n
     with open(projections_path + '%s projections.csv' % date, 'r') as players_csv:
         players = pd.read_csv(players_csv)
 
-    num_players = len(players['Salary'])
+    num_players = len(players)
     teams = players['Team'].unique()
     num_teams = len(teams)
 
@@ -29,7 +28,7 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, n
         csv_writer = writer(lineups_csv)
         csv_writer.writerow(['PG', 'SG', 'SF', 'PF', 'C', 'G', 'F', 'UTIL'])
 
-        # Create rows for players to easily map their position
+        # Create rows for players to easily map their legal positions
         # UTIL not included because that can be used for any player
         players['PG'] = 0
         players.loc[players['Pos'].str.contains('PG'), 'PG'] = 1
@@ -52,9 +51,6 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, n
         players['C'] = 0
         players.loc[players['Pos'].str.contains('C'), 'C'] = 1
 
-        players['PG/SG'] = 0
-        players.loc[(players['PG'] == 1) | (players['SG'] == 1), 'PG/SG'] = 1
-
         players['PG/SF'] = 0
         players.loc[(players['PG'] == 1) | (players['SF'] == 1), 'PG/SF'] = 1
 
@@ -72,9 +68,6 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, n
 
         players['SG/C'] = 0
         players.loc[(players['SG'] == 1) | (players['C'] == 1), 'SG/C'] = 1
-
-        players['SF/PF'] = 0
-        players.loc[(players['SF'] == 1) | (players['PF'] == 1), 'SF/PF'] = 1
 
         players['SF/C'] = 0
         players.loc[(players['SF'] == 1) | (players['C'] == 1), 'SF/C'] = 1
@@ -170,8 +163,12 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, n
         for team_index in range(0, num_teams):
             team_constraints.append(team_matrix[team_index] @ selection <= max_players_from_team)
 
+        # List for mapping a lineup to its average projected ownership
         ownership_tuple_list = []
+
+        # List for lineups
         rows = []
+
         # Generate lineups
         for candidate_count in range(0, num_candidates):
             # Add rule constraints
@@ -197,10 +194,19 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, n
                 return
             solution_array = problem.solution.primal_vars[selection.id]
 
+            # We create a dictionary of sets to find any positions where there is only one legal player
             # We can leave UTIL blank because every player can play in that position
             legal_position_dict = {0: set(), 1: set(), 2: set(), 3: set(), 4: set(), 5: set(), 6: set()}
+
+            # This is a list of player objects. This construct makes it a little easier to map a player
+            # to all of the things we need to know about him
             player_obj_list = []
+
+            # List of ownership values for a given lineup
             ownership_list = []
+
+            # This loop finds all the players selected for this lineup and adds them to the
+            # data structures mentioned above
             for i in range(0, len(solution_array)):
                 if solution_array[i] == 1:
                     player = Player(players.iloc[i]['Player_Name'])
@@ -241,10 +247,18 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, n
             # way that will be readable by humans and eventually DraftKings
             row = [''] * 8
 
+            # We try to find any positions where there is only one legal option, and if so we place
+            # that player accordingly. After placing this player, we may find there is another player
+            # who can only be placed in one spot. The following loop continues that iterative process
+            # until only players with multiple options remain
             required_positions_left = True
             names_to_remove = []
             while required_positions_left:
                 required_positions_left = False
+
+                # If a player was placed in the lineup in a previous iteration of this loop,
+                # we want to remove it from any of the sets in legal_position_dict so that we
+                # can find any remaining players with only one legal position
                 for name_to_remove in names_to_remove:
                     for legal_position_v in legal_position_dict.values():
                         if name_to_remove in legal_position_v:
@@ -257,6 +271,7 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, n
                         names_to_remove.append(name)
                         required_positions_left = True
 
+            # This is for placing the players that have not been placed by the loop above
             player_obj_list.sort(key=lambda p: len(p.legal_positions))
             for player_obj in player_obj_list:
                 if player_obj.name in row:
@@ -269,12 +284,17 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, n
             if '' in row:
                 raise Exception('One of the lineup positions was not filled.')
 
+            # Add the lineup to the list of lineups
             rows.append(row)
+
+            # Map the lineup to its mean projected ownership. We are aiming for lineups with
+            # lower ownership in order to get more leverage on the field
             ownership_tuple_list.append((candidate_count, statistics.mean(ownership_list)))
 
             # Add lineup to past selections in order to create unique lineups
             past_lineup_constraints.append(solution_array @ selection <= lineup_overlap)
 
+        # Sort the generated lineups by mean ownership and only pick the top {lineup_count} lineups
         ownership_tuple_list.sort(key=lambda x: x[1])
         for lineup_count in range(0, num_lineups):
             csv_writer.writerow(rows[ownership_tuple_list[lineup_count][0]])
