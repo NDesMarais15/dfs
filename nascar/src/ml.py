@@ -43,7 +43,7 @@ def rolling_average(column):
                         driver_df.iloc[i - n:i][column].mean()
 
 
-racing_data = pd.read_csv('racing_reference2.csv', encoding='latin1', parse_dates=['Date'])
+racing_data = pd.read_csv('../data/racing_reference2.csv', encoding='latin1', parse_dates=['Date'])
 kfold = KFold(n_splits=2)
 
 racing_data = racing_data.sort_values(DATE)

@@ -3,7 +3,7 @@ import os
 import csv
 import datetime
 
-with open('proj.csv', 'w+', newline='', encoding='utf-8') as proj_csv:
+with open('../data/proj.csv', 'w+', newline='', encoding='utf-8') as proj_csv:
     csv_writer = csv.writer(proj_csv, delimiter=',', quotechar='"')
     csv_writer.writerow(['Date', 'Name', 'Projected Fantasy Points', 'Salary'])
     for file in os.listdir('../Data'):

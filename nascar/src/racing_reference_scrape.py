@@ -6,7 +6,7 @@ import re
 import time
 
 
-logging.basicConfig(filename='racing_reference_scrape_logs.txt', filemode='w', level=logging.INFO)
+logging.basicConfig(filename='../data/racing_reference_scrape_logs.txt', filemode='w', level=logging.INFO)
 start_time = time.time()
 races_html_strings = []
 for year in range(2010, 2021):

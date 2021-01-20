@@ -12,7 +12,7 @@ contest_ids = {'2020-11-28': ['97460658', '97412342'], '2020-12-05': ['97844084'
 def calculate_places(lineup_file_name, standings_file_name):
     places = []
     points_list = []
-    with open('../Helper Data/Player Translations.csv') as translations_file:
+    with open('../helper/Player Translations.csv') as translations_file:
         translations = pd.read_csv(translations_file, quotechar='"')
         with open(lineup_file_name) as lineup_file:
             with open(standings_file_name) as standings_file:

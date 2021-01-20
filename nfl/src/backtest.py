@@ -17,7 +17,7 @@ num_lineups = 20
 def calculate_places(lineup_file_name, standings_file_name):
     places = []
     points_list = []
-    with open('../Helper Data/Player Translations.csv') as translations_file:
+    with open('../helper/Player Translations.csv') as translations_file:
         translations = pd.read_csv(translations_file, quotechar='"')
         with open(lineup_file_name) as lineup_file:
             with open(standings_file_name) as standings_file:
@@ -53,7 +53,7 @@ def calculate_places(lineup_file_name, standings_file_name):
 
 def calculate_payout(places):
     payoff = 0
-    payout_df = pd.read_csv('../Results/Week %d/%s/Payout.csv' % (week, entry_date))
+    payout_df = pd.read_csv('../results/Week %d/%s/Payout.csv' % (week, entry_date))
     for place in places:
         index = payout_df['Minimum Place'].to_numpy().searchsorted(place, 'right')
         payoff += payout_df.iloc[index - 1]['Payout']
@@ -63,14 +63,14 @@ def calculate_payout(places):
 def generate_backtest_data(backtest_date, backtest_strategy, slate_id):
     for lineup_overlap_value in range(2, 8):
         rotogrinders.collect_players(league, backtest_date, '', slate_id)
-        mip.generate_classic_lineups(backtest_date, '', '../Strategies/%s/%s/' % (backtest_strategy,
+        mip.generate_classic_lineups(backtest_date, '', '../strategies/%s/%s/' % (backtest_strategy,
                                                                                   backtest_date),
                                      num_lineups, lineup_overlap_value, backtest_strategy)
 
 
 def write_teams(date_to_write, week_to_write):
     with open('../../common/teams.py', 'w+') as teams:
-        with open('../Results/Week %d/%s/teams.py' % (week_to_write, date_to_write)) as old_teams:
+        with open('../results/Week %d/%s/teams.py' % (week_to_write, date_to_write)) as old_teams:
             teams.write(old_teams.read())
 
 
@@ -80,13 +80,13 @@ for i in range(0, 2):
     week = weeks[i]
     write_teams(entry_date, week)
     generate_backtest_data(date, strategy, -1)
-    with open('../Strategies/%s/%s/Payouts.csv' % (strategy, date), 'w+', newline='') as payouts_file:
+    with open('../strategies/%s/%s/Payouts.csv' % (strategy, date), 'w+', newline='') as payouts_file:
         csv_writer = csv.writer(payouts_file)
         csv_writer.writerow(['Overlap', 'Payout'])
         for j in range(2, 8):
             payout = calculate_payout(
-                calculate_places('../Strategies/%s/%s/%s lineups overlap %d.csv'
+                calculate_places('../strategies/%s/%s/%s lineups overlap %d.csv'
                                  % (strategy, date, date, j),
-                                 '../Results/Week %d/%s/contest-standings-%s.csv' % (week, entry_date,
+                                 '../results/Week %d/%s/contest-standings-%s.csv' % (week, entry_date,
                                                                                      contest_ids[entry_date])))
             csv_writer.writerow([j, payout])

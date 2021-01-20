@@ -6,7 +6,7 @@ from matplotlib import pyplot
 from pandas.plotting import autocorrelation_plot
 pyplot.show()
 
-racing_data = pd.read_csv('racing_reference2.csv', encoding='latin1', parse_dates=['Date'])
+racing_data = pd.read_csv('../data/racing_reference2.csv', encoding='latin1', parse_dates=['Date'])
 racing_data = racing_data.drop([RACE, LAPS, TRACK_LENGTH, FINISHING_POSITION, CAR_BRAND,
                                 LAPS_LED, QUALIFYING_RANK, QUALIFYING_SPEED, QUALIFYING_TIME, PRACTICE_RANK,
                                 PRACTICE_SPEED, PRACTICE_TIME, PASS_DIFF, QUALITY_PASSES, DRIVER_RATING,

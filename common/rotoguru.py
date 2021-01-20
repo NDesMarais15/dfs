@@ -16,14 +16,14 @@ def collect_nfl_players(week, year):
 
     my_str = my_bytes.decode('utf8')
     fp.close()
-    sundays = pd.read_csv('../nfl/Helper Data/Sundays.csv')
+    sundays = pd.read_csv('../nfl/helper/Sundays.csv')
     date = sundays[str(year)].iloc[week - 1]
 
     soup = BeautifulSoup(my_str, 'html.parser')
     for pre in soup.find_all('pre'):
         if pre.string is None:
             continue
-        text_file = open('../nfl/Historical Data/' + date + ' actual.scsv', '+w')
+        text_file = open('../nfl/historical/' + date + ' actual.scsv', '+w')
         text_file.write(pre.string)
         text_file.close()
 
@@ -44,7 +44,7 @@ def collect_nba_players(year, month, day):
     for pre in soup.find_all('pre'):
         if pre.string is None or pre.string.endswith(scsv_nba_line_end_indicator):
             continue
-        text_file = open('../../nba/Historical Data/%d-%02d-%02d actual.scsv' % (year, month, day), '+w')
+        text_file = open('../../nba/historical/%d-%02d-%02d actual.scsv' % (year, month, day), '+w')
         text_file.write(pre.string)
         text_file.close()
         print('%d-%02d-%02d is complete' % (year, month, day))

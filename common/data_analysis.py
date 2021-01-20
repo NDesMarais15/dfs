@@ -6,15 +6,15 @@ import matplotlib.pyplot as plt
 termination_string = 'file transmission terminated after approx. 20 lines.'
 
 def write_aggregate_stats_nfl():
-    with open('../nfl/Helper Data/Aggregate Stats.csv', 'w+', newline='') as aggregate_stats:
+    with open('../nfl/helper/Aggregate Stats.csv', 'w+', newline='') as aggregate_stats:
         csv_writer = csv.writer(aggregate_stats, delimiter=',', quotechar='"')
         csv_writer.writerow(['Date', 'Player Name', 'Position', 'Team', 'Opponent',
                              'Home/Away', 'Salary', 'Projected', 'Actual'])
 
-        for file_name in os.listdir('../nfl/Historical Data'):
+        for file_name in os.listdir('../nfl/historical'):
             if not file_name.endswith('csv'):
                 continue
-            with open('../nfl/Historical Data/' + file_name) as file:
+            with open('../nfl/historical/' + file_name) as file:
                 if 'actual' in file_name:
                     player_dict = {}
                     rotoguru_players = pd.read_csv(file, sep=';')
@@ -45,8 +45,8 @@ def write_aggregate_stats_nfl():
 
 
 def scatter():
-    sundays = pd.read_csv('../nfl/Helper Data/Sundays.csv')
-    aggregate_stats = pd.read_csv('../nfl/Helper Data/Aggregate Stats.csv')
+    sundays = pd.read_csv('../nfl/helper/Sundays.csv')
+    aggregate_stats = pd.read_csv('../nfl/helper/Aggregate Stats.csv')
     for year in range(2016, 2021):
         for date in sundays[str(year)]:
             filtered_stats = aggregate_stats.loc[aggregate_stats['Date'] == date]
@@ -56,10 +56,10 @@ def scatter():
 
 
 def cleanup_historical_projections_nba():
-    for file_name in os.listdir('../nba/Historical Data'):
+    for file_name in os.listdir('../nba/historical'):
         if not file_name.endswith('.csv'):
             continue
-        full_path = '../nba/Historical Data/' + file_name
+        full_path = '../nba/historical/' + file_name
         with open(full_path) as file:
             projections = pd.read_csv(file)
             if projections.size == 0:
@@ -72,15 +72,15 @@ def cleanup_historical_projections_nba():
 
 
 def write_aggregate_stats_nba():
-    with open('../nba/Helper Data/Aggregate Stats.csv', 'w+', newline='') as aggregate_stats:
+    with open('../nba/helper/Aggregate Stats.csv', 'w+', newline='') as aggregate_stats:
         csv_writer = csv.writer(aggregate_stats, delimiter=',')
         csv_writer.writerow(['Date', 'Player Name', 'Position', 'Team', 'Opponent',
                              'Home/Away', 'Salary', 'Projected', 'Actual'])
 
-        for file_name in os.listdir('../nba/Historical Data'):
+        for file_name in os.listdir('../nba/historical'):
             if not file_name.endswith('csv'):
                 continue
-            with open('../nba/Historical Data/' + file_name) as file:
+            with open('../nba/historical/' + file_name) as file:
                 if 'actual' in file_name:
                     player_dict = {}
                     rotoguru_players = pd.read_csv(file, sep=';')

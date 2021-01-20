@@ -3,7 +3,7 @@ import pandas as pd
 from racing_reference_constants import *
 
 
-racing_data = pd.read_csv('racing_reference2.csv', encoding='latin1', parse_dates=['Date'])
+racing_data = pd.read_csv('../data/racing_reference2.csv', encoding='latin1', parse_dates=['Date'])
 
 
 def scatter_by_race(column1, column2):
