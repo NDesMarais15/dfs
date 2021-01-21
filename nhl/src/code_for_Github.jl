@@ -65,7 +65,7 @@ function one_lineup_no_stacking(skaters, goalies, lineups, num_overlap, num_skat
     # between 3 and 4 wingers
     @constraint(m, sum(wingers[i]*skaters_lineup[i] for i in 1:num_skaters) <= 4)
     @constraint(m, 3<=sum(wingers[i]*skaters_lineup[i] for i in 1:num_skaters))
-
+notes
     # between 2 and 3 defenders
     @constraint(m, 2 <= sum(defenders[i]*skaters_lineup[i] for i in 1:num_skaters))
     @constraint(m, sum(defenders[i]*skaters_lineup[i] for i in 1:num_skaters) <= 3)
@@ -838,9 +838,6 @@ function create_lineups(num_lineups, num_overlap, path_players, formulation, pat
     close(outfile)
 end
 
-
-
-
 # Running the code
 create_lineups(num_lineups, num_overlap, path_players, formulation, path_to_output)
-print("Found $(num_lineups) lineups with a maximum overlap of ($num_overlap) in $(time() - start) seconds")
+print("Found $(num_lineups) lineups with a maximum overlap of $(num_overlap) in $(time() - start) seconds")

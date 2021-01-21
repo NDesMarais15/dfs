@@ -5,7 +5,7 @@ import mip
 league = 'nba'
 num_lineups = 20
 num_candidates = 100
-lineup_overlap = 6
+lineup_overlap = 4
 
 
 def classic_today():
@@ -34,3 +34,6 @@ def collect_historical_projections():
     while date <= datetime.date.today():
         rotogrinders.collect_players(league, date, '../historical/', -1)
         date += datetime.timedelta(days=1)
+
+
+classic_today()
