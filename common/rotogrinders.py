@@ -5,12 +5,12 @@ import urllib.request
 import json
 import re
 import csv
-from common.teams import *
 import datetime
 
 
 # Slate ID of -1 means grab their default salary, which is for the main slate of the week
 def collect_players(league, date, path, slate_id):
+    from common.teams import teams
     if date == datetime.date.today():
         url = 'https://rotogrinders.com/projected-stats/%s?site=draftkings' % league
     else:
