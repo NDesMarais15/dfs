@@ -63,8 +63,8 @@ def calculate_payout(payout_places, payout_week, payout_slate):
 
 
 def generate_backtest_data(backtest_date, backtest_week, backtest_slate, backtest_strategy, slate_id):
+    rotogrinders.collect_players(league, backtest_date, '', slate_id)
     for lineup_overlap_value in range(2, 8):
-        rotogrinders.collect_players(league, backtest_date, '', slate_id)
         backtest_path = '../strategies/%s/Week %d/Classic/Slate %d/' \
                         % (backtest_strategy, backtest_week, backtest_slate)
         mip.generate_classic_lineups(backtest_date, '', backtest_path,
@@ -72,7 +72,7 @@ def generate_backtest_data(backtest_date, backtest_week, backtest_slate, backtes
 
 
 def write_teams(week_to_write, slate_to_write):
-    with open('../../common/teams.py', 'w+') as teams:
+    with open('../../common/rg_teams.py', 'w+') as teams:
         with open('../results/Week %d/Classic/Slate %d/teams.py' % (week_to_write, slate_to_write)) as old_teams:
             teams.write(old_teams.read())
 

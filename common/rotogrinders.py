@@ -1,3 +1,4 @@
+from imp import reload
 from urllib.error import HTTPError, URLError
 
 from bs4 import BeautifulSoup
@@ -6,11 +7,12 @@ import json
 import re
 import csv
 import datetime
+from common import rg_teams
 
 
 # Slate ID of -1 means grab their default salary, which is for the main slate of the week
 def collect_players(league, date, path, slate_id):
-    from common.teams import teams
+    reload(rg_teams)
     if date == datetime.date.today():
         url = 'https://rotogrinders.com/projected-stats/%s?site=draftkings' % league
     else:
@@ -45,7 +47,7 @@ def collect_players(league, date, path, slate_id):
                 csv_writer.writerow(['Player_Name', 'Salary', 'Team', 'Pos', 'Opp', 'Proj_FP', 'pown%'])
 
                 for player in players:
-                    if player['team'] in teams:
+                    if player['team'] in rg_teams.teams:
                         try:
                             salary = 0
                             fpts = 0
