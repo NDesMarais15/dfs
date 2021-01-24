@@ -2,11 +2,10 @@ import pandas as pd
 import csv
 import numpy as np
 
-from common import rotogrinders
 from nfl.src import nfl_mip
 
 league = 'nfl'
-strategy = '2R+1OppR+NoPlayervsDef+NoRB&RB'
+strategies = ['2R+1OppR+NoPlayervsDef+NoRB&RB', '2R+1OppR+NoQBvsDef+NoRB&RB']
 entry_dates = ['2020-11-13', '2020-11-19', '2021-01-09', '2021-01-10']
 dates = ['2020-11-15', '2020-11-19', '2021-01-09', '2021-01-10']
 slates = [1, 1, 2, 3]
@@ -77,22 +76,24 @@ def write_teams(week_to_write, slate_to_write):
             teams.write(old_teams.read())
 
 
-for i in range(0, 4):
-    entry_date = entry_dates[i]
-    date = dates[i]
-    week = weeks[i]
-    slate = slates[i]
-    write_teams(week, slate)
-    generate_backtest_data(entry_date, week, slate, strategy, -1)
-    payouts_path = '../strategies/%s/Week %d/Classic/Slate %d/Payouts.csv' % (strategy, week, slate)
-    with open(payouts_path, 'w+', newline='') as payouts_file:
-        csv_writer = csv.writer(payouts_file)
-        csv_writer.writerow(['Overlap', 'Payout'])
-        for j in range(2, 8):
-            lineup_path = '../strategies/%s/Week %d/Classic/Slate %d/%s lineups overlap %d.csv' \
-                          % (strategy, week, slate, date, j)
-            results_path = '../results/Week %d/Classic/Slate %d/contest-standings-%s.csv' \
-                           % (week, slate, contest_ids[entry_date])
-            calculated_places = calculate_places(lineup_path, results_path)
-            payout = calculate_payout(calculated_places, week, slate)
-            csv_writer.writerow([j, payout])
+def run_backtests():
+    for strategy in strategies:
+        for i in range(0, 4):
+            entry_date = entry_dates[i]
+            date = dates[i]
+            week = weeks[i]
+            slate = slates[i]
+            write_teams(week, slate)
+            generate_backtest_data(entry_date, week, slate, strategy, -1)
+            payouts_path = '../strategies/%s/Week %d/Classic/Slate %d/Payouts.csv' % (strategy, week, slate)
+            with open(payouts_path, 'w+', newline='') as payouts_file:
+                csv_writer = csv.writer(payouts_file)
+                csv_writer.writerow(['Overlap', 'Payout'])
+                for j in range(2, 8):
+                    lineup_path = '../strategies/%s/Week %d/Classic/Slate %d/%s lineups overlap %d.csv' \
+                                  % (strategy, week, slate, date, j)
+                    results_path = '../results/Week %d/Classic/Slate %d/contest-standings-%s.csv' \
+                                   % (week, slate, contest_ids[entry_date])
+                    calculated_places = calculate_places(lineup_path, results_path)
+                    payout = calculate_payout(calculated_places, week, slate)
+                    csv_writer.writerow([j, payout])

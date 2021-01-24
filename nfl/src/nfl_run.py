@@ -1,6 +1,7 @@
 import datetime
 import pandas as pd
 import nfl_mip
+import nfl_backtest
 from common import rotogrinders, rotoguru
 
 num_lineups = 21
@@ -56,4 +57,8 @@ def collect_historical_data():
     collect_historical_results()
 
 
-showdown_today('2R+1OppR+NoQBvsDef+NoRB&RB', 43758)
+def run_backtests():
+    nfl_backtest.run_backtests()
+
+
+run_backtests()
