@@ -33,10 +33,10 @@ Variables for solving the problem (change these)
 num_lineups = 20
 
 # num_overlap is the maximum overlap of players between the lineups that you create
-num_overlap = 5
+num_overlap = 7
 
 # path_players is a string that gives the path to the csv file with the players information (see example file for suggested format)
-path_players = "DFF_NHL_cheatsheet_$(TimeZones.today(tz"America/Chicago")).csv"
+path_players = "$(TimeZones.today(tz"America/Chicago")) projections.csv"
 
 # path_to_output is a string that gives the path to the csv file that will give the outputted results
 path_to_output = "$(TimeZones.today(tz"America/Chicago")) lineup overlap $(num_overlap).csv"
@@ -65,13 +65,13 @@ function one_lineup_no_stacking(skaters, goalies, lineups, num_overlap, num_skat
     # between 3 and 4 wingers
     @constraint(m, sum(wingers[i]*skaters_lineup[i] for i in 1:num_skaters) <= 4)
     @constraint(m, 3<=sum(wingers[i]*skaters_lineup[i] for i in 1:num_skaters))
-notes
+
     # between 2 and 3 defenders
     @constraint(m, 2 <= sum(defenders[i]*skaters_lineup[i] for i in 1:num_skaters))
     @constraint(m, sum(defenders[i]*skaters_lineup[i] for i in 1:num_skaters) <= 3)
 
     # Financial Constraint
-    @constraint(m, sum(skaters[i,:salary]*skaters_lineup[i] for i in 1:num_skaters) + sum(goalies[i,:salary]*goalies_lineup[i] for i in 1:num_goalies) <= 50000)
+    @constraint(m, sum(skaters[i,:Salary]*skaters_lineup[i] for i in 1:num_skaters) + sum(goalies[i,:Salary]*goalies_lineup[i] for i in 1:num_goalies) <= 50000)
 
     # at least 3 different teams for the 8 skaters constraints
     @variable(m, used_team[i=1:num_teams], Bin)
@@ -83,7 +83,7 @@ notes
 
 
     # Objective
-    @objective(m, Max, sum(skaters[i,:ppg_projection]*skaters_lineup[i] for i in 1:num_skaters) + sum(goalies[i,:ppg_projection]*goalies_lineup[i] for i in 1:num_goalies))
+    @objective(m, Max, sum(skaters[i,:Proj_FP]*skaters_lineup[i] for i in 1:num_skaters) + sum(goalies[i,:Proj_FP]*goalies_lineup[i] for i in 1:num_goalies))
 
 
     # Solve the integer programming problem
@@ -149,7 +149,7 @@ function one_lineup_Type_1(skaters, goalies, lineups, num_overlap, num_skaters, 
 
 
     # Financial Constraint
-    @constraint(m, sum(skaters[i,:salary]*skaters_lineup[i] for i in 1:num_skaters) + sum(goalies[i,:salary]*goalies_lineup[i] for i in 1:num_goalies) <= 50000)
+    @constraint(m, sum(skaters[i,:Salary]*skaters_lineup[i] for i in 1:num_skaters) + sum(goalies[i,:Salary]*goalies_lineup[i] for i in 1:num_goalies) <= 50000)
 
 
     # At least 3 different teams for the 8 skaters constraint
@@ -179,7 +179,7 @@ function one_lineup_Type_1(skaters, goalies, lineups, num_overlap, num_skaters, 
 
 
     # Objective
-    @objective(m, Max, sum(skaters[i,:ppg_projection]*skaters_lineup[i] for i in 1:num_skaters) + sum(goalies[i,:ppg_projection]*goalies_lineup[i] for i in 1:num_goalies))
+    @objective(m, Max, sum(skaters[i,:Proj_FP]*skaters_lineup[i] for i in 1:num_skaters) + sum(goalies[i,:Proj_FP]*goalies_lineup[i] for i in 1:num_goalies))
 
 
     # Solve the integer programming problem
@@ -239,7 +239,7 @@ function one_lineup_Type_2(skaters, goalies, lineups, num_overlap, num_skaters, 
     @constraint(m, 2 == sum(defenders[i]*skaters_lineup[i] for i in 1:num_skaters))
 
     # Financial Constraint
-    @constraint(m, sum(skaters[i,:salary]*skaters_lineup[i] for i in 1:num_skaters) + sum(goalies[i,:salary]*goalies_lineup[i] for i in 1:num_goalies) <= 50000)
+    @constraint(m, sum(skaters[i,:Salary]*skaters_lineup[i] for i in 1:num_skaters) + sum(goalies[i,:Salary]*goalies_lineup[i] for i in 1:num_goalies) <= 50000)
 
     # at least 3 different teams for the 8 skaters constraint
     @variable(m, used_team[i=1:num_teams], Bin)
@@ -263,7 +263,7 @@ function one_lineup_Type_2(skaters, goalies, lineups, num_overlap, num_skaters, 
     @constraint(m, [i=1:size(lineups)[2]], sum(lineups[j,i]*skaters_lineup[j] for j in 1:num_skaters) + sum(lineups[num_skaters+j,i]*goalies_lineup[j] for j in 1:num_goalies) <= num_overlap)
 
     # Objective
-    @objective(m, Max, sum(skaters[i,:ppg_projection]*skaters_lineup[i] for i in 1:num_skaters) + sum(goalies[i,:ppg_projection]*goalies_lineup[i] for i in 1:num_goalies))
+    @objective(m, Max, sum(skaters[i,:Proj_FP]*skaters_lineup[i] for i in 1:num_skaters) + sum(goalies[i,:Proj_FP]*goalies_lineup[i] for i in 1:num_goalies))
 
     # Solve the integer programming problem
     start = time()
@@ -322,7 +322,7 @@ function one_lineup_Type_3(skaters, goalies, lineups, num_overlap, num_skaters, 
     @constraint(m, sum(defenders[i]*skaters_lineup[i] for i in 1:num_skaters) <= 3)
 
     # Financial Constraint
-    @constraint(m, sum(skaters[i,:salary]*skaters_lineup[i] for i in 1:num_skaters) + sum(goalies[i,:salary]*goalies_lineup[i] for i in 1:num_goalies) <= 50000)
+    @constraint(m, sum(skaters[i,:Salary]*skaters_lineup[i] for i in 1:num_skaters) + sum(goalies[i,:Salary]*goalies_lineup[i] for i in 1:num_goalies) <= 50000)
 
     # at least 3 different teams for the 8 skaters constraint
     @variable(m, used_team[i=1:num_teams], Bin)
@@ -349,7 +349,7 @@ function one_lineup_Type_3(skaters, goalies, lineups, num_overlap, num_skaters, 
     @constraint(m, [i=1:size(lineups)[2]], sum(lineups[j,i]*skaters_lineup[j] for j in 1:num_skaters) + sum(lineups[num_skaters+j,i]*goalies_lineup[j] for j in 1:num_goalies) <= num_overlap)
 
     # Objective
-    @objective(m, Max, sum(skaters[i,:ppg_projection]*skaters_lineup[i] for i in 1:num_skaters) + sum(goalies[i,:ppg_projection]*goalies_lineup[i] for i in 1:num_goalies))
+    @objective(m, Max, sum(skaters[i,:Proj_FP]*skaters_lineup[i] for i in 1:num_skaters) + sum(goalies[i,:Proj_FP]*goalies_lineup[i] for i in 1:num_goalies))
 
     # Solve the integer programming problem
     start = time()
@@ -410,7 +410,7 @@ function one_lineup_Type_4(skaters, goalies, lineups, num_overlap, num_skaters, 
     @constraint(m, sum(defenders[i]*skaters_lineup[i] for i in 1:num_skaters) <= 3)
 
     # Financial Constraint
-    @constraint(m, sum(skaters[i,:salary]*skaters_lineup[i] for i in 1:num_skaters) + sum(goalies[i,:salary]*goalies_lineup[i] for i in 1:num_goalies) <= 50000)
+    @constraint(m, sum(skaters[i,:Salary]*skaters_lineup[i] for i in 1:num_skaters) + sum(goalies[i,:Salary]*goalies_lineup[i] for i in 1:num_goalies) <= 50000)
 
     # exactly 3 different teams for the 8 skaters constraint
     @variable(m, used_team[i=1:num_teams], Bin)
@@ -438,7 +438,7 @@ function one_lineup_Type_4(skaters, goalies, lineups, num_overlap, num_skaters, 
     @constraint(m, [i=1:size(lineups)[2]], sum(lineups[j,i]*skaters_lineup[j] for j in 1:num_skaters) + sum(lineups[num_skaters+j,i]*goalies_lineup[j] for j in 1:num_goalies) <= num_overlap)
 
     # Objective
-    @objective(m, Max, (sum(skaters[i,:ppg_projection]*skaters_lineup[i] for i in 1:num_skaters) + sum(goalies[i,:ppg_projection]*goalies_lineup[i] for i in 1:num_goalies)))
+    @objective(m, Max, (sum(skaters[i,:Proj_FP]*skaters_lineup[i] for i in 1:num_skaters) + sum(goalies[i,:Proj_FP]*goalies_lineup[i] for i in 1:num_goalies)))
 
     # Solve the integer programming problem
     start = time()
@@ -500,7 +500,7 @@ function one_lineup_Type_5(skaters, goalies, lineups, num_overlap, num_skaters, 
     @constraint(m, sum(defenders[i]*skaters_lineup[i] for i in 1:num_skaters) <= 3)
 
     # Financial Constraint
-    @constraint(m, sum(skaters[i,:salary]*skaters_lineup[i] for i in 1:num_skaters) + sum(goalies[i,:salary]*goalies_lineup[i] for i in 1:num_goalies) <= 50000)
+    @constraint(m, sum(skaters[i,:Salary]*skaters_lineup[i] for i in 1:num_skaters) + sum(goalies[i,:Salary]*goalies_lineup[i] for i in 1:num_goalies) <= 50000)
 
     # exactly 3 different teams for the 8 skaters constraint
     @variable(m, used_team[i=1:num_teams], Bin)
@@ -525,7 +525,7 @@ function one_lineup_Type_5(skaters, goalies, lineups, num_overlap, num_skaters, 
     @constraint(m, [i=1:size(lineups)[2]], sum(lineups[j,i]*skaters_lineup[j] for j in 1:num_skaters) + sum(lineups[num_skaters+j,i]*goalies_lineup[j] for j in 1:num_goalies) <= num_overlap)
 
     # Objective
-    @objective(m, Max, sum(skaters[i,:ppg_projection]*skaters_lineup[i] for i in 1:num_skaters) + sum(goalies[i,:ppg_projection]*goalies_lineup[i] for i in 1:num_goalies))
+    @objective(m, Max, sum(skaters[i,:Proj_FP]*skaters_lineup[i] for i in 1:num_skaters) + sum(goalies[i,:Proj_FP]*goalies_lineup[i] for i in 1:num_goalies))
 
     # Solve the integer programming problem
     start = time()
@@ -573,8 +573,8 @@ function create_lineups(num_lineups, num_overlap, path_players, formulation, pat
     # Load information for players table
     players = CSV.read(path_players, copycols=true)
 
-    select!(players, [:first_name, :last_name, :position, :reg_line, :pp_line,
-        :team, :opp, :salary, :ppg_projection])
+    select!(players, [:Name, :Pos, :Line, :PP_Line,
+        :Team, :Opp, :Salary, :Proj_FP])
 
     # Number of players
     num_players = size(players)[1]
@@ -589,37 +589,36 @@ function create_lineups(num_lineups, num_overlap, path_players, formulation, pat
     defenders = Array{Int64}(undef, 0)
 
     # goalies stores the information on which players are goalies
-    goalies = DataFrame(first_name = Array{String}(undef, 0),
-                        last_name = Array{String}(undef, 0),
-                        salary = Array{Int64}(undef, 0),
-                        team = Array{String}(undef, 0),
-                        opp = Array{String}(undef, 0),
-                        ppg_projection = Array{Float64}(undef, 0))
+    goalies = DataFrame(Name = Array{String}(undef, 0),
+                        Salary = Array{Int64}(undef, 0),
+                        Team = Array{String}(undef, 0),
+                        Opp = Array{String}(undef, 0),
+                        Proj_FP = Array{Float64}(undef, 0))
 
     goalie_indices = Array{Int64}(undef, 0)
 
     #=
-    Process the position information in the skaters file to populate the wingers,
+    Process the Pos information in the skaters file to populate the wingers,
     centers, and defenders with the corresponding correct information
     =#
     for i=1:num_players
-        if players[i,:position] == "LW" || players[i,:position] == "RW" || players[i,:position] == "W"
+        if players[i,:Pos] == "LW" || players[i,:Pos] == "RW" || players[i,:Pos] == "W"
             wingers=vcat(wingers,fill(1,1))
             centers=vcat(centers,fill(0,1))
             defenders=vcat(defenders,fill(0,1))
-        elseif players[i,:position] == "C"
+        elseif players[i,:Pos] == "C"
             wingers=vcat(wingers,fill(0,1))
             centers=vcat(centers,fill(1,1))
             defenders=vcat(defenders,fill(0,1))
-        elseif players[i,:position] == "D" || players[i,:position] == "LD" || players[i,:position] == "RD"
+        elseif players[i,:Pos] == "D" || players[i,:Pos] == "LD" || players[i,:Pos] == "RD"
             wingers=vcat(wingers,fill(0,1))
             centers=vcat(centers,fill(0,1))
             defenders=vcat(defenders,fill(1,1))
-        elseif players[i,:position] == "G"
+        elseif players[i,:Pos] == "G"
             append!(goalie_indices, i)
-            push!(goalies, [players[i, :first_name], players[i, :last_name],
-                players[i, :salary], players[i, :team], players[i, :opp],
-                players[i, :ppg_projection]])
+            push!(goalies, [players[i, :Name],
+                players[i, :Salary], players[i, :Team], players[i, :Opp],
+                players[i, :Proj_FP]])
         else
             wingers=vcat(wingers,fill(0,1))
             centers=vcat(centers,fill(0,1))
@@ -634,7 +633,7 @@ function create_lineups(num_lineups, num_overlap, path_players, formulation, pat
     num_players = size(players)[1]
 
     # Create team indicators from the information in the players file
-    teams = unique(players[!, :team])
+    teams = unique(players[!, :Team])
 
     # Total number of teams
     num_teams = size(teams)[1]
@@ -645,7 +644,7 @@ function create_lineups(num_lineups, num_overlap, path_players, formulation, pat
     # Populate player_info with the corresponding information
     # Just doing the first skater so the rest can be in a loop
     for j=1:num_teams
-        if players[1, :team] == teams[j]
+        if players[1, :Team] == teams[j]
             player_info[j] = 1
             break
         end
@@ -656,7 +655,7 @@ function create_lineups(num_lineups, num_overlap, path_players, formulation, pat
     for i=2:num_players
         player_info = zeros(Int, num_teams)
         for j=1:num_teams
-            if players[i, :team] == teams[j]
+            if players[i, :Team] == teams[j]
                 player_info[j] = 1
                 break
             end
@@ -665,7 +664,7 @@ function create_lineups(num_lineups, num_overlap, path_players, formulation, pat
     end
 
     # Create goalie identifiers so you know who they are playing
-    opponents = goalies[!, :opp]
+    opponents = goalies[!, :Opp]
     goalie_opponents = []
 
     # First goalie
@@ -694,16 +693,16 @@ function create_lineups(num_lineups, num_overlap, path_players, formulation, pat
 
     # First team
     for num=1:size(players)[1]
-        if players[!, :team][num] == teams[1]
-            if ismissing(players[!, :reg_line][num])
+        if players[!, :Team][num] == teams[1]
+            if ismissing(players[!, :Line][num])
                 continue
-            elseif players[!, :reg_line][num] == "1" || players[!, :reg_line][num] == 1
+            elseif players[!, :Line][num] == "1" || players[!, :Line][num] == 1
                 L1_info[num] = 1
-            elseif players[!, :reg_line][num] == "2" || players[!, :reg_line][num] == 2
+            elseif players[!, :Line][num] == "2" || players[!, :Line][num] == 2
                 L2_info[num] = 1
-            elseif players[!, :reg_line][num] == "3" || players[!, :reg_line][num] == 3
+            elseif players[!, :Line][num] == "3" || players[!, :Line][num] == 3
                 L3_info[num] = 1
-            elseif players[!, :reg_line][num] == "4" || players[!, :reg_line][num] == 4
+            elseif players[!, :Line][num] == "4" || players[!, :Line][num] == 4
                 L4_info[num] = 1
             end
         end
@@ -717,16 +716,16 @@ function create_lineups(num_lineups, num_overlap, path_players, formulation, pat
         L3_info = zeros(Int, num_players)
         L4_info = zeros(Int, num_players)
         for num=1:size(players)[1]
-            if players[!, :team][num] == teams[num2]
-                if ismissing(players[!, :reg_line][num])
+            if players[!, :Team][num] == teams[num2]
+                if ismissing(players[!, :Line][num])
                     continue
-                elseif players[!, :reg_line][num] == "1" || players[!, :reg_line][num] == 1
+                elseif players[!, :Line][num] == "1" || players[!, :Line][num] == 1
                     L1_info[num] = 1
-                elseif players[!, :reg_line][num] == "2" || players[!, :reg_line][num] == 2
+                elseif players[!, :Line][num] == "2" || players[!, :Line][num] == 2
                     L2_info[num] = 1
-                elseif players[!, :reg_line][num] == "3" || players[!, :reg_line][num] == 3
+                elseif players[!, :Line][num] == "3" || players[!, :Line][num] == 3
                     L3_info[num] = 1
-                elseif players[!, :reg_line][num] == "4" || players[!, :reg_line][num] == 4
+                elseif players[!, :Line][num] == "4" || players[!, :Line][num] == 4
                     L4_info[num] = 1
                 end
             end
@@ -744,10 +743,10 @@ function create_lineups(num_lineups, num_overlap, path_players, formulation, pat
     # First team
     PP_info = zeros(Int, num_players)
     for num=1:size(players)[1]
-        if players[!, :team][num] == teams[1]
-            if ismissing(players[!, :pp_line][num])
+        if players[!, :Team][num] == teams[1]
+            if ismissing(players[!, :PP_Line][num])
                 continue
-            elseif players[!, :pp_line][num] == "1" || players[!, :pp_line][num] == 1
+            elseif players[!, :PP_Line][num] == "1" || players[!, :PP_Line][num] == 1
                 PP_info[num] = 1
             end
         end
@@ -759,10 +758,10 @@ function create_lineups(num_lineups, num_overlap, path_players, formulation, pat
     for num2=2:size(teams)[1]
         PP_info = zeros(Int, num_players)
         for num=1:size(players)[1]
-            if players[!, :team][num] == teams[num2]
-                if ismissing(players[!, :pp_line][num])
+            if players[!, :Team][num] == teams[num2]
+                if ismissing(players[!, :PP_Line][num])
                     continue
-                elseif players[!, :pp_line][num] == "1" || players[!, :pp_line][num] == 1
+                elseif players[!, :PP_Line][num] == "1" || players[!, :PP_Line][num] == 1
                     PP_info[num] = 1
                 end
             end
@@ -792,36 +791,36 @@ function create_lineups(num_lineups, num_overlap, path_players, formulation, pat
             if tracer[i,j] == 1
                 if centers[i]==1
                     if lineup[1]==""
-                        lineup[1] = string(players[i,1], " ", players[i,2])
+                        lineup[1] = string(players[i,1])
                     elseif lineup[2]==""
-                        lineup[2] = string(players[i,1], " ", players[i,2])
+                        lineup[2] = string(players[i,1])
                     elseif lineup[9] ==""
-                        lineup[9] = string(players[i,1], " ", players[i,2])
+                        lineup[9] = string(players[i,1])
                     end
                 elseif wingers[i] == 1
                     if lineup[3] == ""
-                        lineup[3] = string(players[i,1], " ", players[i,2])
+                        lineup[3] = string(players[i,1])
                     elseif lineup[4] == ""
-                        lineup[4] = string(players[i,1], " ", players[i,2])
+                        lineup[4] = string(players[i,1])
                     elseif lineup[5] == ""
-                        lineup[5] = string(players[i,1], " ", players[i,2])
+                        lineup[5] = string(players[i,1])
                     elseif lineup[9] == ""
-                        lineup[9] = string(players[i,1], " ", players[i,2])
+                        lineup[9] = string(players[i,1])
                     end
                 elseif defenders[i]==1
                     if lineup[6] == ""
-                        lineup[6] = string(players[i,1], " ", players[i,2])
+                        lineup[6] = string(players[i,1])
                     elseif lineup[7] ==""
-                        lineup[7] = string(players[i,1], " ", players[i,2])
+                        lineup[7] = string(players[i,1])
                     elseif lineup[9] == ""
-                        lineup[9] = string(players[i,1], " ", players[i,2])
+                        lineup[9] = string(players[i,1])
                     end
                 end
             end
         end
         for i =1:num_goalies
             if tracer[num_players+i,j] == 1
-                lineup[8] = string(goalies[i,1], " ", goalies[i,2])
+                lineup[8] = string(goalies[i,1])
             end
         end
         for name in lineup

@@ -5,7 +5,7 @@ import mip
 league = 'nba'
 num_lineups = 20
 num_candidates = 100
-lineup_overlap = 4
+lineup_overlap = 3
 
 
 def classic_today():
