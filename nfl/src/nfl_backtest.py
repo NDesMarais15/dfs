@@ -7,7 +7,6 @@ from nfl.src import nfl_mip
 league = 'nfl'
 strategies = ['2R+1OppR+NoPlayervsDef+NoRB&RB', '2R+1OppR+NoQBvsDef+NoRB&RB']
 entry_dates = ['2020-11-13', '2020-11-19', '2021-01-09', '2021-01-10']
-dates = ['2020-11-15', '2020-11-19', '2021-01-09', '2021-01-10']
 slates = [1, 1, 2, 3]
 weeks = [10, 11, 18, 18]
 contest_ids = {'2020-11-13': '96410219', '2020-11-19': '96813915',
@@ -80,7 +79,6 @@ def run_backtests():
     for strategy in strategies:
         for i in range(0, 4):
             entry_date = entry_dates[i]
-            date = dates[i]
             week = weeks[i]
             slate = slates[i]
             write_teams(week, slate)
@@ -91,7 +89,7 @@ def run_backtests():
                 csv_writer.writerow(['Overlap', 'Payout'])
                 for j in range(2, 8):
                     lineup_path = '../strategies/%s/Week %d/Classic/Slate %d/%s lineups overlap %d.csv' \
-                                  % (strategy, week, slate, date, j)
+                                  % (strategy, week, slate, entry_date, j)
                     results_path = '../results/Week %d/Classic/Slate %d/contest-standings-%s.csv' \
                                    % (week, slate, contest_ids[entry_date])
                     calculated_places = calculate_places(lineup_path, results_path)
