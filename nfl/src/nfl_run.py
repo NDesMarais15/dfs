@@ -1,6 +1,6 @@
 import datetime
 import pandas as pd
-import mip
+import nfl_mip
 from common import rotogrinders, rotoguru
 
 num_lineups = 21
@@ -17,32 +17,32 @@ def collect_historical_projections():
 
 def classic_today(strategy, slate_id):
     rotogrinders.collect_players(league, datetime.date.today(), '', slate_id)
-    mip.generate_classic_lineups(datetime.date.today(), '', '', num_lineups, lineup_overlap, strategy)
+    nfl_mip.generate_classic_lineups(datetime.date.today(), '', '', num_lineups, lineup_overlap, strategy)
 
 
 def showdown_today(strategy, slate_id):
     rotogrinders.collect_players(league, datetime.date.today(), '', slate_id)
-    mip.generate_showdown_lineups(datetime.date.today(), '', '', num_lineups, lineup_overlap, strategy)
+    nfl_mip.generate_showdown_lineups(datetime.date.today(), '', '', num_lineups, lineup_overlap, strategy)
 
 
 def run_date(date, strategy, slate_id):
     rotogrinders.collect_players(league, date, '', slate_id)
-    mip.generate_classic_lineups(date, '', '', num_lineups, lineup_overlap, strategy)
+    nfl_mip.generate_classic_lineups(date, '', '', num_lineups, lineup_overlap, strategy)
 
 
 def run_showdown_date(date, strategy, slate_id):
     rotogrinders.collect_players(league, date, '', slate_id)
-    mip.generate_showdown_lineups(date, '', '', num_lineups, lineup_overlap, strategy)
+    nfl_mip.generate_showdown_lineups(date, '', '', num_lineups, lineup_overlap, strategy)
 
 
 def generate_historical_lineup(date, strategy):
-    mip.generate_classic_lineups(date, 'historical/', '', num_lineups, lineup_overlap, strategy)
+    nfl_mip.generate_classic_lineups(date, 'historical/', '', num_lineups, lineup_overlap, strategy)
 
 
 def generate_past_contest_lineup(date, strategy, slate_id):
     rotogrinders.collect_players(league, date, '', slate_id)
-    mip.generate_classic_lineups(date, '', '../strategies/%s/%s/' % (strategy, date),
-                                 num_lineups, lineup_overlap, strategy)
+    nfl_mip.generate_classic_lineups(date, '', '../strategies/%s/%s/' % (strategy, date),
+                                     num_lineups, lineup_overlap, strategy)
 
 
 def collect_historical_results():

@@ -1,6 +1,6 @@
 import datetime
 from common import rotogrinders, rotoguru
-import mip
+import nba_mip
 
 league = 'nba'
 num_lineups = 20
@@ -10,13 +10,13 @@ lineup_overlap = 3
 
 def classic_today():
     rotogrinders.collect_players(league, datetime.date.today(), '', -1)
-    mip.generate_classic_lineups(datetime.date.today(), '', '', num_lineups, num_candidates,
-                                 lineup_overlap)
+    nba_mip.generate_classic_lineups(datetime.date.today(), '', '', num_lineups, num_candidates,
+                                     lineup_overlap)
 
 
 def run_date(date):
     rotogrinders.collect_players(league, date, '', -1)
-    mip.generate_classic_lineups(date, '', '', num_lineups, num_candidates, lineup_overlap)
+    nba_mip.generate_classic_lineups(date, '', '', num_lineups, num_candidates, lineup_overlap)
 
 
 def collect_historical_results():
