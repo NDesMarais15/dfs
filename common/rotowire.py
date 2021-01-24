@@ -1,7 +1,6 @@
 import urllib.request
 import json
 import csv
-import datetime
 from common import rg_teams
 
 

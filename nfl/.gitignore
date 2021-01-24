@@ -1,3 +1,3 @@
 __pycache__
 src/*.csv
-src/run.py
+src/nfl_run.py
