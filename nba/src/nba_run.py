@@ -1,6 +1,7 @@
 import datetime
 from common import rotogrinders, rotoguru
 import nba_mip
+from nba.src import nba_backtest
 
 league = 'nba'
 num_lineups = 20
@@ -36,4 +37,8 @@ def collect_historical_projections():
         date += datetime.timedelta(days=1)
 
 
-classic_today()
+def run_backtests():
+    nba_backtest.run_backtests()
+
+
+run_backtests()

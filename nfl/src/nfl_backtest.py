@@ -1,7 +1,7 @@
 import pandas as pd
 import csv
-import numpy as np
 
+from common import backtest
 from nfl.src import nfl_mip
 
 league = 'nfl'
@@ -12,43 +12,6 @@ weeks = [10, 11, 18, 18]
 contest_ids = {'2020-11-13': '96410219', '2020-11-19': '96813915',
                '2021-01-09': '100391197', '2021-01-10': '100509179'}
 num_lineups = 20
-
-
-def calculate_places(lineup_file_name, standings_file_name):
-    places = []
-    points_list = []
-    with open('../helper/Player Translations.csv') as translations_file:
-        translations = pd.read_csv(translations_file, quotechar='"')
-        with open(lineup_file_name) as lineup_file:
-            with open(standings_file_name) as standings_file:
-                standings = pd.read_csv(standings_file, quotechar='"')
-                opp_points = np.flip(standings['Points'].to_numpy())
-                lineup_reader = csv.reader(lineup_file)
-                for row in lineup_reader:
-                    points = 0
-                    for value in row:
-                        if value == 'QB':
-                            break
-                        player_points_array = standings.loc[standings['Player'] == value]['FPTS'].values
-                        if len(player_points_array) == 0:
-                            player_translation_array = translations.loc[translations['RG'] == value]['DK'].values
-                            if len(player_translation_array) == 0:
-                                print("Couldn't find point value for " + value)
-                                continue
-                            else:
-                                value = player_translation_array[0]
-                                player_points_array = standings.loc[standings['Player'] == value]['FPTS'].values
-                                if len(player_points_array) == 0:
-                                    print("Couldn't find point value for " + value)
-                                    continue
-                        points += player_points_array[0]
-                    if points != 0:
-                        points_list.append(round(points, 2))
-                        # Zero-indexed, so add 1
-                        places.append((len(opp_points) - opp_points.searchsorted(points)) + 1)
-    print(points_list)
-    print(places)
-    return places
 
 
 def calculate_payout(payout_places, payout_week, payout_slate):
@@ -83,7 +46,7 @@ def run_backtests():
             slate = slates[i]
             write_teams(week, slate)
             generate_backtest_data(entry_date, week, slate, strategy, -1)
-            payouts_path = '../strategies/%s/Week %d/Classic/Slate %d/Payouts.csv' % (strategy, week, slate)
+            payouts_path = '../strategies/%s/Week %d/Classic/Slate %d/Payout.csv' % (strategy, week, slate)
             with open(payouts_path, 'w+', newline='') as payouts_file:
                 csv_writer = csv.writer(payouts_file)
                 csv_writer.writerow(['Overlap', 'Payout'])
@@ -92,6 +55,6 @@ def run_backtests():
                                   % (strategy, week, slate, entry_date, j)
                     results_path = '../results/Week %d/Classic/Slate %d/contest-standings-%s.csv' \
                                    % (week, slate, contest_ids[entry_date])
-                    calculated_places = calculate_places(lineup_path, results_path)
+                    calculated_places = backtest.calculate_places(league, lineup_path, results_path)
                     payout = calculate_payout(calculated_places, week, slate)
                     csv_writer.writerow([j, payout])

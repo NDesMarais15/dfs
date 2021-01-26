@@ -5,7 +5,7 @@ import nfl_backtest
 from common import rotogrinders, rotoguru
 
 num_lineups = 21
-lineup_overlap = 4
+lineup_overlap = 6
 league = 'nfl'
 
 
