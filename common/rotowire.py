@@ -27,17 +27,15 @@ def collect_players(league, path, date, slate):
         csv_writer.writerow(['Name', 'Salary', 'Team', 'Pos', 'Opp', 'Proj_FP', 'Line', 'PP_Line'])
         for player in decoded_json:
             proj_points = player['proj_points'] if float(player['proj_points']) != 0.0 else 0.0
-            if player['team'] in rg_teams.teams:
-
-                if player['actual_position'] == 'D':
-                    line = 'x'
-                else:
-                    line = player['even_strength_line']
-                csv_writer.writerow([player['first_name'] + ' ' + player['last_name'],
-                                     player['salary'],
-                                     player['team'],
-                                     player['actual_position'],
-                                     player['opponent'].replace('@', ''),
-                                     proj_points,
-                                     line,
-                                     player['power_play_line']])
+            if player['actual_position'] == 'D':
+                line = 'x'
+            else:
+                line = player['even_strength_line']
+            csv_writer.writerow([player['first_name'] + ' ' + player['last_name'],
+                                 player['salary'],
+                                 player['team'],
+                                 player['actual_position'],
+                                 player['opponent'].replace('@', ''),
+                                 proj_points,
+                                 line,
+                                 player['power_play_line']])

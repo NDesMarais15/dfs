@@ -2,8 +2,8 @@ import common.rotowire as rw
 import datetime
 
 
-def classic_today():
-    rw.collect_players('NHL', '', datetime.date.today(), 'Early')
+def classic_today(slate):
+    rw.collect_players('NHL', '', datetime.date.today(), slate)
 
 
-classic_today()
+classic_today('all')
