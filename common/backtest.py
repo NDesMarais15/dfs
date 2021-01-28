@@ -14,7 +14,7 @@ def calculate_places(league, lineup_file_name, standings_file_name):
     places = []
     points_list = []
     with open('../../%s/helper/Player Translations.csv' % league) as translations_file:
-        translations = pd.read_csv(translations_file, quotechar='"', encoding='cp1252')
+        translations = pd.read_csv(translations_file, quotechar='"')
         with open(lineup_file_name) as lineup_file:
             with open(standings_file_name) as standings_file:
                 standings = pd.read_csv(standings_file, quotechar='"')
