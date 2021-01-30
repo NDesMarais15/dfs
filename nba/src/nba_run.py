@@ -6,7 +6,7 @@ from nba.src import nba_backtest
 league = 'nba'
 num_lineups = 20
 num_candidates = 100
-lineup_overlap = 3
+lineup_overlap = 6
 
 
 def classic_today():
@@ -39,6 +39,3 @@ def collect_historical_projections():
 
 def run_backtests():
     nba_backtest.run_backtests()
-
-
-run_backtests()
