@@ -30,10 +30,10 @@ using CSV
 Variables for solving the problem (change these)
 =#
 # num_lineups is the total number of lineups
-num_lineups = 20
+num_lineups = 10
 
 # num_overlap is the maximum overlap of players between the lineups that you create
-num_overlap = 5
+num_overlap = 6
 
 # path_players is a string that gives the path to the csv file with the players information (see example file for suggested format)
 path_players = "$(TimeZones.today(tz"America/Chicago")) projections.csv"
@@ -602,7 +602,7 @@ function create_lineups(num_lineups, num_overlap, path_players, formulation, pat
     centers, and defenders with the corresponding correct information
     =#
     for i=1:num_players
-        if players[i,:Pos] == "LW" || players[i,:Pos] == "RW" || players[i,:Pos] == "W"
+            if players[i,:Pos] == "LW" || players[i,:Pos] == "RW" || players[i,:Pos] == "W"
             wingers=vcat(wingers,fill(1,1))
             centers=vcat(centers,fill(0,1))
             defenders=vcat(defenders,fill(0,1))

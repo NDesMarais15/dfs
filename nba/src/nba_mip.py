@@ -99,6 +99,22 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, n
         players['G/C'] = 0
         players.loc[(players['G'] == 1) | (players['C'] == 1), 'G/C'] = 1
 
+        players['PG/F/C'] = 0
+        players.loc[(players['PG'] == 1) | (players['F'] == 1) | (players['C'] == 1),
+                    'PG/F/C'] = 1
+
+        players['SG/F/C'] = 0
+        players.loc[(players['SG'] == 1) | (players['F'] == 1) | (players['C'] == 1),
+                    'SG/F/C'] = 1
+
+        players['G/SF/C'] = 0
+        players.loc[(players['G'] == 1) | (players['SF'] == 1) | (players['C'] == 1),
+                    'G/SF/C'] = 1
+
+        players['G/PF/C'] = 0
+        players.loc[(players['G'] == 1) | (players['PF'] == 1) | (players['C'] == 1),
+                    'G/PF/C'] = 1
+
         # We need a list to keep track of past lineups in order to enforce creation of unique lineups
         past_lineup_constraints = []
 
@@ -149,6 +165,10 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, n
         gpf_constraint = players['G/PF'].to_numpy() @ selection >= 4
         pgf_constraint = players['PG/F'].to_numpy() @ selection >= 4
         sgf_constraint = players['SG/F'].to_numpy() @ selection >= 4
+        pgfc_constraint = players['PG/F/C'].to_numpy() @ selection >= 5
+        sgfc_constraint = players['SG/F/C'].to_numpy() @ selection >= 5
+        gsfc_constraint = players['G/SF/C'].to_numpy() @ selection >= 5
+        gpfc_constraint = players['G/PF/C'].to_numpy() @ selection >= 5
 
         # Must have exactly 8 players in a lineup. This is a DK constraint
         players_constraint = ones @ selection == 8
@@ -178,7 +198,8 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, n
                            sgpf_constraint, sgc_constraint, sfc_constraint,
                            pfc_constraint, gf_constraint, fc_constraint, gc_constraint,
                            gsf_constraint, gpf_constraint, pgf_constraint, sgf_constraint,
-                           players_constraint]
+                           pgfc_constraint, sgfc_constraint, gsfc_constraint,
+                           gpfc_constraint, players_constraint]
 
             # Add team constraints
             constraints.extend(team_constraints)

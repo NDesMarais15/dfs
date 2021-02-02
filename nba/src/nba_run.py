@@ -39,3 +39,6 @@ def collect_historical_projections():
 
 def run_backtests():
     nba_backtest.run_backtests()
+
+
+classic_today()
