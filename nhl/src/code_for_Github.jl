@@ -30,10 +30,10 @@ using CSV
 Variables for solving the problem (change these)
 =#
 # num_lineups is the total number of lineups
-num_lineups = 10
+num_lineups = 20
 
 # num_overlap is the maximum overlap of players between the lineups that you create
-num_overlap = 6
+num_overlap = 4
 
 # path_players is a string that gives the path to the csv file with the players information (see example file for suggested format)
 path_players = "$(TimeZones.today(tz"America/Chicago")) projections.csv"
