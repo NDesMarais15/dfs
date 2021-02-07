@@ -34,8 +34,21 @@ def generate_backtest_data(backtest_strategy, backtest_date):
 def run_backtests():
     for strategy in strategies:
         for date_dir in os.listdir('../results'):
-            # generate_backtest_data(strategy, date_dir)
-            payouts_path = '../strategies/%s/%s/Payout.csv' % (strategy, date_dir)
+            payout_structure_path = '../results/%s/Payout.csv' % date_dir
+            if not os.path.exists(payout_structure_path):
+                print('Skipping %s' % date_dir)
+                continue
+
+            strategy_path = '../strategies/%s' % strategy
+            if not os.path.isdir(strategy_path):
+                os.mkdir(strategy_path)
+
+            date_path = '%s/%s' % (strategy_path, date_dir)
+            if not os.path.isdir(date_path):
+                os.mkdir(date_path)
+
+            generate_backtest_data(strategy, date_dir)
+            payouts_path = '%s/Payout.csv' % date_path
             with open(payouts_path, 'w+', newline='') as payouts_file:
                 csv_writer = csv.writer(payouts_file)
                 csv_writer.writerow(['Overlap', 'Payout'])

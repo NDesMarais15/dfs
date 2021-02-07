@@ -41,4 +41,4 @@ def run_backtests():
     nba_backtest.run_backtests()
 
 
-classic_today()
+run_backtests()
