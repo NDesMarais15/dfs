@@ -4,8 +4,8 @@ import nfl_mip
 import nfl_backtest
 from common import rotogrinders, rotoguru
 
-num_lineups = 21
-lineup_overlap = 6
+num_lineups = 33
+lineup_overlap = 4
 league = 'nfl'
 
 
@@ -61,4 +61,4 @@ def run_backtests():
     nfl_backtest.run_backtests()
 
 
-run_backtests()
+showdown_today('2R+1OppR+NoRB&RB+NoQBvsDef', 44059)
