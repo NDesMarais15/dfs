@@ -7,8 +7,7 @@ import math
 import statistics
 
 
-def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, num_candidates,
-                             lineup_overlap):
+def generate_classic_lineups(date, projections_path, lineup_path, strategy, num_lineups, lineup_overlap):
     with open(projections_path + '%s projections.csv' % date, 'r') as players_csv:
         players = pd.read_csv(players_csv)
 
@@ -124,8 +123,12 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, n
         # Variable for which players we ultimately select in a given lineup
         selection = cvxpy.Variable(num_players, boolean=True)
 
-        # Total salary must not exceed $50,000
-        salary_constraint = players['Salary'].to_numpy() @ selection <= 50000
+        if 'MinOwn' in strategy:
+            # Total salary must be $50,000
+            salary_constraint = players['Salary'].to_numpy() @ selection == 50000
+        else:
+            # Total salary must not exceed $50,000
+            salary_constraint = players['Salary'].to_numpy() @ selection <= 50000
 
         # At least 1 PG
         pg_constraint = players['PG'].to_numpy() @ selection >= 1
@@ -176,6 +179,9 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, n
         # Total number of projected fantasy points. This is what we are maximizing
         total_pts = players['Proj_FP'].to_numpy() @ selection
 
+        # Sum of ownership percentages
+        total_ownership = players['pown%'].to_numpy() @ selection
+
         # We add anti-stacking constraints to a list because they are on a per team basis,
         # so there are a variable amount depending on how many teams are in the slate
         team_constraints = []
@@ -188,6 +194,11 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, n
 
         # List for lineups
         rows = []
+
+        if 'MinTeam' in strategy:
+            num_candidates = int(strategy.split('&')[1])
+        else:
+            num_candidates = num_lineups
 
         # Generate lineups
         for candidate_count in range(0, num_candidates):
@@ -208,7 +219,11 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, n
             constraints.extend(past_lineup_constraints)
 
             # Formulate problem and solve
-            problem = cvxpy.Problem(cvxpy.Maximize(total_pts), constraints)
+            if 'MinOwn' in strategy:
+                problem = cvxpy.Problem(cvxpy.Minimize(total_ownership), constraints)
+            else:
+                problem = cvxpy.Problem(cvxpy.Maximize(total_pts), constraints)
+
             problem.solve(solver=cvxpy.GLPK_MI)
             if problem.solution.status == 'infeasible':
                 print('Problem formulation is infeasible.')

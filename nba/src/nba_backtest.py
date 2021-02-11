@@ -7,7 +7,7 @@ from common import backtest
 from nba.src import nba_mip
 
 league = 'nba'
-strategies = ['MinTeam&100']
+strategies = ['MinOwn']
 num_lineups = 20
 
 
@@ -25,10 +25,8 @@ def generate_backtest_data(backtest_strategy, backtest_date):
         backtest_path = '../strategies/%s/%s/' \
                         % (backtest_strategy, backtest_date)
         projections_path = '../results/%s/' % backtest_date
-        backtest_strategy_components = backtest_strategy.split('&')
-        nba_mip.generate_classic_lineups(backtest_date, projections_path, backtest_path,
-                                         num_lineups, int(backtest_strategy_components[1]),
-                                         lineup_overlap_value)
+        nba_mip.generate_classic_lineups(backtest_date, projections_path, backtest_path, backtest_strategy,
+                                         num_lineups, lineup_overlap_value)
 
 
 def run_backtests():
@@ -65,3 +63,21 @@ def run_backtests():
                     calculated_places = backtest.calculate_places(league, lineup_path, results_path)
                     payout = calculate_payout(calculated_places, date_dir)
                     csv_writer.writerow([overlap, payout])
+
+
+def calculate_cumulative_stats():
+    for strategy in strategies:
+        strategy_path = '../strategies/%s' % strategy
+        with open('%s/Results.csv' % strategy_path, 'w+', newline='') as results_file:
+            csv_writer = csv.writer(results_file)
+            csv_writer.writerow(['Date', 'Lineup Overlap', 'Payout'])
+            for date_dir in os.listdir(strategy_path):
+                if not date_dir.startswith('20'):
+                    continue
+                payouts_path = '%s/%s/Payout.csv' % (strategy_path, date_dir)
+                with open(payouts_path) as payouts_file:
+                    csv_reader = csv.reader(payouts_file)
+                    for row in csv_reader:
+                        if row[0] == 'Overlap':
+                            continue
+                        csv_writer.writerow([date_dir, row[0], row[1]])

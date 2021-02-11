@@ -6,18 +6,17 @@ from nba.src import nba_backtest
 league = 'nba'
 num_lineups = 20
 num_candidates = 100
-lineup_overlap = 6
+lineup_overlap = 5
 
 
-def classic_today():
+def classic_today(strategy):
     rotogrinders.collect_players(league, datetime.date.today(), '', -1)
-    nba_mip.generate_classic_lineups(datetime.date.today(), '', '', num_lineups, num_candidates,
-                                     lineup_overlap)
+    nba_mip.generate_classic_lineups(datetime.date.today(), '', '', strategy, num_lineups, lineup_overlap)
 
 
-def run_date(date):
+def run_date(date, strategy):
     rotogrinders.collect_players(league, date, '', -1)
-    nba_mip.generate_classic_lineups(date, '', '', num_lineups, num_candidates, lineup_overlap)
+    nba_mip.generate_classic_lineups(date, '', '', strategy, num_lineups, lineup_overlap)
 
 
 def collect_historical_results():
@@ -39,6 +38,7 @@ def collect_historical_projections():
 
 def run_backtests():
     nba_backtest.run_backtests()
+    nba_backtest.calculate_cumulative_stats()
 
 
 run_backtests()
