@@ -52,12 +52,8 @@ def collect_players(league, date, path, slate_id):
                             salary = 0
                             fpts = 0
                             if slate_id == -1:
-                                if player['salary'] == 'N/A':
-                                    print('Could not find salary data for ' + player['player_name'])
-                                    continue
-                                else:
-                                    salary = player['salary']
-                                    fpts = player['points']
+                                salary = player['salary']
+                                fpts = player['points']
                             else:
                                 if player['import_data'] is None:
                                     print('Could not find salary data for ' + player['player_name'])
@@ -71,6 +67,10 @@ def collect_players(league, date, path, slate_id):
                                 ownership_pct = player['pown%'][0:-1]
                             else:
                                 ownership_pct = player['pown%']
+
+                            if salary == 0 or salary == 'N/A':
+                                print('Could not find salary data for ' + player['player_name'])
+                                continue
 
                             csv_writer.writerow([
                                 player['player_name'],
