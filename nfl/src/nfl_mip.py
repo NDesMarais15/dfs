@@ -3,11 +3,6 @@ import numpy as np
 from csv import writer
 import pandas as pd
 
-strategies = ['2R', '2R+1OppR', '2R+1OppR+NoPlayervsDef', '2R+1OppR+NoPlayervsDef',
-              '2R+1OppR+NoPlayervsDef', '2R+1OppR+NoPlayervsDef+NoQB&RB',
-              '2R+1OppR+NoPlayervsDef+NoQB&RB+NoRB&RB', '2R+1OppR+NoQBvsDef', '2R+1OppR+NoQBvsDef+NoQB&RB',
-              '2R+1OppR+NoQBvsDef+NoQB&RB+NoRB&RB', '2R+1OppR+NoPlayervsDef+NoRB&RB']
-
 
 def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, lineup_overlap, strategy):
     with open(projections_path + '%s projections.csv' % date, 'r') as players_csv:
@@ -108,6 +103,11 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, l
             # 2 receivers matched up with the QB. Receiver in this context allows for TEs
             if '2R' in strategy:
                 team_stack_constraints.append(((qb_team_matrix[i] @ selection) * 2)
+                                              <= (receiver_team_matrix[i] @ selection))
+
+            # 1 receiver matched up with the QB. Receiver in this context allows for TEs
+            if '1R' in strategy:
+                team_stack_constraints.append((qb_team_matrix[i] @ selection)
                                               <= (receiver_team_matrix[i] @ selection))
 
             # At least 1 receiver from the QB's opposing team. Idea is that in a high scoring game,
