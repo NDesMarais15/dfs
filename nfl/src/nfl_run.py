@@ -4,7 +4,7 @@ import nfl_mip
 import nfl_backtest
 from common import daily_fantasy_fuel, rotoguru
 
-num_lineups = 10
+num_lineups = 13
 lineup_overlap = 4
 league = 'nfl'
 
@@ -61,5 +61,5 @@ def run_backtests():
     nfl_backtest.run_backtests()
 
 
-run_date('2023-09-10', '1R+1OppR+NoRB&RB+NoPlayervsDef')
+run_date('2023-09-17', '1R+1OppR+NoRB&RB+NoPlayervsDef')
 

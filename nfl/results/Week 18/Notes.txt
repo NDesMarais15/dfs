@@ -1,9 +1,0 @@
-- For classic slate 1 (6 teams), I used 2R+1OppR+NoRB&RB+NoPlayervsDef with overlap of 5
-- For classic slate 2 (4 teams), I used 2R+1OppR+NoRB&RB+NoQBvsDef with overlap of 6
-- For showdown slate 3, I used 2R+1OppR+NoRB&RB+NoQBvsDef with overlap of 5
-- With both the second classic slate and the showdown slate, I started by using overlaps of 5 and 4,
-respectively. The algorithm then complained that the problem formulation is infeasible. This is
-surprising because there are always many players in the available field that aren't very good that
-you would think the algorithm could use to continue making new lineups, even if these lineups would
-be bad. This leads me to believe there might be something wrong with the algorithm as it stands currently.
-This requires some further investigation.
