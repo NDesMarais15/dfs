@@ -8,8 +8,11 @@ import re
 import csv
 import datetime
 
-def collect_players(league, date, path):
-    url = 'https://www.dailyfantasyfuel.com/%s/projections/draftkings/%s/' % (league, date)
+def collect_players(league, date, path, slate=None):
+    if slate is None:
+        url = 'https://www.dailyfantasyfuel.com/%s/projections/draftkings/%s/' % (league, date)
+    else:
+        url = 'https://www.dailyfantasyfuel.com/%s/projections/draftkings/%s?slate=%s' % (league, date, slate)
 
     try:
         fp = urllib.request.urlopen(url)
