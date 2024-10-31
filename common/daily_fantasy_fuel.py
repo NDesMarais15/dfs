@@ -1,12 +1,8 @@
-from importlib import reload
 from urllib.error import HTTPError, URLError
 
 from bs4 import BeautifulSoup
 import urllib.request
-import json
-import re
 import csv
-import datetime
 
 def collect_players(league, date, path, slate=None):
     if slate is None:
@@ -32,18 +28,28 @@ def collect_players(league, date, path, slate=None):
     with open(path + '%s projections.csv' % date, 'w+', newline='') as players_csv:
         csv_writer = csv.writer(players_csv, delimiter=',', quotechar='"')
 
-        # Write column headers
-        csv_writer.writerow(['Player_Name', 'Salary', 'Team', 'Pos', 'Opp', 'Proj_FP', 'pown%'])
+
+        if league == 'nfl':
+            header = ['Player_Name', 'Salary', 'Team', 'Pos', 'Opp', 'Proj_FP', 'pown%']
+        elif league == 'nhl':
+            header = ['Player_Name', 'Salary', 'Team', 'Pos', 'Opp', 'Proj_FP', 'Reg_Line', 'PP_Line']
+        else:
+            raise ValueError('Unexpected league: ' + league)
+
+        # Write column header
+        csv_writer.writerow(header)
 
         for tr in soup.find_all('tr', class_='projections-listing'):
             try:
-                csv_writer.writerow([
-                    tr['data-name'],
-                    tr['data-salary'],
-                    tr['data-team'],
-                    tr['data-pos'],
-                    tr['data-opp'],
-                    tr['data-ppg_proj'],
-                    ''])
+                if league == 'nfl':
+                    row = [tr['data-name'], tr['data-salary'], tr['data-team'], tr['data-pos'], tr['data-opp'],
+                           tr['data-ppg_proj'], '']
+                elif league == 'nhl':
+                    row = [tr['data-name'], tr['data-salary'], tr['data-team'], tr['data-pos'], tr['data-opp'],
+                           tr['data-ppg_proj'], tr['data-reg_line'], tr['data-pp_line']]
+                else:
+                    raise ValueError('Unexpected league: ' + league)
+
+                csv_writer.writerow(row)
             except KeyError:
-                print('Could not get info for %s' %  tr['data-name'])
+                print('Could not get info for %s' % tr['data-name'])

@@ -61,5 +61,5 @@ def run_backtests():
     nfl_backtest.run_backtests()
 
 
-run_date('2024-10-06', '1R+NoRB&RB+NoPlayervsDef', '1BF00')
+run_date('2024-10-27', '1R+NoRB&RB+NoPlayervsDef', '1C368')
 

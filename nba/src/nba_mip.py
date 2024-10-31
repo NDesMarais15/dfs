@@ -182,7 +182,7 @@ def generate_classic_lineups(date, projections_path, lineup_path, strategy, num_
         # Sum of ownership percentages
         total_ownership = players['pown%'].to_numpy() @ selection
 
-        # We add anti-stacking constraints to a list because they are on a per team basis,
+        # We add anti-stacking constraints to a list because they are on a per-team basis,
         # so there are a variable amount depending on how many teams are in the slate
         team_constraints = []
         max_players_from_team = math.ceil(8 / num_teams)

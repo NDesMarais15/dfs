@@ -96,7 +96,7 @@ def generate_classic_lineups(date, projections_path, lineup_path, num_lineups, l
         # Must have exactly 9 players in a lineup. This is a DK constraint
         players_constraint = ones @ selection == 9
 
-        # We add stacking constraints to a list because they are on a per team basis,
+        # We add stacking constraints to a list because they are on a per-team basis,
         # so there are a variable amount depending on how many teams are in the slate
         team_stack_constraints = []
         for i in range(0, len(qb_team_matrix)):
